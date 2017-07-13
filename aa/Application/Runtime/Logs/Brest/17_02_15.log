@@ -1,0 +1,188 @@
+[ 2017-02-15T09:40:05+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0450s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,ProPrice as ccint,Price as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE tb_assets.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0150s ]
+
+[ 2017-02-15T09:40:05+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0610s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE tb_package.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0220s ]
+
+[ 2017-02-15T09:40:05+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/debtlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0300s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,ProPrice as ccint,Total as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE tb_debt.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0140s ]
+
+[ 2017-02-15T09:40:13+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetcontent/AssetsID/115/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 547 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0250s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '115' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '115' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_assetsdata` SET `ViewCount`=ViewCount+1 WHERE `ID` = '115' [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0110s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '115' AND w.FID = 0  [ RunTime:0.0270s ]
+
+[ 2017-02-15T09:40:23+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetcontent/AssetsID/120/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 547 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '120' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '120' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_assetsdata` SET `ViewCount`=ViewCount+1 WHERE `ID` = '120' [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0030s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '120' AND w.FID = 0  [ RunTime:0.0010s ]
+
+[ 2017-02-15T09:42:32+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0040s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE tb_package.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:32+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/debtlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0040s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,ProPrice as ccint,Total as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE tb_debt.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:33+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,ProPrice as ccint,Price as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE tb_assets.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:43+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0040s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE tb_package.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:43+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,ProPrice as ccint,Price as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE tb_assets.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:44+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/debtlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,ProPrice as ccint,Total as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE tb_debt.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-02-15T09:42:52+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE tb_package.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:52+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,ProPrice as ccint,Price as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE tb_assets.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+
+[ 2017-02-15T09:42:53+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/debtlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0040s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,ProPrice as ccint,Total as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE tb_debt.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-02-15T09:45:01+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0040s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE tb_package.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-02-15T09:45:01+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/assetlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,ProPrice as ccint,Price as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE tb_assets.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-02-15T09:45:02+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/debtlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,ProPrice as ccint,Total as aaint,ProcessModle as protype,`ViewCount`,`BuyCount` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE tb_debt.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0000s ]
+

@@ -1,0 +1,26 @@
+<volist name="list" id="vo">
+<li class="mui-table-view-cell mui-media">
+    <a href="{:U('Home/lists/content',empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':array('PackageID'=>$vo['PackageID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('DebtID'=>$vo['DebtID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">
+        <if condition="($vo['AssetsStatue'] eq 8) OR (($vo['source'] eq 1) AND comper_time($vo['AucEnd']))" >
+            <div class="saled-icon"><img src="//static.resource.tejinhui.com/static/images/common/chengjiao.png"></div>
+        </if>
+        <img class="mui-media-object mui-pull-left" src="{:empty($vo['titimg'])?'http://placehold.it/180x140':imgpublic($vo['titimg']).'?imageView/2/w/180/h/140'}">
+        <div class="mui-media-body">
+            <div class="name">{$vo.title}</div>
+            <div class='mui-ellipsis'>
+                <span><b>资产类型</b><em>{:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?"":C('pack_type')[$vo['typeset']]):C('asset_type')[$vo['typeset']]):C('debt_type')[$vo['typeset']]}</em></span>
+                <span><b><if condition="$vo['source'] eq 1">起拍价<elseif condition="$vo['source'] eq 6" />月出租价<else/>转让金额</if></b><em class=" numtenhousand">{$vo.proprice}</em></span>
+                <span><b>折扣率</b><em class="discount ">{:round(($vo['proprice']/$vo['total']),4)*100}%</em></span>
+            </div>
+        </div>
+    </a>
+</li>
+</volist>
+<script>
+    //首页banner
+
+
+    //回到顶部
+
+
+</script>

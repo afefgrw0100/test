@@ -1,0 +1,158 @@
+<include file="./Template/public/header.html" />
+<include file="./Template/public/usermian.html" />
+		<!-- header end -->
+
+		<div class="main">
+
+			<div class="member_bg">
+				<div class="member_bg1"></div>
+				<div class="member_con">
+					<!--<div class="iconfont">&#xe615;</div>-->
+					<div class="fl">
+						<include file="./Template/public/usernav.html" />
+
+					</div>
+					<div class="iframe">
+						<iframe id="frammain" height="1000"  name="frammain" src="{:empty(session('login_http_member'))?U('User/Common/memberindex'):session('login_http_member')}" width="100%"  frameborder="no" border="0" scrolling="no"">
+	
+						</iframe>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<include file="./Template/public/footer.html" />
+		
+		<div class="mask" id="mask">
+	<div class="popups clearfix">
+		<h2>请选择支付方式：</h2>
+		<div class="bg">
+			<div class="con">
+				<ul>
+					<li><input type="radio" name="ownertype" value="1" />
+						<label><img src="__PUBLIC__/images/user/user_07.png"></label></li>
+					<li><input type="radio" name="ownertype" value="2" />
+						<label><img src="__PUBLIC__/images/user/user_10.png"></label></li>
+				</ul>
+			</div>
+			<div class="btn">
+				<a href="">前往支付</a>
+			</div>
+		</div>
+
+		<div class="close">关闭</div>
+	</div>
+</div>
+<script>
+	$(function(){
+		$('.member_left ul li').click(function(){
+			$(this).addClass('select').siblings().removeClass('select');
+		})
+	})
+</script>
+
+		<script>
+			var ifm = document.getElementById("frammain");
+        function iFrameHeight() {
+			//var frame = document.getElementById('#frame'),
+					ifm.height = 750;
+					win = ifm.contentWindow,
+					doc = win.document,
+					html = doc.documentElement,
+					body = doc.body;
+
+// 获取高度
+			var height = Math.max( body.scrollHeight, body.offsetHeight,
+					html.clientHeight, html.scrollHeight, html.offsetHeight );
+			//frame.setAttribute('height', height);
+			//alert(height);
+//			var subWeb = document.frames ? document.frames["frammain"].document :
+//            ifm.contentDocument;
+//			alert(subWeb.body.scrollHeight);
+            if (ifm != null && height != null) {
+                ifm.height = height;
+            }
+
+        }
+			ifm.onload = function(){
+			iFrameHeight();
+
+		}
+			ifm.onresize=function(){
+			iFrameHeight();
+		}
+		$(function() {
+				$('input[name=ownertype').click(function() {
+					$(this).parents('ul').find('li').removeClass('red');
+					$(this).parent('li').addClass('red');
+				});
+
+
+			})
+    
+			</script>
+<script type="text/javascript" charset="utf-8" src="{:tempurl('__PUBLIC__/js/ajaxfileupload.js')}"></script>
+<script type="text/javascript" charset="utf-8" >
+	$('#tit_updata').delegate(":file","change",function(){
+		//uploadImage();
+		var fileid= $(this).attr("id");
+		//alert($(this).attr("id"));
+		ajaxFileUploads(fileid);
+	});
+	function ajaxFileUploads(id){
+		var zzp =$("#"+id).attr("zzp");
+		if(zzp==undefined){
+			zzp="";
+		};
+
+		var url ="/index.php/User/Common/headimg/zzp/"+zzp;
+
+		$.ajaxFileUpload(
+				{
+					url:url,            //需要链接到服务器地址
+					secureuri:false,
+					type: 'post',
+					fileElementId:id,                        //文件选择框的id属性
+					dataType: 'json',                                     //服务器返回的格式，可以是json
+					success: function (data)            //相当于java中try语句块的用法
+					{
+
+
+						//data=eval("("+data+")");
+						if(data.status==1){
+							$("#"+id).prev().attr("src",data.url);
+							$("#"+id).next().val(data.url);
+							filterWarn("上传成功");
+							return false;
+						}else {
+							filterWarn(data.info);
+						}
+
+						//alert(data);
+						//$('#result').html('添加成功');
+					},
+					error: function (data, status, e)            //相当于java中catch语句块的用法
+					{
+						//filterWarn("上传失败");
+						//$('#result').html('添加失败');
+					}
+				}
+
+		);
+
+	}
+	//经纪人支付弹窗
+	$('.next_btn a').on("click",function() {
+		var formurl =$("#doForm").submit();
+
+	})
+	$("#tit_updata").hover(function (){
+		$("#mask").show();
+	},function (){
+		$("#mask").hide();
+	});
+</script>
+	</body>
+
+</html>

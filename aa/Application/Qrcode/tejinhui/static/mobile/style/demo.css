@@ -1,0 +1,34 @@
+        [data-dpr="2"] .item-section {
+			font-size: 24px
+		}
+		
+		[data-dpr="3"] .item-section {
+			font-size: 36px
+		}
+		.main{ font-family: "microsoft yahei"; background: #ee0a3b;}
+		.banner{ text-align: center;}
+		.banner img{ width: 10rem;}
+		.list{ overflow: hidden;}
+		.list ul{ padding: .133333rem;}
+		.list ul li{ overflow: hidden; display: flex; flex-direction: row; background: #fff; padding: 0.2rem; margin-bottom: 1px; }
+		.list ul li .pic{margin-right:0.0667rem; overflow: hidden; width:2.4rem; height: 2.4rem;}
+		.list ul li .pic img{ width:2.4rem; height: 2.4rem; }
+		.list ul li .con{  position: relative; padding: .133333rem; width: 6.9333rem;}
+		.list ul li .con .title a{ color: #333;line-height: 1.25; }
+		.list ul li .con .div{ display: block;} 
+		.flag-price span{ background: #ee0a3b; color: #fff; width: 1.3333rem; height: 0.4rem; line-height:0.4rem; text-align: center; display: inline-block;
+			border-radius: 4px;}
+		.flag-price strong{ padding: 0 0.2667rem; width: 2.6667rem}
+		.flag-price small{}
+		.flag-type{ color: #ff3600}
+		.flag .flag-price{ padding: .15rem 0 .2rem; color: #ee0a3b;}
+		.flag-btn{ position: absolute; bottom:0; right:0.0667rem; width: 2.1333rem; height: 0.6667rem; line-height:  0.6667rem; background: #ee0a3b;
+			color: #fff; text-align: center; border-radius: 4px;}
+
+			  [data-dpr="2"] .flag-price span {
+			font-size: 22px
+		}
+		
+		[data-dpr="3"] .flag-price span {
+			font-size: 33px
+		}

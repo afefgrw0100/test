@@ -1,0 +1,328 @@
+<include file="./Template/public/header.html" />
+
+		<div class="main">
+			
+			<div class="search_main">
+
+
+				<div class="hot">
+					<dl>
+						<dt class="address">地区：</dt>
+						<dd>
+							<div class="h_chooselist" >
+								<div class="info1" id="province1">
+									<a href="javascript:void(0)"  class="select_all" province="">全国</a>
+											<volist name="cpro" id="acvo">
+												<span><em><a href="javascript:void(0)" class="province2" target="art" province="{$acvo.pid}" city="{$acvo.area_id}">{$acvo.area_name}</a></em> <i></i></span>
+
+											</volist>
+
+								</div>
+								<div class="info2" id="province" >
+									<ul id="js_provList">
+									<volist name="area" id="arvo">
+										<li>
+											<span><a href="javascript:void(0)" target="art" province="{$arvo.id}">{$arvo.name}</a></span>
+											<ul>
+												<volist name="arvo.city" id="ctiyvo">
+													<li><a href="javascript:void(0)" city="{$ctiyvo.id}">{$ctiyvo.name}</a></li>
+												</volist>
+											</ul>
+										</li>
+									</volist>
+									</ul>
+								</div>
+							</div>
+						</dd>
+					</dl>
+
+					<dl>
+						<dt>类别：</dt>
+						<dd>
+							<div class="h_chooselist" >
+								<div class="info2" id="typev">
+								<ul id="js_provList1">
+									<li><span><a href="javascript:void(0)"  class="select_all" msgtype="">全部</a></span></li>
+									<li>
+										<span><a href="javascript:void(0)"  msgtype="11" >转让</a></span>
+										<ul>
+											<li><a href="javascript:void(0)" AssetsType="1">房产</a></li>
+											<li><a href="javascript:void(0)" AssetsType="5">土地</a></li>
+											<li><a href="javascript:void(0)" AssetsType="2">车辆</a></li>
+											<li><a href="javascript:void(0)" AssetsType="3">机械设备</a></li>
+											<li><a href="javascript:void(0)" AssetsType="4">其他</a></li>
+
+
+										</ul>
+									</li>
+									<li><span><a href="javascript:void(0)"  msgtype="15">出租</a></span></li>
+									<!--<li><span><a href="javascript:void(0)"  msgtype="12">债权</a></span></li>-->
+									<!--<li><span><a href="javascript:void(0)"  msgtype="13">资产包</a></span></li>-->
+									<!--<li><span><a href="javascript:void(0)"  msgtype="14">拍卖</a></span></li>-->
+
+
+
+								</ul>
+
+							</div>
+
+
+
+							</div>
+							<!--<div class="h_chooselist" id="typev">-->
+
+								<!--<a href="javascript:void(0)"  class="select_all" msgtype="">全部</a>-->
+								<!--<volist name="messagetype" id="typev">-->
+									<!--<a href="javascript:void(0)"  msgtype="{$typev.CodeID}">{$typev.CodeName}</a>-->
+								<!--</volist>-->
+							<!--</div>-->
+						</dd>
+					</dl>
+
+					<dl>
+						<dt>转让价格：</dt>
+						<dd>
+							<div class="h_chooselist" id="price">
+								<a href="javascript:void(0)"  starpro="0" endpro="0" class="select_all">不限</a>
+								<a href="javascript:void(0)" starpro="0" endpro="50">50万以下</a>
+								<a href="javascript:void(0)"  starpro="50" endpro="200">50万-200万</a>
+								<a href="javascript:void(0)"  starpro="200" endpro="1000">200万-1000万</a>
+								<a href="javascript:void(0)"  starpro="1000" endpro="300000">1000万以上</a>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<div class="sort">
+
+					<em>排序:</em>
+					<span id="ord">
+						<a href="javascript:;" class="curr up" ord ="">默认</a>
+						<a href="javascript:;"  ord="1">转让价格<i></i></a>
+					</span>
+				</div>
+				<div class="crumbs-nav">
+					<a href="javascript:void(0)" class="dn" id="ptext">
+						<b>地区：</b>
+						<em>长沙</em>
+						<i class="iconfont">&#xe60e;</i>
+					</a>
+					<a href="javascript:void(0)" class="dn" id="typetext">
+						<b>类别：</b>
+						<em>债权</em>
+						<i class="iconfont">&#xe60e;</i>
+					</a>
+
+					<a href="javascript:void(0)" class="dn" id="mtext">
+						<b>价格：</b>
+						<em>50万以下</em>
+						<i class="iconfont">&#xe60e;</i>
+					</a>
+				</div>
+				<article id="ajax_lists">
+
+				</article>
+
+			</div>
+	</div>
+
+
+
+			<include file="./Template/public/footer.html" />
+		<script type="text/javascript">
+			var url_ajax = "/Home/Search/orders",pricestar,priceend,typev="{:I('get.type')}",province={:empty($provinec)?"''":$provinec},provincetxt,ord,city={:empty($City)?"''":$City},typetest,AssetsType;
+			var ptext,typetext,mtext;
+			$(function() {
+				//城市
+				$('#js_provList li ').mouseover(function(){
+					$(this).children('ul').css('display','block')
+					provincetxt = $(this).children('span').children('a').attr("province");
+					ptext =  $(this).children('span').children('a').html();
+				})
+
+
+				$('#js_provList li').mouseout(function(){
+					$(this).children('ul').css('display','none')
+				})
+				//城市
+				$('#js_provList1 li ').mouseover(function(){
+					$(this).children('ul').css('display','block')
+					typetest = $(this).children('span').children('a').attr("msgtype");
+					typetext =  $(this).children('span').children('a').html();
+				})
+
+
+				$('#js_provList1 li').mouseout(function(){
+					$(this).children('ul').css('display','none')
+				})
+
+
+				//提示
+				$('.crumbs-nav a i ').click(function(){
+					var ptxtid = $(this).parent().attr("id");
+					switch(ptxtid){
+						case "ptext":
+							province="";
+							city="";
+							break;
+						case "typetext":
+							typev="";
+							break;
+						case "mtext":
+							pricestar="";
+							priceend="";
+							break;
+
+					}
+					$(this).parent().css('display','none');
+					getPage(1);
+				})
+				//分页
+				$("#ajax_lists").delegate(".page div a", "click", function() {
+					var page = $(this).attr("data-page");
+					getPage(page);
+				});
+				//quanguo
+				$("#js_provList li span a").on("click",function(e){
+					province = $(this).attr("province");
+					city ="";
+					ptext = $(this).html();
+					$("#ptext em").html(ptext);
+					$("#ptext").css('display','block');
+					getPage(1);
+				});
+				//城市
+				$("#js_provList li ul li a").on("click",function(e){
+					city = $(this).attr("city");
+					province=provincetxt
+					ptext = ptext +$(this).html();
+					$("#ptext em").html(ptext);
+					$("#ptext").css('display','block');
+					getPage(1);
+				});
+
+				//quanguo1111111111111111111
+				$("#js_provList1 li span a").on("click",function(e){
+					typev = $(this).attr("msgtype");
+					console.log(1111);
+					AssetsType ="";
+					typetext = $(this).html();
+					$("#typetext em").html(typetext);
+					$("#typetext").css('display','block');
+					getPage(1);
+				});
+				//城市
+				$("#js_provList1 li ul li a").on("click",function(e){
+					AssetsType = $(this).attr("AssetsType");
+					typev=typetest
+					typetext = typetext +$(this).html();
+					$("#typetext em").html(typetext);
+					$("#typetext").css('display','block');
+					getPage(1);
+				});
+
+				$("#ajax_lists").on("click",".searlist a",function(){
+  					var onsral = $(this);
+					if(onsral.attr("province") !=undefined){
+						province=onsral.attr("province");
+						ptext = onsral.html();
+
+					}
+					if(onsral.attr("city") !=undefined){
+						city = onsral.attr("city");
+						if(onsral.attr("ptext")!=undefined){
+							ptext = onsral.attr("ptext");
+						}
+						$("#ptext em").html(ptext);
+						$("#ptext").css('display','block');
+					}
+					if(onsral.attr("msgtype") !=undefined){
+						typev =onsral.attr("msgtype");
+						typetext = onsral.html()
+						$("#typetext em").html(typetext);
+						$("#typetext").css('display','block');
+					}
+
+
+					getPage(1);
+					//alert( typev);
+				});
+
+				$("#province1 a,#province2 a,#typev a,#price a,#ord a").on("click",function(e){
+					var id = $(e.target).parent().attr("id");
+					if(id==undefined){
+						id = e.target.className;
+					}
+					//alert(e.target.className);
+					switch (id){
+						case "province":
+
+							break;
+						case "province1":
+
+							$("#province").show();
+							$("#province2").hide();
+							city = "";
+							province = $(this).attr("province");
+							ptext = $(this).html();
+							$("#ptext em").html(ptext);
+							$("#ptext").css('display','block');
+							break;
+						case "province2":
+
+							province = $(this).attr("province");
+							city=	 $(this).attr("city");
+							ptext = $(this).html();
+							$("#ptext em").html(ptext);
+							$("#ptext").css('display','block');
+							break;
+						case "typev":
+							typev = $(this).attr("msgtype");
+							typetext = $(this).html();
+							$("#typetext em").html(typetext);
+							$("#typetext").css('display','block');
+							break;
+						case "price":
+							pricestar = $(this).attr("starpro");
+							priceend = $(this).attr("endpro");
+							mtext = $(this).html();
+							$("#mtext em").html(mtext);
+							$("#mtext").css('display','block');
+							break;
+						case "ord":
+							ord = $(this).attr("ord");
+							break;
+					}
+					if(ord==""){
+						$("#"+id).find("a").removeClass("curr up");
+						$("#"+id).find("a").removeClass("curr down");
+						$(this).addClass("curr up");
+					}else if(ord==1){
+						$("#"+id).find("a").removeClass("curr up");
+						$("#"+id).find("a").removeClass("curr down");
+						$(this).addClass("curr up");
+						$(this).attr("ord",2)
+					}else if(ord==2){
+						$("#"+id).find("a").removeClass("curr up");
+						$("#"+id).find("a").removeClass("curr down");
+						$(this).addClass("curr down");
+						$(this).attr("ord",1)
+					}
+					getPage(1);
+				});
+				$("#cprovince").on("click",function(){
+					$("#province").hide();
+					$("#province2").show();
+				});
+
+				getPage(1);
+
+			})
+			function getPage(page) {
+				var keyword = $(".search_text").val();
+				$.get(url_ajax, {search: keyword,province: province,type:typev,psta:pricestar,pend:priceend,ord:ord,City:city,AssetsType:AssetsType, p: page}, function(data) {
+					$('#ajax_lists').html(data);
+				})
+			}
+		</script>
+	</body>
+</html>

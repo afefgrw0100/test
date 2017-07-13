@@ -1,0 +1,310 @@
+[ 2017-02-06T13:39:17+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-02-06T13:39:30+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-02-06T13:39:46+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0000s ]
+
+[ 2017-02-06T13:40:25+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T13:51:13+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlistcontent/actid/139/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sys_articlescrap` WHERE `id` = '139' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-06T13:51:28+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packcontent/PackageID/22/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 547 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID=tb_packagedata.ID  WHERE tb_package.PackageID = '22' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-06T13:54:34+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE tb_package.AssetsStatue = 4 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0010s ]
+
+[ 2017-02-06T13:54:45+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/packcontent/PackageID/22/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 547 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID=tb_packagedata.ID  WHERE tb_package.PackageID = '22' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-06T13:57:50+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:23:33+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0030s ]
+
+[ 2017-02-06T14:23:41+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:24:19+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:28:37+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:35:47+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-02-06T14:36:59+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-02-06T14:38:28+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:40:20+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:41:29+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:41:43+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-02-06T14:41:52+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-02-06T14:44:58+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:45:08+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:46:36+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2017-02-06T14:47:36+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-02-06T16:13:32+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2017-02-06T16:13:37+08:00 ] 192.168.10.2 /Brest/Index/read/acttype/actlist/cc.json
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+

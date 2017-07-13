@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="{$Think.session.keyword.keyword}" />
+    <meta name="description" content="{$Think.session.keyword.desc}" />
+    <title>{$Think.session.keyword.title}</title>
+    <link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+    <link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/style.css')}" />
+    <link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iconfont.css')}" />
+    <link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/valifrom.css')}" />
+
+
+</head>
+
+
+
+<body>
+<!-- header -->
+<div class="header">
+
+    <div class="top2">
+        <div class="top2_c">
+            <div class="fl logo"><b><a href="{:U('Home/Index/index')}"><img src="__PUBLIC__/images/common/tejinh.jpg"></a></b>
+            </div>
+            <div class="fr search">
+                <form action="{:U('Home/Search/lists')}" method="get" onsubmit="return search_text()">
+                    <i class="iconfont">&#xe631;</i>
+                <input type="text" class="search_text" name="search" placeholder="请输入您要搜索的内容"  value="{$search}">
+                <input type="submit" class="search_bth"  value="搜 索">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="nav">
+        <div class="nav_c">
+            <div class="fl">
+                <ul>
+                    <li class="">
+                        <a href="{:U('/')}">首页</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Home/Lists/lists')}" class="hot">找项目<i class="iconfont">&#xe618;</i> </a>
+                    </li>
+
+                    <li>
+                        <a href="{:U('Web/Index/publish')}">发布项目</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Home/Index/baem',empty(session('user.MemberId'))?'':array('uic'=>authcode(session('user.MemberId'),'ENCODE')))}">成为经纪人</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Home/Index/introduce')}">平台介绍</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Home/Index/finan')}">配资服务</a>
+                    </li>
+                    <li>
+                        <a href="{:U('Home/index/help')}">新手指南</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr member_center">
+                <if condition="empty(session('user.MemberId'))">
+                    <a href="{:U('User/Member/index')}">登录</a>|
+                    <a href="{:U('User/Index/region')}" class="region">注册</a>
+                    <else/>
+                    <a href="{:U('User/Member/index')}">会员中心</a>
+
+                </if>
+
+            </div>
+            <!--<div class="fr member_center">-->
+                <!--<a href="{:U('User/Member/index')}" id="cselect">{:empty(session('user.MemberId'))?"登录/注册":"会员中心"}</a>-->
+            <!--</div>-->
+        </div>
+
+    </div>
+</div>
+<!-- header end -->

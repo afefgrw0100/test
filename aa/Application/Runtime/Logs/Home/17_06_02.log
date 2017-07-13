@@ -1,0 +1,507 @@
+[ 2017-06-02T09:17:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 3  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 20 ORDER BY `no` asc,`createtime` desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` IN ('2','3','4') ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` = 1 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` = 6 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue`,`Source`,`AuctionEnd` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` = 4 AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 12   [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue`,`Source`,`AuctionEnd` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` = 8 AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 2   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debt` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_package` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assetsduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debtduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debtduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` WHERE `MemberType` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_ads` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_ads` WHERE `Catagrote` = 51  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 31 行.
+NOTIC: [8] Use of undefined constant City - assumed 'City' D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 108 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined variable: conmp D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 396 行.
+NOTIC: [8] Undefined variable: conmp D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 418 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T09:53:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 20 ORDER BY `no` asc,`createtime` desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` IN ('2','3','4') ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` = 1 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` = 6 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue`,`Source`,`AuctionEnd` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` = 4 AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 12   [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue`,`Source`,`AuctionEnd` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` = 8 AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 2   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debt` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_package` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assetsduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_debtduedili` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debtduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` WHERE `MemberType` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_ads` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_ads` WHERE `Catagrote` = 51  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 31 行.
+NOTIC: [8] Use of undefined constant City - assumed 'City' D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 108 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined variable: conmp D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 396 行.
+NOTIC: [8] Undefined variable: conmp D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 418 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:53:27+08:00 ] 127.0.0.1 /Home/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid` FROM `tb_area` WHERE `pid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`pid` FROM `tb_area` WHERE `pid` BETWEEN '1' AND '34' ORDER BY id ASC  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT `CodeID`,`CodeGroup`,`CodeName`,`CodeValue` FROM `sys_code` WHERE `CodeGroup` = '10105'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\97e68d4d6d530c34fcd21195a115363f.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T09:53:27+08:00 ] 127.0.0.1 /Home/Search/orders?search=&province=&type=&City=&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,`titimg`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,Owner as Contact,CellPhone as mobile,`CreateTime`,`AssetsStatue`,Type as typeset FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Title` LIKE '%%' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,`titimg`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,Contact as Contact,CellPhone as mobile,`CreateTime`,`AssetsStatue`,AssetsType as typeset,Source as source,AuctionStart as AucStart,AuctionEnd as AucEnd FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Title` LIKE '%%' ORDER BY AssetsID desc  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: ProPrice D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`titimg`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,Owner as Contact,CellPhone as mobile,`CreateTime`,`AssetsStatue`,Type as typeset FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Title` LIKE '%%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php 第 155 行.
+NOTIC: [2] Missing argument 1 for Think\PageAjax::show(), called in D:\WWW\tejinhui\Application\Home\Controller\SearchController.class.php on line 180 and defined D:\WWW\tejinhui\ThinkPHP\Library\Think\PageAjax.class.php 第 77 行.
+NOTIC: [8] Undefined variable: url_replace D:\WWW\tejinhui\ThinkPHP\Library\Think\PageAjax.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T09:53:32+08:00 ] 127.0.0.1 /Home/Index/baem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT `MemberId`,`MemberName`,`MemberType` FROM `tb_member` WHERE `MemberId` = '' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 31 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 90 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 132 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 143 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 153 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 165 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 166 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T09:53:33+08:00 ] 127.0.0.1 /Home/Index/introduce.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\4dceb83fdd361722a4a10854b9abbcb9.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:53:34+08:00 ] 127.0.0.1 /Home/Index/finan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\2cc46000cc3b81af644c0163895ced32.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T09:53:34+08:00 ] 127.0.0.1 /Home/index/help.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\0304b12868011d28e40c67b99ec45b59.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:40:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 3  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 20 ORDER BY `no` asc,`createtime` desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` IN ('2','3','4') ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` = 1 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 AND `Source` = 6 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue`,`Source`,`AuctionEnd` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` = 4 AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 12   [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue`,`Source`,`AuctionEnd` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` = 8 AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 2   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debt` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_package` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assetsduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_debtduedili` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debtduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` WHERE `MemberType` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_ads` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_ads` WHERE `Catagrote` = 51  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 31 行.
+NOTIC: [8] Use of undefined constant City - assumed 'City' D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 108 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined variable: conmp D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 396 行.
+NOTIC: [8] Undefined variable: conmp D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 418 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

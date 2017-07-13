@@ -1,0 +1,2632 @@
+[ 2016-12-12T09:07:49+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:08:28+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:17:11+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:17:22+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:33:45+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:49:44+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:11+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:19+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:22+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:51:23+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:24+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T09:51:25+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:32+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:35+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T09:51:48+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:12:23+08:00 ] 192.168.1.210 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:12:23+08:00 ] 192.168.1.210 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:13:45+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:25:41+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:36:15+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T10:36:33+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T10:36:41+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.8955431983921114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T11:25:31+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T13:33:36+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T13:33:45+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.9755879958734954
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T13:33:47+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.9914997413142765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T13:33:51+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5231335734481952
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T13:33:56+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.301379460462194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T13:34:01+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5937053069093732
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T13:34:07+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.3159911691275159
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T13:34:15+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.4481569861564103
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:29:29+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:29:57+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:30:02+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:30:11+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:30:17+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '4' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:31:17+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:34:56+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:35:07+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T14:35:11+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T14:35:33+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '2' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-12T14:35:33+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:37:24+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:37:25+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:37:37+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.3923224016488802
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:37:41+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.6917371556863601
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T15:37:49+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:19:02+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:19:11+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:20:47+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:21:43+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:21:44+08:00 ] 127.0.0.1 /index.php/Web/Index/assets.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: SELECT tb_member.MemberId,tb_memberprofile.RealName,tb_memberprofile.HeadImg,tb_memberaccount.StarLevel FROM `tb_member` INNER JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID INNER JOIN tb_memberaccount ON tb_member.MemberId = tb_memberaccount.MemberId  WHERE `MemberStatu` = 1 AND `MemberType` = 4 AND tb_memberprofile.City = '273' ORDER BY tb_memberaccount.Ranking Desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\fb2927b3f4f4ee590d880cf9e1e43142.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:22:54+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:24:06+08:00 ] 127.0.0.1 /index.php/Web/Packages/gediss.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debtdiss` [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:24:08+08:00 ] 127.0.0.1 /index.php/Web/Packages/gediss.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debtdiss` [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:24:11+08:00 ] 127.0.0.1 /index.php/Web/Packages/gediss.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debtdiss` [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:24:13+08:00 ] 127.0.0.1 /index.php/Web/Packages/gediss.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debtdiss` [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:24:17+08:00 ] 127.0.0.1 /index.php/Web/Packages/gediss.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debtdiss` [ RunTime:0.0020s ]
+
+[ 2016-12-12T16:24:21+08:00 ] 127.0.0.1 /index.php/Web/Packages/gediss.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debtdiss` [ RunTime:0.0030s ]
+
+[ 2016-12-12T16:25:40+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:25:50+08:00 ] 192.168.1.208 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:25:50+08:00 ] 192.168.1.208 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:26:06+08:00 ] 192.168.1.208 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:26:11+08:00 ] 192.168.1.208 /index.php/Web/Index/debt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT tb_member.MemberId,tb_memberprofile.RealName,tb_memberprofile.HeadImg,tb_memberaccount.StarLevel FROM `tb_member` INNER JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID INNER JOIN tb_memberaccount ON tb_member.MemberId = tb_memberaccount.MemberId  WHERE `MemberStatu` = 1 AND `MemberType` = 4 AND tb_memberprofile.City = null ORDER BY tb_memberaccount.Ranking Desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\7c0a11d6a47ed5ad719ab1fad49966e8.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:26:21+08:00 ] 192.168.1.208 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:26:37+08:00 ] 192.168.1.208 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:38:11+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:38:19+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.8780764735930497
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:38:24+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.0383629718060452
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T16:38:52+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:39:00+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5578236010566484
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:40:22+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T16:50:47+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:50:47' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:53:39+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:53:39' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:55:42+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:55:42' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0030s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:56:02+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:56:02' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:57:09+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:57:09' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:57:18+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:57:18' WHERE `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:57:41+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:57:41' WHERE `Usestat` = 1 [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0070s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='C6E5B33D-1341-330C-FD55-B6164B579CBA.jpg?e=1481619003&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UXSteSL1wclcadWEoVnPLdTBmx8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:58:08+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:58:08' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T16:58:48+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 16:58:48' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:00:15+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:00:15' WHERE `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:00:18+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:00:18' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:00:33+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:00:33' WHERE `Usestat` = 1 [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0030s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:00:45+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:00:45' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:00:59+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:00:59' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:01:24+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:01:24' WHERE `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:02:35+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:02:35' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0040s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:02:51+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:02:51' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:03:10+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:03:10' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:06:36+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:06:36' WHERE `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:07:00+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:07:00' WHERE `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:07:30+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:07:30' WHERE `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:07:47+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:07:47' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:08:09+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='342F8130-0149-63C1-4EB6-7AF9B0C7B2A5.jpg?e=1481619010&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:AvSf8ag-3s6NKYNbGrmtEai43Xs=@334CB0C2-C2BE-0230-AE91-EB3DAB6DFC9C.jpg?e=1481619014&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zL5XPQnTcqWZ5gGVoUqG2tonunI=@E69C608D-5B00-F89C-24D6-0B66921CBE6F.jpg?e=1481619018&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uDW20O5E1-u0izMZb0mN84pw7Vc=',`Images`='270E2A6F-2215-31CA-37C6-64F663EA662F.jpg?e=1481619029&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ocq70SzeRBHonfRcy4ZhNop15UM=@661A2B64-571B-D51B-93AB-33840A5047B7.jpg?e=1481619033&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Pw6hgoHOhob5NuzSJXVbJHlcdDs=@BC855D03-D8B3-A873-2195-1835810F5B79.jpg?e=1481619039&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:O0L5eOHRRqrAh3p3Cx3vgomAulo=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:08:09' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+ERR: 1406:Data too long for column 'JDUrl' at row 1
+ [ SQL语句 ] : UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='A5B06C58-E5B4-20F5-674B-72BC96C25CEC.jpg?e=1481619484&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:uZ4OyauZ25GEjnPFOaFopn002s8=',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111'
+
+[ 2016-12-12T17:09:38+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www',`ReportDesc`='项目名称：www',`AssetsDesc`='5340E68C-6D01-1C91-DB40-BAE89DC09579.jpg?e=1481620155&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:g_yaBcN3eSqfvWhtlcQkQr8JZd4=@0B2F38ED-DF7C-6478-25E0-5F2A5E69CAB6.jpg?e=1481620159&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:znMsFUXLYDAdyvvkasd6vyJyfNI=@9B8CBE83-B7DF-B20C-3526-DF1B8CA847F0.jpg?e=1481620163&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:lTa2Gdy__m3zNLn3VFGLK79l6ZA=',`Images`='4EBC1DF3-65D8-E233-C305-B432011B2323.jpg?e=1481620169&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:UbIDyNE3V4IPxf7h4hvbbBZAEfU=@8F4373AF-0DC9-2CA9-8EE5-FB6F5D5511A4.jpg?e=1481620172&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Z2QhU7TSS5dR-suZEUlThAzZZVM=@D530928E-95AE-8832-0FE5-0BBD0A0088EE.jpg?e=1481620176&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:wEz7A4QHlksieQOZAyZOLJvNffw=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:09:38' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www',`JDUrl`='7A825579-8B8E-CAC1-4EDC-A985A5657F42.zip',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='111111' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_package` SET `AssetsStatue`='3' WHERE `PackageID` = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:14:48+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:14:56+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0040s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '2' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-12-12T17:14:56+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:15:01+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:15:59+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：www
+项目描述',`ReportDesc`='项目名称：www
+项目描述',`AssetsDesc`='2C1CB861-AFCA-1839-21D9-1E1136C968EC.jpg?e=1481620529&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:mbMN__fZV2aD9XeeVRe44G-IMEs=@6826AA63-E63C-F2C5-A93E-50F21F804CA6.jpg?e=1481620534&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:ef6J2po845fFpqRYywavuF0x3JQ=@BC6FE0FE-F41E-6B02-F3D1-BDC3AA41C5A1.jpg?e=1481620538&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:mBtq_E4EMOx6Se7W7h5p0ZCur9A=',`Images`='7FF830C4-7722-228D-A07D-50C872B458B5.jpg?e=1481620544&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:Ts5WPfXfAF3rPNxQ03H7B9cLDxs=@183DDB82-2FA5-3FDC-E65A-79654D8ACF3C.jpg?e=1481620547&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:oxV27v7snMuLfYPfvQbP7NsD1L4=@8F4DB0C9-B8C7-B8ED-0965-7336B88CF051.jpg?e=1481620551&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:S96HVIDXOigp6-gJ0ltbnf_xe7o=',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:15:59' WHERE `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：www
+项目描述',`JDUrl`='F73D3188-8C63-5277-C75B-2517FDF19A21.zip',`Ismain`='1',`ViewPrice`='21211',`BuyPrice`='111' [ RunTime:0.0980s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0060s ]
+SQL: UPDATE `tb_package` SET `AssetsStatue`='3' WHERE `PackageID` = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:19:12+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:20:19+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `PackageID` = '1' AND `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tb_packageduedili` (`PackageID`,`PackageDesc`,`ReportDesc`,`AssetsDesc`,`Images`,`DueCreateMember`,`DueCreateTime`) VALUES ('1','资产包尽调发布页面','资产包尽调发布页面','23E669FD-BAEC-F0DF-1CA1-EEFEF17ABE8F.jpg?e=1481620778&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:bWBNrC93tF8MqE2EDBlS0v_zQFQ=@AA4E777D-DF64-81D1-CF63-5A176D8374A0.jpg?e=1481620791&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:LfjayMloLy7T9gJ_34NuNjs3k5k=@C0CEB34C-E626-6E84-C15A-1F3A3B2BD305.jpg?e=1481620810&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:eHFubfjWmjSMyQ4GgA88rtnu9wU=','D5767845-A22F-5E59-94A4-E7AEB7D2222D.jpg?e=1481620797&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:9i1szmVDelJL5Os-EUNBMBhwnro=@5E8F908A-CE3F-D84B-AA5F-F36D70F3D4C2.jpg?e=1481620801&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:MWhD4vUeVz_J2VeaEmTOfWuHf6M=@5104FEFA-492D-F305-1E3E-895657D72672.jpg?e=1481620805&amp;token=iSHBEbT5biAU-A3VuAQ9BFDdlk_DJ4-vILfSdC7H:zBIBReAseUtsKiVG1qZ7_LRm44Y=','3','2016-12-12 17:20:19') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_packageproject` (`PackageID`,`SubName`,`SubDesc`,`JDUrl`,`Ismain`,`ViewPrice`,`BuyPrice`) VALUES ('1','www','资产包尽调发布页面','3CC73F41-591D-FCF0-E0F4-F0B9B732F0D1.jpg','1','111111','111111') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_package` SET `AssetsStatue`='3' WHERE `PackageID` = null [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:23:26+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:23:44+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `PackageID` = '1' AND `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：ww',`ReportDesc`='项目名称：ww',`AssetsDesc`='@@',`Images`='@@',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:23:44' WHERE `PackageID` = '1' AND `Usestat` = 1 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:24:03+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `PackageID` = '1' AND `Usestat` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目名称：ww',`ReportDesc`='项目名称：ww',`AssetsDesc`='@@',`Images`='@@',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:24:03' WHERE `PackageID` = '1' AND `Usestat` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目名称：ww',`JDUrl`='39B8C320-4F0C-5E5A-BBF3-B49BB9F4DCCD.jpg',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='11' WHERE `PackageID` = '1' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 175 行.
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_package` SET `AssetsStatue`='3' WHERE `PackageID` = null [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:30:52+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:31:10+08:00 ] 127.0.0.1 /index.php/Web/Packages/domic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant IF_POST - assumed 'IF_POST' D:\WWW\tejinhui\Application\Web\Controller\PackagesController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_packageduedili` WHERE `PackageID` = '1' AND `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageduedili` SET `PackageID`='1',`PackageDesc`='项目描述',`ReportDesc`='项目描述',`AssetsDesc`='@@',`Images`='@@',`DueCreateMember`='3',`DueCreateTime`='2016-12-12 17:31:10' WHERE `PackageID` = '1' AND `Usestat` = 1 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `tb_packageproject` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_packageproject` SET `PackageID`='1',`SubName`='www',`SubDesc`='项目描述',`JDUrl`='361A8404-0A68-A49F-27A9-0F80547908EF.jpg',`Ismain`='1',`ViewPrice`='111111',`BuyPrice`='11' WHERE `PackageID` = '1' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_package` SET `AssetsStatue`='3' WHERE `PackageID` = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:34:42+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:37:05+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:38:29+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = null LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-12-12T17:38:29+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:38:29+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:38:29+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:38:37+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\270920026b3b6d2ede0d7165f6e061cf.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:38:49+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:46:55+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:47:56+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:50:50+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:52:36+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:53:30+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:53:44+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:53:57+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:54:49+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:55:07+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:55:52+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T17:56:11+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:56:39+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:57:32+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:57:41+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:58:38+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:58:47+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T17:59:15+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T18:01:02+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-12T18:03:34+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-12T18:04:57+08:00 ] 127.0.0.1 /index.php/Web/Index/mic/PackageID/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `PackageID`,`Title` FROM `tb_package` WHERE `PackageID` = '1' AND `DueDiligenceMember` = '3' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Web\4500f99b78a38f31954ad82c42b23569.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

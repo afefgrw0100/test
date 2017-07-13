@@ -1,0 +1,109 @@
+<include file="./Template/public/header.html" />
+		<div class="main">
+			<div class="pay">
+				<h2>收银台</h2>
+				<div class="list">
+					<div class="title">
+						<div class="name">项目</div>
+						<div class="num">数量</div>
+						<div class="num">价格</div>
+						<div class="total">总计</div>
+					</div>
+					<div class="con">
+						<div class="name">{$info.Title}</div>
+						<div class="num">{:empty($info['Projectnum'])?1:$info['Projectnum']}</div>
+						<div class="price">¥{$info.DealPrice}</div>
+						<div class="total">¥{$info.DealPrice}</div>
+					</div>
+
+				</div>
+
+				<div class="total_price2">
+					<span>账户可用余额:<em>¥{:yue()}</em></span>
+				</div>
+				<div class="total_price">
+					应付金额:<em>¥{$info.DealPrice}</em>
+				</div>
+				<div class="total_price2">
+					<span>微信应支付金额:<em>¥{$info['DealPrice']-yue()}</em></span>
+				</div>
+				<div class="tel">
+					<div class="title">您的手机</div>
+					<div class="con">支付成功后，特金汇将发送您本次的消费信息到手机号码：<em>{$Think.session.user.CellPhone}</em></div>
+				</div>
+				<div class="pay_way">
+					<div class="title">微信支付</div>
+					<div class="con">
+						<div class="fl" id="code">
+							<!--<div class="info1 red">二维码已过期，<a href="">刷新</a> 页面重新获取二维码。</div>-->
+							<div class="weixin_img"><img src="{:U('User/payment/weixinpay_qrcode',array('codekey'=>$bas,'type'=>$type,codetype=>$codetype))}"></div>
+							<div class="info2">
+								<p>请使用微信扫一扫</p>
+								<p>扫描二维码支付</p>
+
+							</div>
+						</div>
+						<div class="fr"><img src="__PUBLIC__/images/common/phone-bg.png"></div>
+					</div>
+
+
+
+				</div>
+				<div class="return"><a a href="javascript:" onclick="history.go(-1);" class="btn-default">返回</a></div>
+			</div>
+		</div>
+<include file="./Template/public/footer.html" />
+		<script type="text/javascript">
+			$(function() {
+				$('input[name=ownertype').click(function() {
+					$(this).parents('ul').find('li').removeClass('red');
+					$(this).parent('li').addClass('red');
+				})
+			})
+
+
+			//开始长连接，轮询查询数据库
+			function getData(msg){
+				if(msg == undefined){
+					msg = '';
+				}
+
+				$.ajax({
+					url: '/index.php/User/Apipay/getAllMsgTradeCode',
+					type: 'POST',
+					dataType: 'json',
+					data:{
+						'msg':msg
+					},
+					success: function(data){
+						if(data.status==1){
+							filterWarn(data.info);
+							//$("#code").html(data.info);
+							setTimeout(function(){
+								window.location.href=data.url;
+							},3000);
+							//console.log(data);
+						}
+						else {
+							//console.log(data.length);
+						}
+						//getData('');
+					},
+					error: function(){
+						//("#code").html("获取MSG交易编号失败");
+						filterWarn("获取MSG交易编号失败");
+					}
+				});
+			}
+			//初始化消息列表数据
+			getData("{:authcode($info['id'],'ENCODE')}");
+			setInterval("getData(\"{:authcode($info['id'],'ENCODE')}\")",20000);
+
+//			window.onunload = function(){
+//				console.log("123");
+//			}
+		</script>
+
+	</body>
+
+</html>

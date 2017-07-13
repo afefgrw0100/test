@@ -1,0 +1,53 @@
+<include file="./Template/public/header.html" />
+
+<div class="directstore list">
+			<div class="main">
+				<div class="banner">
+					<div class="banner-con">
+						<div class="title">城市服务中心</div>
+						<div class="item">
+							<ul>
+								<li><i class="iconfont" style=" font-size: 26px;">&#xe626;</i><b>一站式全流程体系</b></li>
+								<li><i class="iconfont">&#xe614;</i><b>垂直培训体系</b></li>
+								<li><i class="iconfont">&#xe671;</i><b>总部协助渠道拓展</b></li>
+								<li><i class="iconfont">&#xe60f;</i><b>数十万粉丝共享引爆市场</b></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="list-title">
+						<h2>城市中心列表</h2> 
+					</div>
+					<volist name="cityInfo" id="uvo">
+					<div class="box2">
+						<div class="num"> <span>项目数量<b>{:auclistsum($uvo['City'])}</b></span></div>
+						
+							<div class="fl">
+								<a href="auc/{$uvo.area_code}" target="_blank">
+								<if condition="empty($uvo['titleImg'])">
+									<img src="http://placehold.it/215x160">
+									<else/>
+									<img src="{:imgpublic($uvo['titleImg'])}?imageView2/2/w/390/h/240">
+								</if>
+								</a>
+							</div>
+							<div class="fl"><span>
+							<h2><a href="auc/{$uvo.area_code}" target="_blank">{$uvo.pname}{$uvo.cname}服务中心</a></h2>
+							<p><em>位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;置：</em><b>{$uvo.pname} {$uvo.cname}</b></p>
+							<p><em>项目类型：</em><b>{$uvo.proType} </b></p>
+							<p><em>业务类型：</em><b>{$uvo.bizType} </b></p>
+							</span>
+						</div>
+					</div>
+					</volist>
+		
+				</div>
+		</div>
+		</div>
+		</div>
+<include file="./Template/public/footer.html" />
+	</body>
+
+</html>

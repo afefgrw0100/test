@@ -1,0 +1,576 @@
+[ 2016-11-09T09:45:57+08:00 ] 127.0.0.1 /index.php/Portal/Portal/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Portal
+
+[ 2016-11-09T09:46:42+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-09T10:25:06+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478654705 AND 1478658305 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('127.0.0.1','1478658306') [ RunTime:0.0280s ]
+
+[ 2016-11-09T10:25:20+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478654720 AND 1478658320 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 28 行.
+
+[ 2016-11-09T10:27:02+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478654822 AND 1478658422 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478654822 AND 1478658422 [ RunTime:0.0400s ]
+
+[ 2016-11-09T10:33:47+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655226 AND 1478658826 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mobile D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 28 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655226 AND 1478658826 [ RunTime:0.0180s ]
+
+[ 2016-11-09T10:34:02+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655237 AND 1478658837 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:34:14+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655254 AND 1478658854 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-11-09T10:34:32+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655272 AND 1478658872 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655272 AND 1478658872 [ RunTime:0.0360s ]
+
+[ 2016-11-09T10:34:51+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655291 AND 1478658891 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:35:17+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655317 AND 1478658917 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655317 AND 1478658917 [ RunTime:0.0330s ]
+
+[ 2016-11-09T10:37:47+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655467 AND 1478659067 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655467 AND 1478659067 [ RunTime:0.0320s ]
+
+[ 2016-11-09T10:38:14+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655493 AND 1478659093 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:38:56+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655536 AND 1478659136 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655536 AND 1478659136 [ RunTime:0.0360s ]
+
+[ 2016-11-09T10:39:33+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655573 AND 1478659173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-09T10:40:25+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655625 AND 1478659225 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655625 AND 1478659225 [ RunTime:0.0410s ]
+
+[ 2016-11-09T10:41:12+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655672 AND 1478659272 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:45:34+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655933 AND 1478659533 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655933 AND 1478659533 [ RunTime:0.0330s ]
+
+[ 2016-11-09T10:45:38+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655938 AND 1478659538 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:45:57+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655957 AND 1478659557 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:46:01+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655961 AND 1478659561 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:46:05+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655964 AND 1478659564 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655964 AND 1478659564 [ RunTime:0.0390s ]
+
+[ 2016-11-09T10:46:07+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478655967 AND 1478659567 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:51:30+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656289 AND 1478659889 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656289 AND 1478659889 [ RunTime:0.0300s ]
+
+[ 2016-11-09T10:51:40+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656300 AND 1478659900 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:51:48+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656308 AND 1478659908 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:52:18+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656338 AND 1478659938 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:52:36+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656356 AND 1478659956 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:52:50+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656370 AND 1478659970 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:53:17+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656397 AND 1478659997 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T10:55:22+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478656522 AND 1478660122 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T11:39:21+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478659161 AND 1478662761 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T11:39:52+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478659192 AND 1478662792 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('127.0.0.1','1478662792') [ RunTime:0.0180s ]
+
+[ 2016-11-09T11:48:56+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-09T11:49:00+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-09T11:49:19+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-09T11:51:35+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478659895 AND 1478663495 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478659895 AND 1478663495 [ RunTime:0.0340s ]
+
+[ 2016-11-09T11:58:59+08:00 ] 192.168.1.206 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '192.168.1.206' AND `time` BETWEEN 1478660338 AND 1478663938 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('192.168.1.206','1478663939') [ RunTime:0.0210s ]
+
+[ 2016-11-09T13:10:30+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478664630 AND 1478668230 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('127.0.0.1','1478668230') [ RunTime:0.0190s ]
+
+[ 2016-11-09T13:16:05+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478664965 AND 1478668565 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T13:16:45+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478665005 AND 1478668605 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T13:17:01+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478665021 AND 1478668621 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T13:17:30+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478665050 AND 1478668650 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T13:18:50+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478665129 AND 1478668729 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478665129 AND 1478668729 [ RunTime:0.0280s ]
+
+[ 2016-11-09T13:25:08+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478582707 AND 1478669107 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-09T13:36:06+08:00 ] 192.168.1.206 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '192.168.1.206' AND `time` BETWEEN 1478583365 AND 1478669765 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('192.168.1.206','1478669766') [ RunTime:0.0310s ]
+
+[ 2016-11-09T13:37:03+08:00 ] 192.168.1.206 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '192.168.1.206' AND `time` BETWEEN 1478583423 AND 1478669823 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '192.168.1.206' AND `time` BETWEEN 1478583423 AND 1478669823 [ RunTime:0.0280s ]
+
+[ 2016-11-09T13:41:50+08:00 ] 192.168.1.206 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '192.168.1.206' AND `time` BETWEEN 1478583710 AND 1478670110 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T13:41:53+08:00 ] 192.168.1.206 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '192.168.1.206' AND `time` BETWEEN 1478583713 AND 1478670113 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time D:\WWW\tejinhui\Application\Portal\Controller\IndexController.class.php 第 29 行.
+
+[ 2016-11-09T13:46:12+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478583971 AND 1478670371 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('127.0.0.1','1478670372') [ RunTime:0.0310s ]
+
+[ 2016-11-09T13:47:12+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478584032 AND 1478670432 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478584032 AND 1478670432 [ RunTime:0.0280s ]
+
+[ 2016-11-09T14:27:39+08:00 ] 127.0.0.1 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478586458 AND 1478672858 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_mobile_region` SET `num`=num+1 WHERE `Mip` = '127.0.0.1' AND `time` BETWEEN 1478586458 AND 1478672858 [ RunTime:0.0350s ]
+
+[ 2016-11-09T15:11:25+08:00 ] 192.168.1.209 /index.php/Portal/Index/mcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_mobile_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_mobile_region` WHERE `Mip` = '192.168.1.209' AND `time` BETWEEN 1478589084 AND 1478675484 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_mobile_region` (`Mip`,`time`) VALUES ('192.168.1.209','1478675485') [ RunTime:0.0300s ]
+

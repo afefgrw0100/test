@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+
+	<body>
+
+		<div class="mainhtml">
+			<div class="mainhtml_c">
+				<div class="fr">
+					<include file="./Template/public/userpro.html" />
+					<div class="todo floor mt70">
+						<div class="title">我的经纪人</div>
+						<div class="mypublish">
+							<form action="{:U('User/Common/partner')}" method="get">
+							<div class="fl project-title">
+								 <span><em>姓名：</em><input class="form-control" type="text" name="name" /></span>
+							 <span><em>手机：</em><input class="form-control" type="text" name="phone" /></span>
+							</div>
+							
+							<div class="fl time"><input type="submit" value="查询" class="btn"></div>
+							</form>
+							</div>
+								
+						
+
+						<div class="table">
+							<table class="table" border="" cellspacing="" cellpadding="">
+								<tr>
+									<th>用户名</th>
+									<th>姓名</th>
+									<th>手机</th>
+									<th>地址</th>
+								</tr>
+							<volist name="list" id="vo">
+								<tr>
+									<td>{$vo.MemberName}</td>
+									<td>{$vo.RealName}</td>
+									<td>{$vo.CellPhone}</td>
+									<td>{$vo.pname}{$vo.cname}{$vo.Street}</td>
+								</tr>
+							</volist>
+
+							</table>
+						</div></div>
+
+						<div class="page">
+							{$page}
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+
+	</body>
+
+</html>

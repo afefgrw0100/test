@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+	<meta name="description" content="{$Think.session.keyword.desc}" />
+	<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+	<title>{$Think.session.keyword.title}</title>
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/style.css')}" />
+
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+	<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+	<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+	<style>
+		body {
+			background: #f8f8f8;
+		}
+	</style>
+
+</head>
+
+<body>
+<div class="changecity">
+	<div class="nav">
+		<div class="navbar-l">
+			<a href="javascript:history.go(-1)"><i class="icon-back"> </i></a>
+		</div>
+		<div class="navbar-m">选择城市</div>
+
+	</div>
+
+	<div class="hot">
+		<div class="title">热门城市</div>
+		<div class="con">
+			<ul>
+				<volist name="cpro" id="cprovo">
+				<li>
+					<a href="{:U('Home/Lists/lists',array('province'=>$cprovo['pid'],City=>$cprovo['area_id']))}">{$cprovo.area_name}</a>
+				</li>
+				</volist>
+				<li>
+					<a href="{:U('Home/Lists/lists')}">全国</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mui-content">
+		<div class="mui-card">
+			<ul class="mui-table-view">
+				<volist name="area" id="arvo">
+				<li class="mui-table-view-cell mui-collapse">
+					<a class="mui-navigate-right" href="#">{$arvo.name}</a>
+					<div class="mui-collapse-content">
+						<ul>
+							<volist name="arvo.city" id="ctiyvo">
+								<li>
+									<a href="{:U('Home/Lists/lists',array('province'=>$arvo['id'],City=>$ctiyvo['id']))}" city="35">{$ctiyvo.name}</a>
+								</li>
+							</volist>
+						</ul>
+					</div>
+				</li>
+				</volist>
+			</ul>
+		</div>
+	</div>
+
+</div>
+<!--<script>
+    $(".city").CityPicker();
+</script>
+</body>-->
+
+</html>

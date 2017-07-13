@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+			<div class="todo floor mt70">
+				<div class="title" style="border: none;">项目委托</div>
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+
+						<tr>
+							<th>项目位置</th>
+							<th>项目类型</th>
+							<th>处置方式</th>
+							<th>联系人</th>
+							<th>联系电话</th>
+
+						</tr>
+						<volist name="list" id="vo">
+							<tr>
+								<td>{$vo.province}{$vo.city}{$vo.area}</td>
+								<td>
+									<if condition="$vo['etype'] eq 1">
+										土地-->
+										<if condition="$vo['ptype'] eq 1">
+											工业用地
+											<elseif condition="$vo['ptype'] eq 2"/>
+											商业用地
+											<elseif condition="$vo['ptype'] eq 3"/>
+											住宅用地
+											<elseif condition="$vo['ptype'] eq 4"/>
+											商住两用地
+										</if>
+										<elseif condition="$vo['etype'] eq 2"/>
+										写字楼
+										<elseif condition="$vo['etype'] eq 3"/>
+										商业
+										<elseif condition="$vo['etype'] eq 4"/>
+										<if condition="$vo['ptype'] eq 1">
+											别墅
+											<elseif condition="$vo['ptype'] eq 2"/>
+											洋房
+											<elseif condition="$vo['ptype'] eq 3"/>
+											普通住宅
+
+										</if>
+										住宅
+									</if>
+								</td>
+								<td>
+									<if condition="$vo['manage'] eq 1">
+										转让
+										<elseif condition="$vo['manage'] eq 2"/>
+										出租
+
+
+									</if>
+								</td>
+								<td>{$vo.name}</td>
+								<td>{$vo.phone}</td>
+
+							</tr>
+						</volist>
+					</table>
+				</div>
+				<div class="page">
+					{$page}
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+
+</html>
+

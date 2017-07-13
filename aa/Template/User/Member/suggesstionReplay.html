@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+	<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+
+	<body>
+
+		<div class="mainhtml">
+			<div class="mainhtml_c">
+				<div class="fr">
+					<include file="./Template/public/userpro.html" />
+					<div class="todo floor mt70">
+						<div class="title">投诉建议查看</div>
+						<div class="replay">
+							<span><b>标题：</b><em>{$info.Title}</em></span>
+							<span><b>内容：</b><em>{$info.Content}</em></span>
+							<span><b>时间：</b><em>{$info.CreateTime}</em></span>
+							<span>
+								<b>当前状态:</b>
+								<if condition="$info['Status'] eq 0">
+									<em>待回复</em>
+									<elseif condition="$info['Status'] eq 1" />
+									<em>已回复</em>
+									<elseif condition="$info['Status'] eq 2" />
+									<em>已撤销</em>
+								</if>
+
+							</span>
+							<span><b>回复内容：</b><em class="red">{:empty($info['Reply'])?'我们正在处理请等待':$info['Reply']}</em></span>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/datetime.js"></script>
+
+	</body>
+
+</html>

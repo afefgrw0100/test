@@ -1,0 +1,362 @@
+[ 2017-07-06T10:02:18+08:00 ] 127.0.0.1 /User/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\User\5f2d0b49f58ff7c3686d6f83be871e33.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T10:02:21+08:00 ] 127.0.0.1 /User/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `tb_member` LEFT JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID  WHERE `MemberName` = 'wwwwwww' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_member` SET `LastLoginTime`='2017-07-06 10:02:21',`LastLoginIP`='127.0.0.1' WHERE `MemberId` = '3' [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeID` = '63' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_member` SET `FailTimes`='0' WHERE `MemberId` = '3' [ RunTime:0.0210s ]
+
+[ 2017-07-06T10:03:32+08:00 ] 127.0.0.1 /User/Logic/downFile/type/assetsrent/buyid/186.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets_rent` [ RunTime:0.0020s ]
+SQL: SELECT tb_assets_rent.AssetsID,tb_assets_rent.DueDiligenceMember,tb_assetsproject_rent.SubID,tb_assetsproject_rent.JDUrl FROM `tb_assets_rent` INNER JOIN tb_assetsproject_rent ON tb_assets_rent.AssetsID = tb_assetsproject_rent.AssetsID  WHERE tb_assets_rent.AssetsID = '186' AND tb_assets_rent.DueDiligenceMember = '3' ORDER BY tb_assetsproject_rent.SubID DESC LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: OrderStatue D:\WWW\tejinhui\Application\User\Controller\LogicController.class.php 第 908 行.
+
+[ 2017-07-06T16:50:21+08:00 ] 127.0.0.1 /User/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\User\feebdcce97289611e131c0837d6fe48e.php 第 31 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T16:50:21+08:00 ] 127.0.0.1 /User/Common/memberindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_memberaccount` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_memberaccount` RIGHT JOIN tb_member ON tb_memberaccount.MemberId=tb_member.MemberId  WHERE tb_memberaccount.MemberId = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeID` = '63' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeGroup` = 10109 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `tb_area` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tb_area` WHERE `id` = 272 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_memberblancellog` [ RunTime:0.0010s ]
+SQL: SELECT ROUND(sum(OffSetValue),2) as OffSetValue FROM `tb_memberblancellog` WHERE `CreateTime` BETWEEN '2017-06-29 16:50:21' AND '2017-07-06 16:50:21' AND `MemberId` = '3' AND `OffSetValue` > 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_memberaccount` WHERE `MemberId` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` INNER JOIN tb_memberprofile ON tb_memberprofile.MemberID =tb_member.MemberId   WHERE tb_member.RecommendMember = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `MemberId`,`MemberName` FROM `tb_member` WHERE tb_member.RecommendMember = '3'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets_rent` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` WHERE `memberid` IN ('3','19','25') LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets_rent` WHERE `memberid` IN ('3','19','25') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `MemberId`,`MemberName` FROM `tb_member` WHERE tb_member.RecommendMember = '3'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0010s ]
+SQL: SELECT SUM(DealPrice) as price FROM `tb_order` WHERE `CreateUser` IN ('3','19','25') AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T16:50:24+08:00 ] 127.0.0.1 /User/Member/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-07-06T16:50:37+08:00 ] 127.0.0.1 /User/Logic/buymic/type/assets/buyid/154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-07-06T16:50:37+08:00 ] 127.0.0.1 /User/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T17:17:11+08:00 ] 127.0.0.1 /User/Logic/buymic/type/assets/buyid/154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-07-06T17:17:11+08:00 ] 127.0.0.1 /User/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T17:20:45+08:00 ] 127.0.0.1 /User/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T17:20:57+08:00 ] 127.0.0.1 /User/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T17:21:02+08:00 ] 127.0.0.1 /User/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `tb_member` LEFT JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID  WHERE `MemberName` = 'wwwwwww' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_member` SET `LastLoginTime`='2017-07-06 17:21:02',`LastLoginIP`='127.0.0.1' WHERE `MemberId` = '3' [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeID` = '63' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_member` SET `FailTimes`='0' WHERE `MemberId` = '3' [ RunTime:0.0210s ]
+
+[ 2017-07-06T17:21:19+08:00 ] 127.0.0.1 /User/Logic/buymic/type/assets/buyid/154.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0020s ]
+SQL: SELECT `SubID`,tb_assetsproject.AssetsID,`SubName`,`SubDesc`,`ViewPrice`,`BuyPrice`,`Source` FROM `tb_assetsproject` INNER JOIN tb_assets ON tb_assetsproject.AssetsID=tb_assets.AssetsID  WHERE tb_assetsproject.AssetsID = '154' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeGroup` = 10110 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeGroup` = 10108 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_order` WHERE `OrderStatue` BETWEEN '1' AND '2' AND `Type` = 2 AND `ProductID` = 5 AND `InfoNo` = '40' AND `CreateUser` = 3 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_order` (`sn`,`ProductID`,`ProductName`,`ProductDesc`,`Type`,`OrgPrice`,`DealPrice`,`OrgInt`,`DealInt`,`InfoNo`,`CreateUser`,`CreateTime`) VALUES ('20170706172119nbKN','5','转让','长沙市顶级商圈商铺出售','2','100','100','1000','1000','40','3','2017-07-06 17:21:19') [ RunTime:0.0310s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+
+[ 2017-07-06T17:21:19+08:00 ] 127.0.0.1 /User/Payment/index/codekey/e127CBvHjGkk3oP0xRCyRmLGSS4uVpdHapgc4uDwTa0/type/ebb1yjkTj8SAR58eiaZEOSz7kWQu36hqRSSOYHvrRClyEJE/codetype/ebb1yjkTj8SAR58eifFFbyyomTd1jPttFCeJOCG4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`DealPrice`,tb_assetsproject.SubName as Title FROM `tb_order` INNER JOIN tb_assetsproject ON tb_order.InfoNo=tb_assetsproject.SubID  WHERE `id` = '407' AND `OrderStatue` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_memberblancellog` [ RunTime:0.0010s ]
+SQL: SELECT ROUND(sum(OffSetValue),2) as OffSetValue FROM `tb_memberblancellog` WHERE `CreateTime` BETWEEN '2017-06-29 17:21:19' AND '2017-07-06 17:21:19' AND `MemberId` = '3' AND `OffSetValue` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_memberaccount` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_memberaccount` WHERE `MemberId` = '3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_order` SET `balance`='35' WHERE `id` = '407' [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant codetype - assumed 'codetype' D:\WWW\tejinhui\Application\Runtime\Cache\User\8740a24f7ba7fb2d082d5893b49545e2.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-06T17:21:20+08:00 ] 127.0.0.1 /User/payment/weixinpay_qrcode/codekey/e127CBvHjGkk3oP0xRCyRmLGSS4uVpdHapgc4uDwTa0/type/ebb1yjkTj8SAR58eiaZEOSz7kWQu36hqRSSOYHvrRClyEJE/codetype/ebb1yjkTj8SAR58eifFFbyyomTd1jPttFCeJOCG4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 551 行.
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`sn`,`DealPrice`,tb_assetsproject.SubName as Title,tb_order.UpdateTime FROM `tb_order` INNER JOIN tb_assetsproject ON tb_order.InfoNo=tb_assetsproject.SubID  WHERE `id` = '407' AND `OrderStatue` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: CreateTime D:\WWW\tejinhui\Application\User\Controller\PaymentController.class.php 第 173 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_order` SET `sn`='20170706172119Ggr7',`UpdateTime`='2017-07-06 17:21:19' WHERE `id` = '407' [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tb_memberblancellog` [ RunTime:0.0010s ]
+SQL: SELECT ROUND(sum(OffSetValue),2) as OffSetValue FROM `tb_memberblancellog` WHERE `CreateTime` BETWEEN '2017-06-29 17:21:19' AND '2017-07-06 17:21:19' AND `MemberId` = '3' AND `OffSetValue` > 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_memberaccount` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_memberaccount` WHERE `MemberId` = '3' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\Common\Common\function.php on line 504 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

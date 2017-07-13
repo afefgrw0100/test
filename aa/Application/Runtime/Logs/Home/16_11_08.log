@@ -1,0 +1,36 @@
+[ 2016-11-08T10:02:15+08:00 ] 127.0.0.1 /index.php/home/validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\WWW\tejinhui\Application\Home\Controller\ValidateController.class.php 第 33 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\Home\Controller\ValidateController.class.php 第 42 行.
+NOTIC: [8] Array to string conversion D:\WWW\tejinhui\Application\Home\Controller\ValidateController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-08T10:38:52+08:00 ] 127.0.0.1 /index.php/home/validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-08T11:02:24+08:00 ] 127.0.0.1 /index.php/home/validate/validate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: code D:\WWW\tejinhui\Application\Home\Controller\ValidateController.class.php 第 33 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\Home\Controller\ValidateController.class.php 第 42 行.
+NOTIC: [8] Array to string conversion D:\WWW\tejinhui\Application\Home\Controller\ValidateController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

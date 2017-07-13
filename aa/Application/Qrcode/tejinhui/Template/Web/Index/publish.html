@@ -1,0 +1,46 @@
+<include file="./Template/public/header.html" />
+
+		<!-- header end -->
+		<div class="main">
+			<div class="publish">
+
+				<div class="con">
+					<div class="ad">请选择您要发布的信息类型</div>
+					<div class="title">
+						<h2 id="title">请选择</h2>
+						<div class="line"></div>
+					</div>
+					<ul>
+						<li><a href="{:U('Web/Index/assets')}"><span class="info1">&nbsp;</span><b>转让</b><em>ASSIGNMENT</em></a></li>
+						<li><a href="{:U('Web/Index/assetsLease')}"><span class="info2">&nbsp;</span><b>出租</b><em>RENT OUT </em></a></li>
+						<!--<li><a href="{:U('Web/Index/assetsauc')}"><span class="info3">&nbsp;</span><b>司法拍卖</b><em>JUDICIAL AUCTION </em></a></li>-->
+					</ul>
+					<!--<ul>-->
+						<!--<li><a href="{:U('Web/Index/assets')}"><span class="info1">&nbsp;</span><b>实物资产</b><em>PHYSICAL ASSETS</em></a></li>-->
+						<!--<li><a href="{:U('Web/Index/debt')}" ><span class="info2">&nbsp;</span><b>债权</b><em>CREDITOR'S RIGHTS</em></a></li>-->
+						<!--<li><a href="{:U('Web/Index/packages')}"><span class="info3">&nbsp;</span><b>资产包</b><em>ASSET PACKAGE </em></a></li>-->
+						<!--<li><a href="{:U('Web/Index/assetsauc')}"><span class="info4">&nbsp;</span><b>司法拍卖</b><em>JUDICIAL AUCTION </em></a></li>-->
+					<!--</ul>-->
+				</div>
+			</div>
+		</div>
+<include file="./Template/public/footer.html" />
+		<script type="text/javascript">
+			$(function(){
+				$('.con .info1').mouseover(function(){
+					$('#title').text('以单独转让或质押融资方式处置您的实物资产')
+				})
+				$('.con span').mouseout(function(){
+					$('#title').text('请选择')
+				})
+				$('.con .info2').mouseover(function(){
+					$('#title').text('出租')
+				})
+				$('.con .info3').mouseover(function(){
+					$('#title').text('司法拍卖')
+				})
+			})
+		</script>
+
+	</body>
+</html>

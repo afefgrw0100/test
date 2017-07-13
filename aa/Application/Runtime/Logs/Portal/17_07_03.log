@@ -1,0 +1,100 @@
+[ 2017-07-03T15:44:59+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0010s ]
+
+[ 2017-07-03T16:21:28+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0010s ]
+
+[ 2017-07-03T16:21:55+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0010s ]
+
+[ 2017-07-03T16:22:03+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0020s ]
+
+[ 2017-07-03T16:22:22+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0020s ]
+
+[ 2017-07-03T16:23:42+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0010s ]
+
+[ 2017-07-03T16:23:53+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0020s ]
+
+[ 2017-07-03T16:24:00+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0010s ]
+
+[ 2017-07-03T16:28:31+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0010s ]
+
+[ 2017-07-03T16:28:54+08:00 ] 127.0.0.1 /Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = 18  [ RunTime:0.0020s ]
+

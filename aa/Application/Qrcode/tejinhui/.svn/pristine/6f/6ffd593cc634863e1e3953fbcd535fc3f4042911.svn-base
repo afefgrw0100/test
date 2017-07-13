@@ -1,0 +1,16 @@
+<include file="./Template/public/header.html" />
+		<div class="main">
+			<div class="error1">
+				<div class="fl"><img src="__PUBLIC__/images/common/404.jpg"></div>
+				<div class="fr">
+					<div class="item">
+					<b>sorry 您访问的页面弄丢了(ㄒoㄒ)~~</b>
+					<em>点击将为您跳转到 <a href="{:U('Home/Index/index')}">特金汇首页</a></em>
+				</div>
+				</div>
+			</div>
+		</div>
+
+<include file="./Template/public/footer.html" />
+	</body>
+</html>

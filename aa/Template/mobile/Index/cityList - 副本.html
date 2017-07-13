@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>{$Think.session.keyword.title}</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/style.css')}" />
+
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+		<style>
+			body {
+				background: #f8f8f8;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="publish">
+		<div class="logo"><img src="__PUBLIC__/mobile/images/common/logo_03.jpg"></div>
+		</div>
+		<div class="main">
+			<div class="cityList">
+			<div class="banner">
+				<div class="banner-con">
+						<div class="title">城市分站服务中心</div>
+						<div class="item">
+							<ul>
+								<li><i class="iconfont" style=" font-size: 20px;">&#xe626;</i><b>一站式全流程体系</b></li>
+								<li><i class="iconfont">&#xe614;</i><b>垂直培训体系</b></li>
+								<li><i class="iconfont">&#xe671;</i><b>总部协助渠道拓展</b></li>
+								<li><i class="iconfont">&#xe610;</i><b>数十万粉丝引爆市场</b></li>
+								
+							</ul>
+						</div>
+					</div>
+			</div>
+			
+			<div class="list-title">
+						<h2>城市中心列表</h2> 
+					</div>
+				<volist name="cityInfo" id="uvo">
+					<div class="box2">
+							<div class="fl">
+								<a href="auc/{$uvo.area_code}" >
+									<if condition="empty($uvo['titleImg'])">
+										<img src="http://placehold.it/108x80">
+										<else/>
+										<img src="{:imgpublic($uvo['titleImg'])}?imageView2/2/w/108/h/80">
+									</if>
+								</a>
+							</div>
+							<div class="fl">
+								<span>
+									<h2><a href="auc/{$uvo.area_code}" >{$uvo.pname}{$uvo.cname}服务中心</a></h2>
+									<p><em>位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;置：</em><b>{$uvo.pname}{$uvo.cname}</b></p>
+									<p><em>项目类型：</em><b>{$uvo.proType} </b></p>
+									<p><em>业务类型：</em><b>{$uvo.bizType}</b></p>
+								</span>
+							</div>
+					</div>
+				</volist>
+			</div>
+			
+		</div>
+		<include file="./Template/mobile/public/mfooter.html" />
+		
+		
+
+	</body>
+
+</html>

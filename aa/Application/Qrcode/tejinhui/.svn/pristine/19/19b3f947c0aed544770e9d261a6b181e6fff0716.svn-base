@@ -1,0 +1,21 @@
+<include file="./Template/public/header.html" />
+		<div class="main">
+			<div class="tjh_news">
+
+				<div class="new_detail">
+
+					<div class="title">
+						<h2>{$art.title}</h2>
+						<div class="time">发布时间：{$art.createtime}</div>
+					</div>
+					<div class="content">
+						{$art.content}
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+<include file="./Template/public/footer.html" />
+	</body>
+</html>

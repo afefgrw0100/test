@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+	<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+
+	<body>
+
+		<div class="mainhtml">
+			<div class="mainhtml_c">
+				<div class="fr">
+					<include file="./Template/public/userpro.html" />
+					<div class="todo floor mt70">
+
+						<div class="table">
+							<h2>{$info.title}</h2>
+							<div class="time">发布时间：{$info.createtime}</div>
+							<div class="training-con">
+								{$info.content}
+								
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

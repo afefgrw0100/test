@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+				<div class="todo floor mt70">
+					<div class="title">订单管理</div>
+					<form action="{:U('User/Common/ordermgt')}" method="get"  id="dosearch">
+						<div class="mypublish">
+							<div class="fl category"><em>信息类别：</em>
+									<span>
+										<select name="type">
+											<option value="0">所有信息</option>
+											<option value="1">发布信息</option>
+											<option value="2">购买买断信息</option>
+											<option value="3">经济人认证</option>
+											<option value="4">其他</option>
+										</select>
+									</span>
+							</div>
+							<div class="fl time">时间：<input name="starttime" class="sang_Calender" type="text">
+								到:&nbsp;<input name="endtime" class="sang_Calender" type="text">
+								<input type="submit"  value="查询" class="btn"></div>
+						</div>
+					</form>
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+						<tr>
+							<th>订单号</th>
+							<th>订单类别</th>
+							<th>应付</th>
+							<th>产品</th>
+							<th>订单时间</th>
+							<th>订单状态</th>
+							<th>操作</th>
+						</tr>
+					<volist name="lists" id="vo">
+						<tr>
+							<td>{$vo.sn}</td>
+							<td>
+								<if condition="($vo['Type'] eq 1)"> 发布信息
+									<elseif condition="$vo['Type'] eq 2"/>购买信息
+									<elseif condition="$vo['Type'] eq 3"/> 经济人费用
+									<elseif condition="$vo['Type'] eq 4"/> 充值
+									<elseif condition="$vo['Type'] eq 5"/> 买断信息
+								</if>
+							</td>
+							<td><em class="info_num">{$vo.DealPrice}</em></td>
+							<td>{$vo.ProductName}</td>
+							<td>{$vo.CreateTime}</td>
+							<td>
+								<if condition="$vo['OrderStatue'] eq 1"> 待支付
+									<elseif condition="$vo['OrderStatue'] eq 2"/>支付完成
+									<elseif condition="$vo['OrderStatue'] eq 3"/> 退款申请中
+									<elseif condition="$vo['OrderStatue'] eq 4"/> 已退款
+									<elseif condition="$vo['OrderStatue'] eq 11"/> 已取消
+									<elseif condition="$vo['OrderStatue'] eq 12"/> 免费阅读
+								</if>
+							</td>
+							<td>
+								<if condition="$vo['OrderStatue'] eq 1">
+									<a href="{:U('user/payment/index',array(
+									'codekey'=>authcode($vo['id'],'ENCODE'),
+									'type'=>authcode($vo['CodeValue'],'ENCODE'),
+									'codetype'=>authcode($vo['type'],'ENCODE')
+									))}" target="_parent">去支付</a>
+								<a href="{:U('User/Logic/offorder',array('codekey'=>authcode($vo['id'],'ENCODE')))}">取消</a>
+								<elseif condition="($vo['OrderStatue'] eq 2) AND ($vo['Type'] eq 1)" />
+								<a href="{:U('User/Logic/orderout',array('codekey'=>authcode($vo['id'],'ENCODE'),'pid'=>authcode($vo['ProductID'],'ENCODE')))}">申请退款</a>
+								<elseif condition="($vo['OrderStatue'] eq 2) AND ($vo['Type'] eq 5)" />
+								<a href="{:U('User/Common/dealview',array('codekey'=>authcode($vo['id'],'ENCODE'),'pid'=>authcode($vo['ProductID'],'ENCODE')))}" target="_parent">查看买断信息</a>
+								<elseif condition="($vo['OrderStatue'] eq 3)" />
+								等待退款
+								<elseif condition="($vo['OrderStatue'] eq 4)" />
+								退款成功
+								<elseif condition="($vo['OrderStatue'] eq 11)" />
+								已取消
+								<elseif condition="($vo['OrderStatue'] eq 2)" />
+								付款成功
+								</if>
+								<if condition="(($vo['Type'] eq 2) AND ($vo['OrderStatue'] neq 11)) OR (($vo['Type'] eq 5) AND ($vo['OrderStatue'] neq 11))AND ($vo['OrderStatue'] neq 2)">
+									<a href="{:U('User/Common/dealview',array('codekey'=>authcode($vo['id'],'ENCODE'),'pid'=>authcode($vo['ProductID'],'ENCODE')))}" target="_parent">查看信息</a>
+								</if>
+							</td>
+						</tr>
+					</volist>
+					</table>
+					<div class="page">
+						{$page}
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/datetime.js')}"></script>
+</body>
+
+</html>
+

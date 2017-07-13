@@ -1,0 +1,24 @@
+<div id="Searchresult"></div>
+<div id="hiddenresult" style="display:none;">
+    <volist name="diss" id="dvo">
+        <div class="rated">
+            <div class="man"><img src="{:empty($dvo['HeadImg'])?'http://placehold.it/60x60':headimg($dvo['HeadImg'],60,60)}"></div>
+            <div class="fl">
+                <div class="name"><b>{$dvo.RealName}</b><em class="g-star{$dvo.StarLevel}"></em></div>
+                <div class="con">{$dvo.Content}</div>
+                <div class="time">
+                    <b>{$dvo.CreateTime}</b><span><i>评价等级:</i><em class="g-star{$dvo.StarNum}"></em></span>
+
+                </div>
+                <div class="replay"><em>平台回复：</em><b>{$dvo.bContent}</b></div>
+            </div>
+        </div>
+    </volist>
+</div>
+
+<div class="page">
+    <notempty name="diss">
+        <div id="Pagination" class="pagination"><!-- 这里显示分页 --></div>
+    </notempty>
+
+</div>

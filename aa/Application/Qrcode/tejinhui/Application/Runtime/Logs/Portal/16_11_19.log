@@ -1,0 +1,155 @@
+[ 2016-11-19T10:15:02+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '3'  [ RunTime:0.0010s ]
+
+[ 2016-11-19T10:23:24+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '4'  [ RunTime:0.0010s ]
+
+[ 2016-11-19T10:23:43+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:23:46+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:30:48+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '1'  [ RunTime:0.0020s ]
+
+[ 2016-11-19T10:31:25+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '1'  [ RunTime:0.0010s ]
+
+[ 2016-11-19T10:45:13+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '3'  [ RunTime:0.0010s ]
+
+[ 2016-11-19T10:45:31+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:45:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-19T10:45:39+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:46:30+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '2'  [ RunTime:0.0020s ]
+
+[ 2016-11-19T10:48:09+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '3'  [ RunTime:0.0020s ]
+
+[ 2016-11-19T11:10:55+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '3'  [ RunTime:0.0020s ]
+

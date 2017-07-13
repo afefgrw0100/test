@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>{$Think.session.keyword.title}</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/style.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+		<style>
+			body {
+				background: #f8f8f8;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="home">
+			<div class="main">
+			<div class="top">
+				<div class="hot-city"><i class="iconfont">&#xe642;</i><a href="{:U('Home/Lists/mobilecity')}">热门城市</a></div>
+				<!--<div class="search"><i class="iconfont">&#xe61b;</i><input type="text" placeholder="找项目"></div>-->
+				<form action="{:U('Home/Search/lists')}" method="get" onsubmit="return search_text(this)">
+				<div class="mui-input-row mui-search">
+
+					<input type="search" class="mui-input-clear search_text" name="search" placeholder="找项目"  value="{$search}">
+
+				</div>
+				</form>
+			</div>
+			<div class="banner">
+				<!--<img src="images/temp/index_02.jpg">-->
+					<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="{$imgvo.0.url}">
+						<img src="{:C('IMGPATH').'/'.$listimg[0]['path']}?imageView/2/w/640">
+					</a>
+				</div>
+
+				<volist name="listimg" id="imgvo">
+					<!-- 第一张 -->
+					<div class="mui-slider-item banner_pic">
+						<a href="{$imgvo.url}">
+							<img src="{:C('IMGPATH').'/'.$imgvo['path']}?imageView/2/w/640">
+						</a>
+					</div>
+
+				</volist>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="{$imgvo.0.url}">
+						<img src="{:C('IMGPATH').'/'.$listimg[0]['path']}?imageView/2/w/640">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+	
+
+			</div>
+			<div class="item">
+				<ul>
+					<li><em>{$sss.pronum}</em>项目发布</li>
+					<li><em>{$sss.make}</em>完成尽调</li>
+					<li><em>{$sss.ss1}</em>经纪人</li>
+				</ul>
+			</div>
+			<div class="category">
+				<ul>
+					<li><a href="{:U('Home/Lists/lists',array('typev'=>11))}"><span><i class="iconfont">&#xe64f;</i></span><b>转让</b></a></li>
+					<li><a href="{:U('Home/Lists/lists',array('typev'=>15))}"><span><i class="iconfont">&#xe605;</i></span><b>出租</b></a></li>
+					<!--<li><a href="{:U('Home/Lists/lists',array('typev'=>14))}"><span><i class="iconfont">&#xe60c;</i></span><b>拍卖</b></a></li>-->
+				</ul>
+			</div>
+				<div class="hot-project">
+					<div class="title"><span><i></i><b>城市分站</b></span> <em><a href="/auclist">更多》</a></em></div>
+					<div class="hot-city">
+						<ul>
+							<volist  name="substation" id="stvo">
+							<li>
+								<a href="/auc/{$stvo.area_code}">
+								<div class="pic">
+									<img src="{:imgpublic($stvo['titleImg']).'?imageView/2/w/56/h/21'}">
+									<div class="text">
+										<h3>{$stvo.title}</h3>
+										<p>城市分站</p>
+									</div>
+								</div>
+								</a>
+							</li>
+							</volist>
+						</ul>
+					</div>
+				</div>
+
+				<div class="hot-project">
+				<div class="title"><span><i></i><b>热门项目</b></span> <em><a href="{:U('Home/Lists/lists')}">更多》</a></em></div>
+				<div class="con">
+					<ul>
+						<volist name="infoimg" id="infoimgv">
+						<li>
+							<if condition="$infoimgv['AssetsStatue'] eq 8"><div class="saled-icon"><img src="//static.resource.tejinhui.com/static/images/common/chengjiao.png"></div></if>
+							<div class="items">{$infoimgv.Title}</div>
+							<div class="info">
+								<div class="pic"><img src="{:empty($infoimgv['titimg'])?'http://placehold.it/80x50':imgpublic($infoimgv['titimg']).'?imageView/2/w/80/h/50'}"></div>
+								<div class="viewcount"><span><i>{:empty($infoimgv['ViewCount'])?"0":$infoimgv['ViewCount']}</i><em>人</em></span> <b> 浏览次数</b></div>
+								<div class="viewcount"><span><i>{:empty($infoimgv['BuyCount'])?"0":$infoimgv['BuyCount']}</i><em>次</em></span> <b>尽调购买</b></div>
+								<div class="btn"><a href="{:U('Home/lists/content',empty($infoimgv['DebtID'])?(empty($infoimgv['AssetsID'])?(empty($infoimgv['PackageID'])?'':array('PackageID'=>$infoimgv['PackageID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('AssetsID'=>$infoimgv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('DebtID'=>$infoimgv['DebtID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">立即查看</a></div>
+								
+							</div>
+						</li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+		</div></div>
+		
+<include file="./Template/mobile/public/mfooter.html" />
+
+
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				var Length=$('.banner_pic').length;
+				var Html='';
+				for(var i=0;i<Length;i++){
+					Html+='<div class="mui-indicator"></div>';
+				}
+				$('.mui-slider-indicator').html(Html);
+				$('.mui-indicator:first').addClass('mui-active');
+
+
+			})
+			//			var slider = mui("#slider");
+			//			slider.slider({
+			//						interval: 5000
+			//				});
+
+		</script>
+
+	</body>
+
+</html>

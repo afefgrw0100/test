@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+			<div class="floor mgt mt70">
+				<ul>
+					<li><b>当前账户余额（元）</b><em class="info_num">¥{:empty($user['Balance'])?"0":$user['Balance']}</em></li>
+					<li class="tixian"><b>可提现额度（元）</b><em class="info_num">¥{:yue()}</em></li>
+					<li><a href="{:U('User/Common/cashmis')}" class="btn">提现</a></li>
+				</ul>
+			</div>
+
+			<div class="todo floor">
+				<div class="title">提现记录</div>
+				<form action="{:U('User/Common/drawmgt')}" method="get"  id="dosearch">
+					<div class="time">
+						时间：<input name="starttime" class="sang_Calender" type="text">
+						到:&nbsp;<input name="endtime" class="sang_Calender" type="text">
+						<input type="submit"  value="查询" class="btn">
+					</div>
+				</form>
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+						<tr>
+							<th>订单号</th>
+							<th>提现金额</th>
+							<th>当前状态</th>
+							<th>交易时间</th>
+							<th>操作</th>
+
+						</tr>
+					<volist name="infolist" id="vo">
+							<tr>
+								<td>{$vo.SN}</td>
+								<td>¥{$vo.drawquantity}</td>
+								<td>
+									<if condition="($vo['status'] eq 1) "> 提交中
+										<elseif condition="($vo['status'] eq 2)"/>审批完成
+										<elseif condition="($vo['status'] eq 3)"/>支付完成
+										<elseif condition="($vo['status'] eq 4)"/>交易取消
+										<elseif condition="($vo['status'] eq 5)"/>转账失败
+									</if>
+								</td>
+								<td>{$vo.createtime}</td>
+								<td>
+									<if condition="($vo['status'] eq 1) ">
+										<a href="{:U('User/Logic/outwith',array('withid'=>authcode($vo['ID'],'ENCODE')))}">撤回</a>
+										<else />
+										无
+									</if>
+								</td>
+							</tr>
+					</volist>
+					</table>
+					<div class="page">
+						{$page}
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/datetime.js')}"></script>
+</body>
+
+</html>
+

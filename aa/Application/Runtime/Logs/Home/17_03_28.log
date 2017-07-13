@@ -1,0 +1,591 @@
+[ 2017-03-28T09:17:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 20 ORDER BY `no` asc,`createtime` desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Total as aaint,`AssetsStatue` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint,`AssetsStatue` FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debt` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_package` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assetsduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debtduedili` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debtduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` WHERE `MemberType` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_ads` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_ads` WHERE `Catagrote` = 51  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 30 行.
+NOTIC: [8] Use of undefined constant City - assumed 'City' D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 100 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T09:22:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 20 ORDER BY `no` asc,`createtime` desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Total as aaint,`AssetsStatue` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint,`AssetsStatue` FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debt` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_package` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assetsduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_debtduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debtduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` WHERE `MemberType` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_ads` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_ads` WHERE `Catagrote` = 51  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 30 行.
+NOTIC: [8] Use of undefined constant City - assumed 'City' D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 100 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T10:00:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_advert` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_advert` WHERE `type` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 11 ORDER BY `no` asc,`createtime` desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`createtime` FROM `sys_articlescrap` WHERE `type` = 20 ORDER BY `no` asc,`createtime` desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY AssetsID DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_debt` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_package` WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY CreateTime DESC LIMIT 4   [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Price as aaint,`AssetsStatue` FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID = tb_assetsdata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProPrice as ccint,Total as aaint,`AssetsStatue` FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID = tb_debtdata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,`titimg`,`Title`,`ViewCount`,`BuyCount`,ProcessModle as ccint,Total as aaint,`AssetsStatue` FROM `tb_package` LEFT JOIN tb_packagedata ON tb_package.PackageID = tb_packagedata.ID  WHERE `AssetsStatue` IN ('4','8') AND `Usestat` = 1 ORDER BY `BuyCount` desc,`ViewCount` asc LIMIT 8   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assets` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debt` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_package` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_assetsduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debtduedili` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_debtduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_packageduedili` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_packageduedili` WHERE `Usestat` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_member` WHERE `MemberType` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_ads` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_ads` WHERE `Catagrote` = 51  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 30 行.
+NOTIC: [8] Use of undefined constant City - assumed 'City' D:\WWW\tejinhui\Application\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 100 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T10:00:42+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/9869gIJlrfe06Ucgc88o8dWaWYrbuOsa_sP7leA.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '120' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '120' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_assetsdata` SET `ViewCount`=ViewCount+1 WHERE `ID` = '120' [ RunTime:0.0360s ]
+NOTIC: [8] Undefined index: DueImages D:\WWW\tejinhui\Application\Home\Controller\ListsController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0020s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '120' AND w.FID = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0010s ]
+SQL: SELECT `SubID`,`ViewPrice`,`BuyPrice` FROM `tb_assetsproject` WHERE `AssetsID` = '120' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\63fe8c28e7c8657212f836b8fa9fa3f0.php 第 30 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\63fe8c28e7c8657212f836b8fa9fa3f0.php 第 94 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\63fe8c28e7c8657212f836b8fa9fa3f0.php 第 94 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\63fe8c28e7c8657212f836b8fa9fa3f0.php 第 95 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\63fe8c28e7c8657212f836b8fa9fa3f0.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T10:00:44+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/81b30YUqS6pxRdZsUUsyHp-OvUZMbOs79w7k2eE/typepay/ccc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '120' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '120' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: DueImages D:\WWW\tejinhui\Application\Home\Controller\ListsController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0020s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '120' AND w.FID = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0020s ]
+SQL: SELECT `SubID`,`ViewPrice`,`BuyPrice` FROM `tb_assetsproject` WHERE `AssetsID` = '120' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 30 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 91 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T10:51:47+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/81b30YUqS6pxRdZsUUsyHp-OvUZMbOs79w7k2eE/typepay/ccc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\tejinhui\Application\Home\Controller\ListsController.class.php 第 101 行.
+
+[ 2017-03-28T11:06:19+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/81b30YUqS6pxRdZsUUsyHp-OvUZMbOs79w7k2eE/typepay/ccc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '120' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '120' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: DueImages D:\WWW\tejinhui\Application\Home\Controller\ListsController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0010s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '120' AND w.FID = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0010s ]
+SQL: SELECT `SubID`,`ViewPrice`,`BuyPrice` FROM `tb_assetsproject` WHERE `AssetsID` = '120' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 30 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 91 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T11:39:05+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/81b30YUqS6pxRdZsUUsyHp-OvUZMbOs79w7k2eE/typepay/ccc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined property: stdClass::$ticket D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Jssdk\Jssweixin.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '120' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '120' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: DueImages D:\WWW\tejinhui\Application\Home\Controller\ListsController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0020s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '120' AND w.FID = 0  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0020s ]
+SQL: SELECT `SubID`,`ViewPrice`,`BuyPrice` FROM `tb_assetsproject` WHERE `AssetsID` = '120' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 30 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 91 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T14:30:42+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/81b30YUqS6pxRdZsUUsyHp-OvUZMbOs79w7k2eE/typepay/ccc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-28T14:38:11+08:00 ] 127.0.0.1 /Home/lists/content/AssetsID/120/card/81b30YUqS6pxRdZsUUsyHp-OvUZMbOs79w7k2eE/typepay/ccc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT `MemberId` FROM `tb_member` WHERE `MemberId` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE tb_assets.AssetsID = '120' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsduedili` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_assetsduedili` WHERE tb_assetsduedili.Usestat = 1 AND tb_assetsduedili.AssetsID = '120' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: DueImages D:\WWW\tejinhui\Application\Home\Controller\ListsController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `tb_assetsdiss` [ RunTime:0.0010s ]
+SQL: SELECT tb_memberaccount.StarLevel as StarLevel,tb_memberprofile.HeadImg as HeadImg,tb_member.MemberName as RealName,w.DisID as DisID,w.BelongTO as BelongTO,w.Content as Content,w.StarNum as StarNum,w.CreateTime as CreateTime,w.CreateMember as CreateMember,b.Content AS bContent FROM tb_assetsdiss w LEFT JOIN tb_memberprofile ON tb_memberprofile.MemberID=w.CreateMember LEFT JOIN tb_member ON tb_member.MemberId=w.CreateMember LEFT JOIN tb_assetsdiss b ON b.FID=w.DisID LEFT JOIN tb_memberaccount ON tb_memberaccount.MemberId=w.CreateMember  WHERE w.Status = 1 AND w.BelongTO = '120' AND w.FID = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0020s ]
+SQL: SELECT `SubID`,`ViewPrice`,`BuyPrice` FROM `tb_assetsproject` WHERE `AssetsID` = '120' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 30 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 90 行.
+NOTIC: [8] Undefined variable: downurl D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 91 行.
+NOTIC: [8] Use of undefined constant buyid - assumed 'buyid' D:\WWW\tejinhui\Application\Runtime\Cache\Home\2592eb46044adef812f65bda1bfc2a05.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T15:20:38+08:00 ] 127.0.0.1 /Home/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid` FROM `tb_area` WHERE `pid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid` FROM `tb_area` WHERE `pid` BETWEEN '1' AND '34' ORDER BY id ASC  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT `CodeID`,`CodeGroup`,`CodeName`,`CodeValue` FROM `sys_code` WHERE `CodeGroup` = '10105'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_area_recommend` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_area_recommend`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\97e68d4d6d530c34fcd21195a115363f.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T15:20:39+08:00 ] 127.0.0.1 /Home/Index/baem.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: SELECT `MemberId`,`MemberName`,`MemberType` FROM `tb_member` WHERE `MemberId` = '' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 30 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 83 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 125 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 136 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 146 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 158 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant ENCODE - assumed 'ENCODE' D:\WWW\tejinhui\Application\Runtime\Cache\Home\8c29e50b654f7ec3329943b451faaf5f.php 第 159 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T15:20:40+08:00 ] 127.0.0.1 /Home/Index/introduce.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\4dceb83fdd361722a4a10854b9abbcb9.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-28T15:20:41+08:00 ] 127.0.0.1 /Home/Index/finan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\2cc46000cc3b81af644c0163895ced32.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-28T15:20:45+08:00 ] 127.0.0.1 /Home/index/help.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\Home\0304b12868011d28e40c67b99ec45b59.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

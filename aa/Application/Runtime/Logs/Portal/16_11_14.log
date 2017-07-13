@@ -1,0 +1,1288 @@
+[ 2016-11-14T10:55:22+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T10:55:45+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T10:55:53+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T10:56:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:02:14+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:03:09+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:05:21+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:05:31+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:06:14+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:08:41+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:09:41+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:11:43+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:13:49+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:15:51+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:16:12+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:17:58+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:18:54+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:19:49+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:21:29+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:22:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:22:41+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:22:54+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:23:27+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:23:37+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:23:49+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:27:34+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:27:54+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:28:16+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T11:31:48+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:34:40+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: secretKey D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 12 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:36:39+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:40:06+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T11:40:11+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:44:14+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:44:23+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:44:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:49:30+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T11:51:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T13:38:30+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T13:40:00+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T13:40:33+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T15:33:22+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:01:22+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:02:20+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:04:01+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:13:51+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+
+[ 2016-11-14T16:15:57+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [2] Illegal string offset 'key' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 149 行.
+NOTIC: [2] Illegal string offset 'name' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'ext' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 156 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [2] Illegal string offset 'error' D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 270 行.
+
+[ 2016-11-14T16:16:46+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+
+[ 2016-11-14T16:19:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+
+[ 2016-11-14T16:19:41+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 229 行.
+
+[ 2016-11-14T16:49:53+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fileInput D:\WWW\tejinhui\Application\Portal\Controller\UploadController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:50:57+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:20+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:41+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:54:48+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:01:20+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:06:30+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:06:36+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:10:25+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:11:55+08:00 ] 127.0.0.1 /index.php/Portal/Area/codeB.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '3'  [ RunTime:0.0010s ]
+
+[ 2016-11-14T17:12:14+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:12:19+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:13:54+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:17:42+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:17:50+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:19:01+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:24:08+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:25:13+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:25:25+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:25:47+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:28:50+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:29:02+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:29:28+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:30:10+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T17:30:51+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:35:06+08:00 ] 127.0.0.1 /index.php/Portal/Upload/load.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: Expires D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 45 行.
+NOTIC: [8] Undefined index: saveName D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 80 行.
+NOTIC: [8] Undefined index: custom_fields D:\WWW\tejinhui\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

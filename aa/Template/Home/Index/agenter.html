@@ -1,0 +1,69 @@
+<include file="./Template/public/header.html" />
+
+		<div class="agent-box1">
+
+		</div>
+		<div class="agent-box2"></div>
+		<div class="agent-box3">
+			<div class="agent-c">
+				<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人</a>
+			</div>
+		</div>
+		<div class="agent-box4"></div>
+		<div class="agent-box5">
+			<div class="agent-c">
+				<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人</a>
+			</div>
+		</div>
+		<div class="agent-box6"></div>
+		<div class="agent-box7">
+			<div class="agent-c">
+				<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人</a>
+			</div>
+		</div>
+		<div class="agent-box8">
+			
+		</div>
+		<div class="agent-box9">
+			<div class="agent-c">
+				<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人</a>
+			</div>
+		</div>
+		<div class="agent-box10">
+			<div class="agent-c">
+				<div class="agent-tan" id="agent-tan">
+					<div class="title">
+						<h2>复制以下您的专属推广链接发送给好友</h2> <em id="close">X</em></div>
+					<div class="con"><input type="text" class="form-control" id="fe_text" value="{:get_url()}"></div>
+				</div>
+				<span>
+					<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}" class="btn1">立即成为特资经纪人</a>
+					<a class="btn2" id="btn2">邀请好友成为特资经纪人</a>
+				</span>
+
+			</div>
+		</div>
+
+<include file="./Template/public/footer.html" />
+		<script type="text/javascript">
+		function selectText() {
+			var user = document.getElementById("fe_text");
+			user.select();
+			
+		}
+	</script>
+
+		<script>
+			$(function() {
+				$('#btn2').click(function() {
+					$('#agent-tan').show();
+				});
+				$('#close').click(function() {
+					$('#agent-tan').hide();
+				});
+			})
+		</script>
+
+	</body>
+
+</html>

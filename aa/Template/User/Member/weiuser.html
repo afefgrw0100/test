@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<title>{$Think.session.keyword.title}</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/style.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+
+	</head>
+
+	<body>
+		<div class="binding">
+			<form action="{:U('User/Apipay/dooppid')}" method="post">
+				<div class="logo"><img src="__PUBLIC__/mobile/images/common/pic_03.png"></div>
+				<div class="item">请输入用户{$info.MemberName}的密码
+					<input type="hidden" value="{$cid}" name="MemberId">
+					<input type="hidden" value="{$openid}" name="openid">
+				</div>
+				<div class="text"><input type="password" name="Password"></div>
+				<div class="btn"><input type="submit" value="账户绑定"></div>
+			</form>
+			
+	
+		</div>
+				
+				<!--选项卡  end-->
+
+	
+			
+
+			
+		</div>
+		
+
+
+	</body>
+
+</html>

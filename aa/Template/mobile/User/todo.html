@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>待办事项</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/user.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+
+	</head>
+
+	<body>
+		<div class="user">
+
+			<div class="main">
+
+				<volist name="list" id="vo">
+				<div class="order-list">
+					<ul>
+						<li><span class="num">项目名称：{$vo.title}</span> <em class="i-info">{$vo.AssetsStatue}</em></li>
+						<li>
+							<span>类别：{:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?"":"资产包"):"实物资产"):"债权"}</span>
+							<span class="line">|</span> <span>处置方式：{$vo['promodel']=="2"?"质押":($vo['promodel']=="1"?"转让":"转让/质押")}</span><em ></em>
+						</li>
+						<li><span>联系人：{$vo.Contact}</span> <span class="line">|</span> <span>联系电话：{$vo.mobile}</span></li>
+						<li class="btn">
+							<if condition="session('user.MemberType') eq 4">
+								<if condition="($vo['source'] eq 1)">
+
+									<elseif condition="$vo['source'] eq 6"/>
+									<a href="{:U('Home/lists/content',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" >查看信息</a>
+									<else/>
+									<a href="{:U('Home/lists/content',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" >查看信息</a>
+								</if>
+								<if condition=" ($vo['Statue'] lt 3)">
+									<if condition="($vo['OptType'] eq 1) OR ($vo['Statue'] eq 2)">
+										<a href="">请在电脑端上传尽调</a>
+										<a href="{:empty($vo['AssetsID'])?(empty($vo['PackageID'])?Qiniu_Sign($jdmodel[2]['CodeValue']):Qiniu_Sign($jdmodel[0]['CodeValue'])):Qiniu_Sign($jdmodel[1]['CodeValue'])}" target="_parent">下载模板</a>
+										<elseif  condition="$vo['Statue'] eq 1"/>
+										<if condition="($vo['source'] eq 1)">
+
+											<elseif condition="$vo['source'] eq 6"/>
+											<a href="{:U('User/logic/todocomit',array('AssetsIDrent'=>$vo['AssetsID']))}" >接单</a>
+											<a href="{:U('User/logic/todocomit',array('AssetsIDrent'=>$vo['AssetsID'],'type'=>'cancel'))}">拒绝</a>
+											<else/>
+											<a href="{:U('User/logic/todocomit',array('AssetsID'=>$vo['AssetsID']))}" >接单</a>
+											<a href="{:U('User/logic/todocomit',array('AssetsID'=>$vo['AssetsID'],'type'=>'cancel'))}">拒绝</a>
+										</if>
+								</if>
+								<elseif condition="session('user.MemberType') eq 3" />
+								<if condition="($vo['source'] eq 1)">
+
+									<elseif condition="$vo['source'] eq 6"/>
+									<a href="{:U('User/Common/zzr',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">选择经济人</a>
+									<else/>
+									<a href="{:U('User/Common/zzr',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">选择经济人</a>
+								</if>
+							</if>
+						</li>
+					</ul>
+				</div>
+				</volist>
+
+				
+				
+				
+				
+			</div>
+		</div>
+
+		<include file="./Template/mobile/public/mfooter.html" />
+	</body>
+
+</html>

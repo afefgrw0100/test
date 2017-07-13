@@ -1,0 +1,268 @@
+<include file="./Template/public/header.html" />
+
+		<div class="pub_object">
+			<div class="title">
+				<div class="title_c">
+					<h2><if condition="$tit['Source'] eq 1">司法拍卖评估<elseif condition="$tit['Source'] eq 6" />出租尽调<else />转让尽调</if>发布页面</h2></div>
+			</div>
+			<div class="main">
+				<form action="{:U('Web/Assetsrent/domic')}" id="pub_Object" method="post" enctype="multipart/form-data">
+				<div class="pub_report">
+					<ul>
+						<li>
+							<b>项目名称：</b>
+							<i>{$tit.Title}</i>
+							<input type="hidden" name="AssetsID" value="{$tit.AssetsID}">
+							<input type="hidden" name="SubName" value="{$tit.Title}">
+						</li>
+						<li>
+							<b>项目描述：</b>
+							<em><textarea class="form-control" name="SubDesc"></textarea></em>
+						</li>
+						<li>
+							<b>资产情况介绍：</b>
+							<em><textarea class="form-control" name="AssetsDesc"></textarea></em>
+						</li>
+						<li>
+							<b><if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告介绍：</b>
+							<em><textarea class="form-control" name="ReportDesc"></textarea></em>
+						</li>
+						<li>
+							<b><if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告：</b>
+							<div class="fl">
+								<div class="dp-lig">
+								<div class="dp-boxa">
+										<a href="">
+											<img src="__PUBLIC__/images/common/up_01.png">
+											<input class="up_file" type="file" name="orginpic" id="fload4" name="fload4" zzp="zip">
+											<input class="up_file"  type="hidden" name="JDUrl"   value="" id="jdurl" >
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<p>1、请上传<if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告，文件最大限制为499M。</p>
+								<p>2、根据您的网络环境，该可能需要等待一段时间。</p>
+								<p>3、请在本报告上传之后在进行其他操作。</p>
+							</div>
+						</li>
+						<li>
+							<b><if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告部分公开展示：</b>
+							<div class="fl">
+								<div class="dp-lig">
+									<div class="dp-boxa">
+										<a href="">
+											<img src="__PUBLIC__/images/common/up_01.png">
+											<input class="up_file" type="file" name="orginpic" id="fload41" name="fload4" zzp="pdf">
+											<input class="up_file"  type="hidden" name="DescPdf"   value="" id="DescPdf" >
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<p>1、请上传<if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告部分公开展示pdf文件，文件最大限制为499M。</p>
+								<p>2、根据您的网络环境，该可能需要等待一段时间。</p>
+								<p>3、请在本报告上传之后在进行其他操作。</p>
+							</div>
+						</li>
+						<li>
+							<b>标题展示：</b>
+							<div class="fl">
+								<div class="dp-lig">
+									<div class="dp-boxa">
+										<a href="">
+											<img src="__PUBLIC__/images/common/up_01.png">
+											<input class="up_file" type="file" name="orginpic" id="fload9" name="fload9" >
+											<input class="up_file"  type="hidden" name="titimg"   value="" >
+										</a>
+									</div></div>
+							</div>
+						</li>
+						<li>
+							<b>资产图片：</b>
+							<div class="fl">
+								<div class="dp-lih">注意：仅支持文件大小不超过2M的JPG、PNG格式的图像文件</div>
+								<div class="dp-lig">
+									<div class="dp-boxa">
+										<a href="">
+											<img src="__PUBLIC__/images/common/up_01.png">
+											<input class="up_file" type="file" name="orginpic" id="fload3" name="fload3">
+											<input class="up_file"  type="hidden" name="Images[]"   value="" >
+										</a>
+									</div>
+									<div class="dp-boxa">
+										<a href="">
+											<img src="__PUBLIC__/images/common/up_01.png">
+											<input class="up_file" type="file" name="orginpic" id="fload2" name="fload2">
+											<input class="up_file"  type="hidden" name="Images[]"   value="" >
+										</a>
+									</div>
+									<div class="dp-boxa">
+										<a href="">
+											<img src="__PUBLIC__/images/common/up_01.png">
+											<input class="up_file" type="file" name="orginpic" id="fload1" name="fload1">
+											<input class="up_file"  type="hidden" name="Images[]"   value="" >
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<b>查看<if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告费用：</b>
+							<span>
+								<em><input type="text" name="ViewPrice"  value="" class="form-control" name="ViewPrice" strint="{$ggtv.CodeName}" endint="{$ggtv.CodeValue}" /></em>
+								<i>元</i>
+							</span>
+							<span class="price" class="strendint">购买费用为<strong>{$ggtv.CodeName}元-{$ggtv.CodeValue}元</strong></span>
+						</li>
+						<li>
+
+							<b>买断<if condition="$tit['Source'] eq 1">评估<else/>尽调</if>报告费用：</b>
+							<span>
+								<em><input type="text" name="BuyPrice"  value="" class="form-control" name="BuyPrice" strint="{$ggtc.CodeName}" endint="{$ggtc.CodeValue}"  /></em>
+								<i>元</i>
+							</span>
+							<span class="price">购买费用为<strong>{$ggtc.CodeName}元-{$ggtc.CodeValue}元一天</strong></span>
+						</li>
+						<div class="submit">
+							<a href=""  id="sub_mit">提交</a>
+						</div>
+					</ul>
+				</div>
+
+				</form>
+			</div>
+
+		</div>
+
+		<!--footer -->
+		<include file="./Template/public/footer.html" />
+
+<script type="text/javascript" charset="utf-8" src="{:tempurl('__PUBLIC__/js/ajaxfileupload.js')}"></script>
+<script type="text/javascript">
+	$(':file').on("change",function(){
+		//uploadImage();
+		var fileid= $(this).attr("id");
+		//alert($(this).attr("id"));
+		ajaxFileUpload(fileid);
+	});
+	function ajaxFileUpload(id){
+		var zzp =$("#"+id).attr("zzp");
+		if(zzp==undefined){
+			zzp="";
+		}
+		var url ="/index.php/Portal/Upload/load/zzp/"+zzp;
+		$("#"+id).prev().attr("src","//static.resource.tejinhui.com/static/images/load.gif");
+		$.ajaxFileUpload(
+				{
+					url:url,            //需要链接到服务器地址
+					secureuri:false,
+					type: 'post',
+					fileElementId:id,                        //文件选择框的id属性
+					dataType: 'json',                                     //服务器返回的格式，可以是json
+					success: function (data)            //相当于java中try语句块的用法
+					{
+
+						//data=eval("("+data+")");
+						if(data.status==1){
+							if(zzp=="zip"){
+								console.log(id);
+								$("#"+id).prev().attr("src","//static.resource.tejinhui.com/static/images/zipimg.jpg");
+							}else if(zzp=="pdf"){
+								$("#"+id).prev().attr("src","//static.resource.tejinhui.com/static/images/pdf.jpg");
+							}else{
+								console.log(zzp);
+								$("#"+id).prev().attr("src",data.url);
+							}
+
+							$("#"+id).next().val(data.url);
+						}else {
+							filterWarn(data.info);
+						}
+
+						//$('#result').html('添加成功');
+					},
+					error: function (data, status, e)            //相当于java中catch语句块的用法
+					{
+
+						//filterWarn("上传失败");
+						//$('#result').html('添加失败');
+					}
+				}
+
+		);
+
+	}
+</script>
+<script type="text/javascript" charset="utf-8" src="{:tempurl('__PUBLIC__/js/Validform_v5.3.2_min.js')}"></script>
+<script type="text/javascript">
+	$(function(){
+		//$(".registerform").Validform();  //就这一行代码！;
+		//var strint = $(".strendint").attr("strint"),endint=$(".strendint").attr("endint");
+		var strint,endint;
+		var demo=$("#pub_Object").Validform({
+			tiptype:3,
+			label:".label",
+			btnSubmit:'#sub_mit',
+			showAllError:true,
+			datatype:{
+				"zh1-6":/^[\u4E00-\u9FA5\uf900-\ufa2d]{1,6}$/,
+				"twn":function(gets,obj,curform,regxp){
+					strint =Number(obj.attr("strint"));
+					endint = Number(obj.attr("endint"));
+					if(strint<=gets&&gets<=endint){
+						return true;
+					}else {
+						return false;
+					}
+				}
+			},
+			//默认为false，使用ajax方式提交表单数据，将会把数据POST到config方法或表单action属性里设定的地址；
+			ajaxPost:false,
+			postonce:true,
+		});
+		//通过$.Tipmsg扩展默认提示信息;
+		//$.Tipmsg.w["zh1-6"]="请输入1到6个中文字符！";
+		demo.tipmsg.w["zh1-6"]="请输入1到6个中文字符！";
+		demo.tipmsg.w["twn"]="请输入规定的区间数字！";
+		demo.tipmsg.r=" ";
+		demo.addRule([
+			{
+				ele:":input:text",
+				datatype:"n"
+			},
+			{
+				ele:":input:text:eq(0)",
+				datatype:"twn"
+			},
+			{
+				ele:":input:text:eq(1)",
+				datatype:"twn"
+			},
+			{
+				ele:".form-control:eq(0)",
+				datatype:"*"
+			},
+			{
+				ele:".form-control:eq(1)",
+				datatype:"*"
+			},
+			{
+				ele:".form-control:eq(2)",
+				datatype:"*"
+			},
+			{
+				ele:":input:hidden",
+				datatype:"*",
+
+
+			},
+
+		]);
+
+	})
+</script>
+	</body>
+
+</html>

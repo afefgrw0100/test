@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>我的发布</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/user.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+
+	</head>
+
+	<body>
+		<div class="user">
+
+			<div class="main">
+
+				<volist name="list" id="vo">
+				<div class="order-list">
+					<ul>
+						<li><span class="num">项目名称：{$vo.title}</span> <em class="i-info">{$vo.AssetsStatue}</em></li>
+						<li><span>类别：<if condition="($vo['source'] eq 1)"> 司法拍卖
+
+							<elseif condition="$vo['source'] eq 6"/> 出租
+							<else/>转让
+						</if></span> <em >¥{$vo.total}</em></li>
+						<li><span>处置方式：{$vo['promodel']=="2"?"质押":($vo['promodel']=="1"?"转让":"转让/质押")}</span> <em >{$vo.CreateTime|date="Y-m-d",###}</em></li>
+						<li class="btn"><a href="{:U('Home/lists/content',empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':array('PackageID'=>$vo['PackageID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('DebtID'=>$vo['DebtID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">查看</a></li>
+					</ul>
+				</div>
+				</volist>
+
+
+				
+			
+				
+				
+				
+				
+			</div>
+		</div>
+
+		<include file="./Template/mobile/public/mfooter.html" />
+	</body>
+
+</html>

@@ -1,0 +1,128 @@
+<include file="./Template/public/header.html" />
+		<!-- header end -->
+		<div class="directstore" >
+		<div class="main">
+			<div class="banner" style="background: url({:imgpublic($img_logo_photo['url'])}) no-repeat center top; height: 560px;"></div>
+			<div class="box">
+			<div class="box1 num1">
+				<ul>
+					<li class="parent"><i class="iconfont">&#xe611;</i><span><b>{$Auc_user_a_count}</b><p>合伙人数量</p></span></li>
+					<li class="agent"><i class="iconfont">&#xe60c;</i><span><b>{$Auc_user_b_count}</b><p>经纪人数量</p></span></li>
+					<li class="project"><i class="iconfont">&#xe633;</i><span><b>{$Auc_user_c_count}</b><p>项目数量</p></span></li>
+				</ul>
+			</div>
+			<volist name="user_in" id="uvo">
+			<div class="box2">
+				<div class="fl">
+					<if condition="empty($uvo['intImg'])">
+						<img src="http://placehold.it/390x240">
+						<else/>
+						<img src="{:imgpublic($uvo['intImg'])}?imageView2/2/w/390/h/240">
+					</if>
+
+				</div>
+				<div class="fl">
+					<span>
+						<h2>合伙人介绍</h2>
+						<p><em>联&nbsp;&nbsp;系&nbsp;&nbsp;人：</em><b>{$uvo.RealName}</b></p>
+						<p><em>电 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</em><b>{$uvo.CellPhone}</b></p>
+
+						<p><em>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</em><b>{$uvo.pname}{$uvo.cname}{$uvo.Street}</b></p>
+						<p><em>业务类型：</em><b>{$uvo.memo}</b></p>
+					</span>
+					
+					
+				</div>
+			</div>
+			</volist>
+			<div class="box3">
+				<div class="title"><h2>项目列表</h2><em><a href="{:U('Home/Lists/lists')}">更多>></a></em></div>
+					<div class="nTab"> 
+		<div class="TabTitle">
+		<ul id="myTab">
+		<li class="active" onmouseover="nTabs(this,0);">转让</li>
+		<li class="normal" onmouseover="nTabs(this,1);">出租</li>	
+		<!--<li class="normal" onmouseover="nTabs(this,2);">拍卖</li>-->
+		</ul>
+		</div>
+	    <div class="TabContent">
+			<div id="myTab_Content0">
+				
+				<div class="con">
+					<ul>
+						<volist name="info_c" id="vo_c">
+						<li>
+							<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_c['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">
+								<div class="pic"><img src="{:imgpublic($vo_c['titimg'])}?imageView2/2/w/250/h/180"></div>
+								<div class="price"><em>转让金额：</em> <span><b class="numtenhousand">{$vo_c.ProPrice}</b>元</span></div>
+								<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$vo_c.Price}</b>元</span></div>
+								<div class="info">
+									<span><em>资产类型：</em><b>{:C('asset_type')[$vo_c['AssetsType']]}</b></span>
+									<span class="fr"><i class="iconfont">&#xe639;</i><b>{$cityname.name}</b></span>
+								</div>
+							</a>
+						</li>
+						</volist>
+					</ul>
+				</div>
+			
+				
+			</div>
+			<div id="myTab_Content1" class="none">
+				
+				<div class="con">
+					<ul>
+						<volist name="info_b" id="vo_b">
+							<li>
+								<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_b['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">
+									<div class="pic"><img src="{:imgpublic($vo_b['titimg'])}?imageView2/2/w/250/h/180"></div>
+									<div class="price"><em>出租金额：</em> <span><b class="numtenhousand">{$vo_b.ProPrice}</b>元</span></div>
+									<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$vo_b.Price}</b>元</span></div>
+									<div class="info">
+										<span><em>资产类型：</em><b>{:C('asset_type')[$vo_b['AssetsType']]}</b></span>
+										<span class="fr"><i class="iconfont">&#xe639;</i><b>{$cityname.name}</b></span>
+									</div>
+								</a>
+							</li>
+						</volist>
+
+						
+					</ul>
+				</div>
+			
+				
+			</div>
+			<!--<div id="myTab_Content2" class="none">-->
+				<!---->
+				<!--<div class="con">-->
+					<!--<ul>-->
+						<!--<volist name="info_a" id="vo_a">-->
+							<!--<li>-->
+								<!--<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_a['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">-->
+									<!--<div class="pic"><img src="{:imgpublic($vo_a['titimg'])}?imageView2/2/w/250/h/180"></div>-->
+									<!--<div class="price"><em>起拍金额：</em> <span><b class="numtenhousand">{$vo_a.ProPrice}</b>元</span></div>-->
+									<!--<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$vo_a.Price}</b>元</span></div>-->
+									<!--<div class="info">-->
+										<!--<span><em>资产类型：</em><b>{:C('Aucassetstype')[$vo_a['AssetsType']]}</b></span>-->
+										<!--<span class="fr"><i class="iconfont">&#xe639;</i><b>{$cityname.name}</b></span>-->
+									<!--</div>-->
+								<!--</a>-->
+							<!--</li>-->
+						<!--</volist>-->
+					<!--</ul>-->
+				<!--</div>-->
+			<!---->
+			<!---->
+			<!--</div>-->
+			</div>	
+		</div>
+				
+			</div>
+			</div>
+		</div>
+		</div>
+		</div>
+
+<include file="./Template/public/footer.html" />
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+
+	<body>
+
+		<div class="mainhtml">
+			<div class="mainhtml_c">
+				<div class="fr">
+					<include file="./Template/public/userpro.html" />
+					<div class="recharge">
+						<div class="title"><b>账户充值</b><span>账户可用金额：<em>{$yue}</em>元</span></div>
+						<div class="con">
+							<form action="{:U('User/Logic/dorech')}" method="post" id="doform" target="_parent">
+							<div class="payway">
+								<div class="weixin">
+								<input type="radio" checked="checked"><img src="__PUBLIC__/images/user/user_10.png">
+								</div>
+							</div>
+							<div class="money">
+								<b>充值金额： </b>
+								<span><input type="text" class="form-control" name="Balance">元</span>
+							</div>
+							
+							<div class="btn btn-warning"><a href="javascript:void(0)" id="sub_mit">下一步</a></div>
+							</form>
+						</div>
+						
+						
+						
+					
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/js/ZeroClipboard.js')}"></script>
+	<script type="text/javascript">
+		$("#sub_mit").click(function(){
+			$("#doform").submit();
+		});
+	</script>
+	</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>提现管理</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/user.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+	</head>
+
+	<body>
+		<div class="user">
+
+			<div class="main">
+				<div class="ordermgt">
+					<div class="money">
+					<ul>
+						<li><span class="num"><em>{:empty($user['Balance'])?"0":$user['Balance']}</em>元</span><span class="icon"><i class="iconfont"></i><b>当前账户余额</b></span></li>
+						<li><span class="num"><em>{:yue()}</em>元</span><span class="icon"><i class="iconfont"></i><b>可提现额度</b></span></li>
+					</ul>
+				</div>
+				
+			
+				<div class="item-list">
+					<ul>
+						<li><a href=""><span class="apply"><i class="iconfont">&#xe607;</i><em>申请提现</em></span></a></li>
+					</ul>
+				</div>
+				<div class="recharge">
+					<form action="{:U('User/logic/dowith')}" method="post" id="doform">
+					<div class="num">
+						<b>提现金额：</b>
+						<span class="input-container">
+							<input type="hidden" value="{$info.MemberId}" name="memberid">
+							<input type="hidden" value="{$info.openid}" name="drawaccount">
+							<input type="text" placeholder="提现到微信" name="drawquantity">
+						</span>元
+					</div>
+					<div class="btn btn-warning"><a href="javascript:void(0)" id="sub_mit">下一步</a></div>
+					</form>
+				</div>
+			
+				
+				
+				
+				
+			</div>
+			</div>
+				
+		</div>
+
+		<include file="./Template/mobile/public/mfooter.html" />
+		<script type="text/javascript" charset="utf-8" src="{:tempurl('__PUBLIC__/js/Validform_v5.3.2_min.js')}"></script>
+		<script type="text/javascript">
+			$(function(){
+				//$(".registerform").Validform();  //就这一行代码！;
+
+
+				$("#sub_mit").click(function(){
+					var urlstr = $("#doform").attr("action")
+					$.ajax({
+						type:'post',
+						url:urlstr,
+						data:$("#doform").serialize(),
+						cache:false,
+						dataType:'json',
+						success:function(data){
+							if(data.status == 1){
+								location.href=document.referrer;
+							}else {
+								alert(data.info);
+							}
+						}
+					});
+				});
+
+
+			})
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+			<div class="todo floor mt70">
+				<div class="title" style="border: none;">余额变动</div>
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+
+						<tr>
+							<th>流水号</th>
+							<th>变动前</th>
+							<th>变动后</th>
+							<th>变动值</th>
+							<th>备注</th>
+							<th>时间</th>
+						</tr>
+						<volist name="list" id="vo">
+							<tr>
+								<td>{$vo.SN}</td>
+								<td>￥{$vo.PreIntegral}</td>
+								<td>￥{$vo.NxtIntegral}</td>
+								<td>￥{$vo.OffSetValue}</td>
+								<td>{$vo.Remark}</td>
+								<td>{$vo.CreateTime}</td>
+							</tr>
+						</volist>
+					</table>
+				</div>
+				<div class="page">
+					{$page}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+			<div class="todo floor mt70">
+				<div class="title" style="border: none;">我的待办</div>
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+
+						<tr>
+							<th>项目名称</th>
+							<th>类别</th>
+							<th>处置方式</th>
+							<th>联系人</th>
+							<th>联系电话</th>
+							<th>当前状态</th>
+							<th>操作</th>
+						</tr>
+						<volist name="list" id="vo">
+							<tr>
+								<td>{$vo.title}</td>
+								<td>{:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?"":"资产包"):"实物资产"):"债权"}</td>
+								<td>{$vo['promodel']=="2"?"质押":($vo['promodel']=="1"?"转让":"转让/质押")}</td>
+								<td>{$vo.Contact}</td>
+								<td>{$vo.mobile}</td>
+								<td>{$vo.AssetsStatue}</td>
+								<td>
+
+									<if condition="session('user.MemberType') eq 4">
+										<a href="{:U('Home/lists/content',empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':array('PackageID'=>$vo['PackageID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('DebtID'=>$vo['DebtID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">查看</a>
+										<if condition=" ($vo['Statue'] lt 3)">
+											<if condition="($vo['OptType'] eq 1) OR ($vo['Statue'] eq 2)">
+													<a href="{:U('Web/Index/mic',empty($vo['DebtID'])?
+													(empty($vo['AssetsID'])?
+													(empty($vo['PackageID'])?
+													'':array('PackageID'=>$vo['PackageID']))
+													:array('AssetsID'=>$vo['AssetsID']))
+													:array('DebtID'=>$vo['DebtID']))}" target="_parent">上传尽调</a>
+												<a href="{:empty($vo['AssetsID'])?(empty($vo['PackageID'])?Qiniu_Sign($jdmodel[2]['CodeValue']):Qiniu_Sign($jdmodel[0]['CodeValue'])):Qiniu_Sign($jdmodel[1]['CodeValue'])}" target="_parent">下载模板</a>
+												<elseif  condition="$vo['Statue'] eq 1"/>
+													<a href="{:U('User/logic/todocomit',empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':array('PackageID'=>$vo['PackageID'])):array('AssetsID'=>$vo['AssetsID'])):array('DebtID'=>$vo['DebtID']))}" >接单</a>
+													<a href="{:U('User/logic/todocomit',empty($vo['DebtID'])?
+													(empty($vo['AssetsID'])?
+													(empty($vo['PackageID'])?
+													'':array('PackageID'=>$vo['PackageID'],'type'=>'cancel'))
+													:array('AssetsID'=>$vo['AssetsID'],'type'=>'cancel'))
+													:array('DebtID'=>$vo['DebtID'],'type'=>'cancel'))}">拒绝</a>
+											</if>
+										</if>
+										<elseif condition="session('user.MemberType') eq 3" />
+											<a href="{:U('User/Common/zzr',
+											empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?
+											'':array('PackageID'=>$vo['PackageID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))
+											:array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))
+											:array('DebtID'=>$vo['DebtID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">选择经济人</a>
+									</if>
+								</td>
+							</tr>
+						</volist>
+					</table>
+				</div>
+				<div class="page">
+					{$page}
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+
+</html>
+

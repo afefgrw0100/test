@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+	<body onLoad="init()">
+
+		<div class="mainhtml">
+			<div class="mainhtml_c">
+				<div class="fr">
+					<include file="./Template/public/userpro.html" />
+					<div class="card">
+						<div class="title">
+							<h2>个人名片</h2><b><img src=" {:empty(session('user.HeadImg'))?'__PUBLIC__/images/common/agent.png':headimg(session('user.HeadImg'),116,116)}"></b></div>
+						<div class="con">
+							<ul>
+								<li class="blue"><b>A</b><em>{$user.MemberType.CodeName}</em></li>
+								<li><b><a href="{:U('Home/Index/visitf',array('card'=>authcode($user['MemberId'],'ENCODE')))}" target="_blank">{$user.MemberName}</a></b><em>用户名称</em></li>
+								<li><b class="g-star{$user.StarLevel.name}"></b><em>评价等级</em></li>
+								<li><b>{$user.pronum}</b><em>已上传项目数量</em></li>
+								<li><b>{$user.make}</b><em>发布尽调报告数量</em></li>
+							</ul>
+						</div>
+						<div class="share">
+
+							<div>
+								<input type="text" class="form-control" id="fe_text" value="{$user.host}" onfocus="selectText()">
+								<span id="clip_container">
+								<button id="clip_button" class="btn" >分享地址</button>
+								</span>
+							</div>
+							<span class="item">复制以上您的专属推广链接发送给好友</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/js/ZeroClipboard.js')}"></script>
+		<script language="JavaScript">
+			var clip = null;
+			function $(id) {
+				return document.getElementById(id);
+			}
+
+			function init() {
+				clip = new ZeroClipboard.Client();
+				clip.setHandCursor(true);
+				clip.addEventListener('mouseOver', function(client) {
+					clip.setText(document.getElementById('fe_text').innerText);
+				});
+				var text=document.getElementById('fe_text').innerText;
+
+				clip.addEventListener('complete', function(client, text) {
+					alert("成功复制到剪切板："+ text)
+				});
+				clip.glue('clip_button', 'clip_container');
+			}
+		</script>
+		<script type="text/javascript">
+			function selectText() {
+				var user = document.getElementById("fe_text");
+				user.select();
+
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,436 @@
+<include file="./Template/public/header.html" />
+<style>
+	body{ background: #f5f5f5;}
+</style>
+		<!-- main -->
+		<div class="main">
+			<div class="banner">
+				<div class="flexslider">
+				<ul class="slides">
+					<volist name="listimg" id="imgvo">
+						<li style="background:url({:C('IMGPATH').'/'.$imgvo['path']}) 50% 0 no-repeat;"><a href="{$imgvo.url}"></a></li>
+					</volist>
+				</ul>
+			</div>
+				
+			</div>
+			<div class="info">
+				<div class="info_c" id="num">
+					<ul>
+						<li><b class="info_num">{$sss.pronum}</b><em>发布项目</em></li>
+						<li><b class="info_num">{$sss.make}</b><em>完成尽调</em></li>
+						<li><b class="info_num">{$sss.ss1}</b><em>活跃经纪人</em></li>
+					</ul>
+				</div>
+			</div>
+
+			<!--<div class="hot_city">-->
+				<!--<div class="city_c">-->
+					<!--<div class="fl"><b>热门城市</b><em>按热度</em><i></i></div>-->
+					<!--<div class="con"><span>-->
+						<!--<volist name="cpro" id="cprovo">-->
+							<!--<a href="{:U('Home/Lists/lists',array('province'=>$cprovo['pid'],City=>$cprovo['area_id']))}">{$cprovo.area_name}</a>-->
+						<!--</volist>-->
+						<!--</span><em><a href="{:U('Home/Lists/lists')}">更多》</a></em></div>-->
+				<!--</div>-->
+			<!--</div>-->
+
+			<div class="tjh">
+				<div class="tjh_title">
+					<div class="line"></div>
+					<div class="tjh_title_c">
+						<b><img src="__PUBLIC__/images/common/index1_07.jpg"></b>
+					</div>
+
+				</div>
+				<div class="tjh_con">
+					<ul>
+						<li>
+							<a href="{:U('Home/index/hocr')}"><b><img src="__PUBLIC__/images/common/icon.png"></b><span>项目持有方</span></a>
+						</li>
+						<li>
+							<a href="{:U('Home/index/aabs')}"><b><img src="__PUBLIC__/images/common/icon2.png"></b><span>特资经纪人</span></a>
+						</li>
+						<li>
+							<a href="{:U('Home/index/piside')}"><b><img src="__PUBLIC__/images/common/icon3.png"></b><span>项目投资方</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 热门项目 -->
+
+			<!-- 热门项目 end-->
+				<!--  项目列表 -->
+			<div class="xm_list">
+				<div class="xm_list_title">项目列表</div>
+				<div class="more"><a href="{:U('Home/Lists/lists')}">更多》</a></div>
+				<div class="xm_list_con">
+					<div class="nTab">
+						<div class="TabTitle">
+							<ul id="myTab">
+								<li class="active" onmouseover="nTabs(this,0);">转让</li>
+								<li class="normal" onmouseover="nTabs(this,1);">出租</li>
+								<li class="normal" onmouseover="nTabs(this,2);">拍卖</li>
+
+							</ul>
+						</div>
+						<div class="TabContent">
+							<div id="myTab_Content0" >
+								<table class="table">
+									<thead>
+									<tr>
+										<th>&nbsp;</th>
+										<th>项目名称</th>
+										<th>资产类型</th>
+										<th>所在地</th>
+										<th>实物金额</th>
+										<th>转让金额</th>
+										<th>折扣率</th>
+										<th>目前进度</th>
+									</tr>
+									</thead>
+									<tbody>
+									<volist name="assets" id="assetsv">
+										<tr>
+											<td>
+												<img src="{:empty($assetsv['titimg'])?'http://placehold.it/60x60':imgpublic($assetsv['titimg']).'?imageView/2/w/60/h/60'}">
+											</td>
+											<td><a href="{:U('Home/lists/content/',array('AssetsID'=>$assetsv['AssetsID']))}">{$assetsv.Title}</a></td>
+											<td><if condition="$assetsv['Source'] eq 1">{:C('Aucassetstype')[$assetsv['AssetsType']]} <else/>{:C('asset_type')[$assetsv['AssetsType']]}</if></td>
+											<td>{:explode("|",json_decode($assetsv['Address'],true)[0])[1]}</td>
+											<td><b class="info_num numtenhousand">{$assetsv['Price']}</b>元</td>
+											<td><b class="info_num numtenhousand">{$assetsv['ProPrice']}</b>元</td>
+											<td>{:round(($assetsv['ProPrice']/$assetsv['Price']),4)*100}% </td>
+											<td><if condition="$assetsv['Source'] eq 1"><if condition="strtotime($assetsv['AuctionStart']) gt time()"><em class="label label-primary">拍卖未开始 </em><elseif condition="(strtotime($assetsv['AuctionStart']) lt time()) AND (strtotime($assetsv['AuctionEnd']) gt time())" /><em class="label label-primary">拍卖中</em><else/><em class="label label-primary">拍卖结束</em></if><else/><if condition="$assetsv['AssetsStatue'] eq 4"><em class="label label-primary">已完成尽调</em><elseif condition="$assetsv['AssetsStatue'] eq 8" /><em class="label label-info">已成交</em></if></if></td>
+										</tr>
+									</volist>
+									</tbody>
+								</table>
+							</div>
+							<div id="myTab_Content1" class="none" >
+								<table class="table">
+									<thead>
+									<tr>
+										<th>&nbsp;</th>
+										<th>项目名称</th>
+										<th>资产类型</th>
+										<th>所在地</th>
+										<th>实物金额</th>
+										<th>月出租价</th>
+										<th>折扣率</th>
+										<th>目前进度</th>
+									</tr>
+									</thead>
+									<tbody>
+									<volist name="assets_le" id="assetsv_auc">
+										<tr>
+											<td>
+												<img src="{:empty($assetsv_auc['titimg'])?'http://placehold.it/60x60':imgpublic($assetsv_auc['titimg']).'?imageView/2/w/60/h/60'}">
+											</td>
+											<td><a href="{:U('Home/lists/content/',array('AssetsID'=>$assetsv_auc['AssetsID']))}">{$assetsv_auc.Title}</a></td>
+											<td><if condition="$assetsv_auc['Source'] eq 1">{:C('Aucassetstype')[$assetsv_auc['AssetsType']]} <else/>{:C('asset_type')[$assetsv_auc['AssetsType']]}</if></td>
+											<td>{:explode("|",json_decode($assetsv_auc['Address'],true)[0])[1]}</td>
+											<td><b class="info_num numtenhousand">{$assetsv_auc['Price']}</b>元</td>
+											<td><b class="info_num numtenhousand">{$assetsv_auc['ProPrice']}</b>元</td>
+											<td>{:round(($assetsv_auc['ProPrice']/$assetsv_auc['Price']),4)*100}% </td>
+											<td><if condition="$assetsv_auc['Source'] eq 1"><if condition="strtotime($assetsv_auc['AuctionStart']) gt time()"><em class="label label-primary">拍卖未开始 </em><elseif condition="(strtotime($assetsv_auc['AuctionStart']) lt time()) AND (strtotime($assetsv_auc['AuctionEnd']) gt time())" /><em class="label label-primary">拍卖中</em><else/><em class="label label-primary">拍卖结束</em></if><else/><if condition="$assetsv_auc['AssetsStatue'] eq 4"><em class="label label-primary">已完成尽调</em><elseif condition="$assetsv_auc['AssetsStatue'] eq 8" /><em class="label label-info">已成交</em></if></if></td>
+										</tr>
+									</volist>
+									</tbody>
+								</table>
+							</div>
+							<div id="myTab_Content2" class="none" >
+								<table class="table">
+									<thead>
+									<tr>
+										<th>&nbsp;</th>
+										<th>项目名称</th>
+										<th>资产类型</th>
+										<th>所在地</th>
+										<th>实物金额</th>
+										<th>起拍价</th>
+										<th>折扣率</th>
+										<th>目前进度</th>
+									</tr>
+									</thead>
+									<tbody>
+									<volist name="assets_auc" id="assetsv_auc">
+										<tr>
+											<td>
+												<img src="{:empty($assetsv_auc['titimg'])?'http://placehold.it/60x60':imgpublic($assetsv_auc['titimg']).'?imageView/2/w/60/h/60'}">
+											</td>
+											<td><a href="{:U('Home/lists/content/',array('AssetsID'=>$assetsv_auc['AssetsID']))}">{$assetsv_auc.Title}</a></td>
+											<td><if condition="$assetsv_auc['Source'] eq 1">{:C('Aucassetstype')[$assetsv_auc['AssetsType']]} <else/>{:C('asset_type')[$assetsv_auc['AssetsType']]}</if></td>
+											<td>{:explode("|",json_decode($assetsv_auc['Address'],true)[0])[1]}</td>
+											<td><b class="info_num numtenhousand">{$assetsv_auc['Price']}</b>元</td>
+											<td><b class="info_num numtenhousand">{$assetsv_auc['ProPrice']}</b>元</td>
+											<td>{:round(($assetsv_auc['ProPrice']/$assetsv_auc['Price']),4)*100}% </td>
+											<td><if condition="$assetsv_auc['Source'] eq 1"><if condition="strtotime($assetsv_auc['AuctionStart']) gt time()"><em class="label label-primary">拍卖未开始 </em><elseif condition="(strtotime($assetsv_auc['AuctionStart']) lt time()) AND (strtotime($assetsv_auc['AuctionEnd']) gt time())" /><em class="label label-primary">拍卖中</em><else/><em class="label label-primary">拍卖结束</em></if><else/><if condition="$assetsv_auc['AssetsStatue'] eq 4"><em class="label label-primary">已完成尽调</em><elseif condition="$assetsv_auc['AssetsStatue'] eq 8" /><em class="label label-info">已成交</em></if></if></td>
+										</tr>
+									</volist>
+									</tbody>
+								</table>
+							</div>
+							<!--<div id="myTab_Content1" class="none">-->
+								<!--<table class="table">-->
+									<!--<thead>-->
+										<!--<tr>-->
+											<!--<th>&nbsp;</th>-->
+											<!--<th>项目名称</th>-->
+											<!--<th>资产类型</th>-->
+											<!--<th>逾期时间</th>-->
+											<!--<th>是否诉讼</th>-->
+											<!--<th>所在地</th>-->
+											<!--<th>债权金额</th>-->
+											<!--<th>转让金额</th>-->
+											<!--<th>折扣率</th>-->
+											<!--<th>目前进度</th>-->
+										<!--</tr>-->
+									<!--</thead>-->
+									<!--<tbody>-->
+									<!--<volist name="debt" id="debtv">-->
+										<!--<tr>-->
+											<!--<td>-->
+												<!--<img src="{:empty($debtv['titimg'])?'http://placehold.it/60x60':imgpublic($debtv['titimg']).'?imageView/2/w/60/h/60'}">-->
+											<!--</td>-->
+											<!--<td><a href="{:U('Home/lists/content/',array('DebtID'=>$debtv['DebtID']))}">{$debtv.Title}</a></td>-->
+											<!--<td>{:C('debt_type')[$debtv['Type']]}</td>-->
+											<!--<td>{:nubtime(date("Y-m-d"),$debtv['EndTime'])}天</td>-->
+											<!--<td><em class="state">{$debtv['Islitigation']==1?"是":"否"}</em></td>-->
+											<!--<td>{:explode("|",json_decode($debtv['DebtAdress'],true)[0])[1]}</td>-->
+											<!--<td><b class="info_num numtenhousand">{$debtv['Total']}</b>元</td>-->
+											<!--<td><b class="info_num numtenhousand">{$debtv['ProPrice']}</b>元</td>-->
+											<!--<td>{:round(($debtv['ProPrice']/$debtv['Total']),4)*100}%</td>-->
+											<!--<td><if condition="$debtv['AssetsStatue'] eq 4"><em class="label label-primary">已完成尽调<elseif condition="$debtv['AssetsStatue'] eq 8" /><em class="label label-info">已成交</if></em></td>-->
+										<!--</tr>-->
+									<!--</volist>-->
+									<!--</tbody>-->
+								<!--</table>-->
+
+							<!--</div>-->
+							<!--<div id="myTab_Content2" class="none">-->
+								<!--<table class="table">-->
+									<!--<thead>-->
+									<!--<tr>-->
+										<!--<th>&nbsp;</th>-->
+										<!--<th>项目名称</th>-->
+										<!--<th>资产类型</th>-->
+										<!--<th>所在地</th>-->
+										<!--<th>资产包金额</th>-->
+										<!--<th>转让金额</th>-->
+										<!--<th>折扣率</th>-->
+										<!--<th>目前进度</th>-->
+									<!--</tr>-->
+									<!--</thead>-->
+									<!--<tbody>-->
+									<!--<volist name="pack" id="packv">-->
+										<!--<tr>-->
+											<!--<td>-->
+												<!--<img src="{:empty($packv['titimg'])?'http://placehold.it/60x60':imgpublic($packv['titimg']).'?imageView/2/w/60/h/60'}">-->
+											<!--</td>-->
+											<!--<td><a href="{:U('Home/lists/content/',array('PackageID'=>$packv['PackageID']))}">{$packv.Title}</a></td>-->
+											<!--<td>{:C('pack_type')[$packv['Type']]}</td>-->
+											<!--<td>{:explode("|",json_decode($packv['OwnerAdress'],true)[0])[1]}</td>-->
+											<!--<td><b class="info_num numtenhousand">{$packv['Total']}</b>元</td>-->
+											<!--<td><b class="info_num numtenhousand">{$packv['ProcessModle']}</b>元</td>-->
+											<!--<td>{:round(($packv['ProcessModle']/$packv['Total']),4)*100}%</td>-->
+											<!--<td><if condition="$packv['AssetsStatue'] eq 4"><em class="label label-primary">已完成尽调<elseif condition="$packv['AssetsStatue'] eq 8" /><em class="label label-info">已成交</if></em></td>-->
+										<!--</tr>-->
+									<!--</volist>-->
+									<!--</tbody>-->
+								<!--</table>-->
+							<!--</div>-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--  项目列表 end  -->
+			
+			<!-- 热门项目 -->
+			<div class="xm_list">
+				
+				<div class="xm_list_title">热门项目</div>
+				<div class="tip">看看大家最感兴趣的项目是什么</div>
+				<div class="more"><a href="{:U('Home/Lists/lists')}">更多》</a></div>
+				<div class="line"></div>
+				
+				<div class="xm_hot">
+					
+							<div class="picScroll-left">
+		
+			<div class="bd">
+				<ul class="picList">
+
+					<volist name="infoimg" id="infoimgv">
+
+					<li>
+						<if condition="($infoimgv['AssetsStatue'] eq 8) OR (($infoimgv['Source'] eq 1) AND comper_time($infoimgv['AuctionEnd']))"><div class="mask-buy" id="mask-buy"><span><img src="__PUBLIC__/images/common/chengjiao.png"></span></div></if>
+
+						<a href="{:U('Home/lists/content',empty($infoimgv['DebtID'])?(empty($infoimgv['AssetsID'])?(empty($infoimgv['PackageID'])?'':array('PackageID'=>$infoimgv['PackageID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('AssetsID'=>$infoimgv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE'))):array('DebtID'=>$infoimgv['DebtID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">
+							<div class="zhe"><b>{:round(($infoimgv['ccint']/$infoimgv['aaint']),1)*10}</b>折</div>
+							<div class="pic"><img src="{:empty($infoimgv['titimg'])?'http://placehold.it/130x130':imgpublic($infoimgv['titimg']).'?imageView/2/w/180/h/130'}"></div>
+							<div class="name"><i>个</i><b>{$infoimgv.Title}</b></div>
+							<div class="time">浏览次数：<em>{:empty($infoimgv['ViewCount'])?"0":$infoimgv['ViewCount']} 次</em></div>
+							<div class="money">购买尽调报告：<em>{:empty($infoimgv['BuyCount'])?"0":$infoimgv['BuyCount']}  人</em></div>
+						</a>
+					</li>
+					</volist>
+				</ul>
+			</div>
+			
+				<div class="hd">
+				<a class="prev" href="javascript:void(0)"><img src="__PUBLIC__/images/common/left.png" /></a>
+        		<a class="next" href="javascript:void(0)"><img src="__PUBLIC__/images/common/right.png"/></a>
+        		<ul>
+        			<li>1</li>
+        			<li>2</li>
+        			<li>3</li>
+        		</ul>
+			</div>
+			
+		</div>
+			
+				</div>
+			</div>
+			<!-- 热门项目 end-->
+			
+			<!-- 资讯 -->
+			<div class="xm_list zixun">
+				<div class="fl">
+					<div class="xm_list_title">资讯&知识</div>
+					<div class="line"></div>
+
+					<div class="nTab">
+						<div class="TabTitle">
+							<ul id="myTab1">
+								<li class="active" onmouseover="nTabs(this,0);"><a href="{:U('Index/artlist',array('type'=>11))}">新闻动态</a></li>
+								<li class="normal" onmouseover="nTabs(this,1);"><a href="{:U('Index/artlist',array('type'=>20))}">特金学院</a></li>
+							</ul>
+						</div>
+						<div class="TabContent">
+							<div id="myTab1_Content0">
+								<div class="news">
+									<volist name="artlist" id="artvo">
+										<span><b><a href="{:U('index/artcon',array('artid'=>$artvo['id']))}">{$artvo.title}</a></b><em>{:date('Y-m-d',strtotime($artvo['createtime']))}</em></span>
+									</volist>
+								</div>
+
+							</div>
+							<div id="myTab1_Content1" class="none">
+								<div class="news">
+									<volist name="artlisttj" id="artvotj">
+										<span><b><a href="{:U('index/artcon',array('artid'=>$artvotj['id']))}">{$artvotj.title}</a></b><em>{:date('Y-m-d',strtotime($artvotj['createtime']))}</em></span>
+									</volist>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--<div class="fr">-->
+					<!--<div class="video-img" id="video-img"  onclick="playPause()"><img src="{$conmp.content.video.0.photo}"></div>-->
+				<!--</div>-->
+			</div>
+				<!-- 资讯 end -->
+				
+				<!--合作伙伴-->
+			<div class="xm_list friend_link_con">
+				<div class="xm_list_title">合作伙伴</div>
+				<div class="tip">携手共赢</div>
+				<div class="line"></div>
+				
+				<div class="friend_link">
+					<span>
+						<volist name="adsinfo" id="adsval">
+							<a href="{$adsval.JumpUrl}" target="_blank"><img src="//static.resource.tejinhui.com/{$adsval.ImageUrl}?imageView/2/h/64"></a>
+						</volist>
+					</span>
+					
+					</div>
+			</div>
+			<!--合作伙伴 end-->
+		</div>
+<div class="mask" id="mask" onclick="playPause()">
+	<div class="video">
+		<video src="{$conmp.content.video.0.file}" controls="controls"></video>
+
+	</div>
+
+</div>
+
+			
+		<!--main end -->
+		<include file="./Template/public/footer.html" />
+<script src="{:tempurl('__PUBLIC__/js/jquery.SuperSlide.2.1.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/jquery.flexslider-min.js')}"></script>
+<script>
+	//首页banner
+	$(function() {
+		$('.flexslider').flexslider({
+			directionNav: true,
+			pauseOnAction: false
+		});
+	});
+</script>
+<script type="text/javascript">
+
+
+
+	function playPause() {
+
+		var myVideo = document.getElementsByTagName('video')[0];
+
+		if (myVideo.paused){
+
+			myVideo.play();
+		}
+		else{
+
+			myVideo.pause();
+		}
+	}
+</script>
+<script>
+	//首页轮播
+	$(function() {
+		$(".picScroll-left").slide({
+			titCell: ".hd ul",
+			mainCell: ".bd ul",
+			autoPage: true,
+			effect: "left",
+			autoPlay: false,
+			vis: 4,
+			scroll: 4,
+			trigger: "click"
+		});
+	})
+	$("#video-img").click(function () {
+		$(".mask").show();
+	})
+
+	$("#mask").click(function () {
+		$(".mask").hide();
+		return false;
+	})
+
+</script>
+<script>
+	//拍卖轮播
+	$(function() {
+		$(".picScroll-left2").slide({
+			titCell: ".hd ul",
+			mainCell: ".bd ul",
+			autoPage: true,
+			effect: "left",
+			autoPlay: false,
+			vis: 1,
+			scroll: 1,
+			trigger: "click"
+		});
+	})
+</script>
+	</body>
+
+</html>

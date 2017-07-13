@@ -1,0 +1,66 @@
+[ 2017-07-11T10:24:39+08:00 ] 127.0.0.1 /Qrcode/Index/qrcode/code/http%253A%252F%252Fwww.3qqq.com%252FHome%252Flists%252Fcontent%252FAssetsID%252F212%252Fcard%252F1cf9oymEMgfT-Ooghnk6jWuV9Eha9hAeh5zG6c0.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-11T10:24:40+08:00 ] 127.0.0.1 /Qrcode/Index/qrcode/code/http%253A%252F%252Fwww.3qqq.com%252FHome%252Flists%252Fcontent%252FAssetsID%252F195%252Fcard%252F1cf9oymEMgfT-Ooghnk6jWuV9Eha9hAeh5zG6c0.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-11T10:24:40+08:00 ] 127.0.0.1 /Qrcode/Index/qrcode/code/http%253A%252F%252Fwww.3qqq.com%252FHome%252Flists%252Fcontent%252FAssetsIDrent%252F193%252Fcard%252F1cf9oymEMgfT-Ooghnk6jWuV9Eha9hAeh5zG6c0.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-11T11:39:15+08:00 ] 127.0.0.1 /Qrcode/Index/qrcode/code/http%253A%252F%252Fwww.3qqq.com%252FHome%252Flists%252Fcontent%252FAssetsID%252F195%252Fcard%252F813e67cTSFOp6PkcPUchO_SJSczQNqBNxBkrFyE.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-11T11:39:16+08:00 ] 127.0.0.1 /Qrcode/Index/qrcode/code/http%253A%252F%252Fwww.3qqq.com%252FHome%252Flists%252Fcontent%252FAssetsIDrent%252F193%252Fcard%252F2ca4wQgxE_NNgwecJNcH9yjyWPUjCsKZqQw4Pu0.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-11T11:39:17+08:00 ] 127.0.0.1 /Qrcode/Index/qrcode/code/http%253A%252F%252Fwww.3qqq.com%252FHome%252Flists%252Fcontent%252FAssetsID%252F212%252Fcard%252F2ca4wQgxE_NNgwecJNcH9yjyWPUjCsKZqQw4Pu0.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

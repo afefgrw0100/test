@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+			<div class="todo floor mt70">
+				<div class="title">我的发布 <b class="publish_btn">
+					<if  condition="session('user.MemberType') eq 4">
+						<a href="{:U('Web/Index/assets')}"  target="_parent">发布实物转让</a>
+						<a href="{:U('Web/Index/assetsLease')}"  target="_parent">发布出租</a>
+						<!--<a href="{:U('Web/Index/assetsauc')}"  target="_parent">发布司法拍卖</a>-->
+					</if>
+					</b>
+				</div>
+				<form action="{:U('User/Common/mypublish')}" method="get"  id="dosearch">
+					<div class="mypublish">
+						<div class="fl category"><em>信息类别：</em>
+									<span>
+										<select name="type">
+											<option value="0">所有信息</option>
+											<option value="2">转让</option>
+											<option value="6">出租</option>
+											<!--<option value="1">司法拍卖</option>-->
+
+										</select>
+									</span>
+						</div>
+						<div class="fl time">时间：<input name="starttime" class="sang_Calender" type="text">
+							到:&nbsp;<input name="endtime" class="sang_Calender" type="text">
+							<input type="submit"  value="查询" class="btn"></div>
+					</div>
+				</form>
+
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+						<tr>
+							<th>项目名称</th>
+							<th>类别</th>
+							<th>处置方式</th>
+							<th>价格</th>
+							<th>发布时间</th>
+							<th>当前状态</th>
+							<th>操作</th>
+						</tr>
+						<volist name="list" id="vo">
+							<tr>
+								<td>{$vo.title}</td>
+								<td>
+									<if condition="($vo['source'] eq 1)"> 司法拍卖
+
+										<elseif condition="$vo['source'] eq 6"/> 出租
+										<else/>转让
+									</if>
+								</td>
+								<td>
+									<if condition="($vo['source'] eq 1)">
+
+										<elseif condition="$vo['source'] eq 6"/>
+										<if condition="($vo['promodel'] eq 1)">
+											整租
+											<elseif condition="$vo['promodel'] eq 2"/>
+											分租
+										</if>
+										<else/>
+										<if condition="($vo['promodel'] eq 1)">
+											转让
+											<elseif condition="$vo['promodel'] eq 2"/>
+											质押
+											<else/>
+											转让/质押
+										</if>
+									</if>
+								</td>
+								<td><em class="info_num">¥{$vo.total}元</em></td>
+								<td>{$vo.CreateTime|date="Y-m-d",###}</td>
+								<td>{$vo.AssetsStatue}</td>
+								<td>
+									<if condition="($vo['source'] eq 1)">
+
+										<elseif condition="$vo['source'] eq 6"/>
+										<a href="{:U('Home/lists/content',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">查看</a>
+										<else/>
+										<a href="{:U('Home/lists/content',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">查看</a>
+									</if>
+
+								</td>
+							</tr>
+
+						</volist>
+					</table>
+					<div class="page">
+						{$page}
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/datetime.js')}"></script>
+<script type="text/javascript">
+//	$(".btn").on("click",function(){
+//		var formurl = $("#dosearch").attr("action");
+//		$.ajax({
+//			cache: false,
+//			type: "POST",
+//			url:formurl,
+//			data:$('#dosearch').serialize(),// 你的formid
+//			async: true,
+//			error:function(request){
+//			},
+//			beforeSend:function(){},
+//			success:function(data){
+//				//alert(data);
+//
+//			},
+//
+//		});
+//
+//	});
+
+
+</script>
+</body>
+
+</html>
+

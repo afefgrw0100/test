@@ -1,0 +1,127 @@
+<!--footer -->
+<div class="footer">
+    <div class="footer_c">
+        <div class="info1">
+            <div class="fl">
+                <div class="help">
+                    <a href="{:U('Home/Index/about')}">关于特金汇 </a>
+                    <a href="{:U('Home/Index/safe')}">安全保障</a>
+                    <a href="{:U('Home/Index/lagel')}">法律政策 </a>
+                    <!--<a href="{:U('Home/Index/baem',empty(session('user.MemberId'))?'':array('uic'=>authcode(session('user.MemberId'),'ENCODE')))}">成为经纪人</a>-->
+                    <a href="{:U('Home/Index/buypro1')}">特资经纪人申请协议</a>
+                    <a href="{:U('Home/Index/buypro2')}">特资经纪人管理办法</a>
+                    <a href="__PUBLIC__/images/application.pdf"  target="_blank">全国城市划分</a>
+                    <a href="__PUBLIC__/images/City.pdf"  target="_blank">城市合伙人申请协议</a>
+                    <a href="{:U('Home/Index/buypro3')}">城市合伙人管理办法</a>
+
+                </div>
+                <div class="link">
+                    <span class="tel"><b>{$Think.session.keywords.tel}</b><em>（周一至周五：9:00-17:30）</em></span>
+                    <span class="email">{$Think.session.keywords.email}</span>
+                    <span class="qq">{$Think.session.keywords.qq}</span>
+                </div>
+            </div>
+            <div class="fr"><img src="__PUBLIC__/images/common/erweima.png"></div>
+        </div>
+        <div class="info2">
+            <div class="pic">
+                <!-- GeoTrust Siteseal [Start] -->
+                <script type="text/javascript"
+                        src="https://seal.geotrust.com/getgeotrustsslseal?host_name=tejinhui.com&amp;size=S&amp;lang=en"></script>
+                <!--  GeoTrust Siteseal [End] -->
+
+            </div>
+            <div class="con">{$Think.session.keywords.copyright}</div>
+        </div>
+
+    </div>
+    <if condition="!empty($footAdImg)">
+        <div class="footer-ad">
+
+            <i id="a-close">X</i>
+            <div class="footer-ad-c"><a href="{$footAdImg.JumpUrl}"><img src="//static.resource.tejinhui.com/{$footAdImg.ImageUrl}"></a></div>
+
+
+        </div>
+    </if>
+</div>
+
+<div class="left_side">
+    <div class="left_man"><img src="__PUBLIC__/images/common/left_man.png"></div>
+    <ul>
+
+        <li><a href="{:U('Home/index/help')}"><i class="iconfont">&#xe630;</i>新手指南</a></li>
+        <li><a href="{:U('User/Member/index')}"><i class="iconfont">&#xe714;</i>{:empty(session('user.MemberId'))?"登录/注册":"会员中心"}</a></li>
+        <li><a href="{:U('Web/Index/publish')}"><i class="iconfont">&#xe625;</i>一键发布</a></li>
+        <li>
+							<span>
+								<a href="http://wpa.qq.com/msgrd?v=3&amp;uin={$Think.session.keywords.qq}&amp;site=qq&amp;menu=yes" target="_blank">
+                                    <b><img src="__PUBLIC__/images/common/left_03.jpg"></b>
+                                    <em>在线客服</em></a>
+							</span>
+
+            <span class="top" id="top"><em>Top</em></span>
+        </li>
+
+    </ul>
+</div>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/bootstrap.min.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+
+
+<!-- 站长统计开始  -->
+<div style="display:none">
+				<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259609671'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1259609671' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<!-- 站长统计结束  -->
+
+
+<script>
+    //首页banner
+
+
+        //回到顶部
+        $("#top").click(function(){
+            $('body,html').animate({scrollTop:0},800);
+
+        })
+
+    var numi = $(".numtenhousand").size();
+    for(var i=0;i<numi;i++){
+                var numtenthousand = parseInt($(".numtenhousand:eq("+i+")").html());
+
+        if(numtenthousand>10000){
+            numtenthousand = Math.round((numtenthousand /10000) * 100) / 100;
+            numtenthousand ="¥"+numtenthousand + "万";
+            $(".numtenhousand:eq("+i+")").html(numtenthousand);
+        }
+    }
+
+    function search_text(){
+        var rcc = $(".search_text").val();
+        if(rcc==""){
+            return false;
+        }else {
+            return true;
+        }
+
+    }
+    //关闭注册广告
+    $('#a-close').click(function(){
+        $('.footer-ad').hide();
+    })
+    //alert(numi);
+//    $(".numtenhousand").ready(function(e){
+//        var numtenthousand = parseInt($(this).html());
+//
+//        if(numtenthousand>10000){
+//            numtenthousand = Math.round((numtenthousand /10000) * 100) / 100;
+//            numtenthousand = numtenthousand + "万";
+//            $(this).html(numtenthousand);
+//        }
+//    });
+
+
+
+</script>

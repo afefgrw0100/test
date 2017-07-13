@@ -1,0 +1,116 @@
+<include file="./Template/public/header.html" />
+
+	<div class="agents">
+		<div class="main">
+			<div class="banner"></div>
+			<div class="box1">
+				<div class="info1">
+					<div class="fl"><img src="__PUBLIC__/images/common/agent1_06.jpg"></div>
+					<div class="fr">
+						<h1>特资经纪人</h1>
+						<span>特资经纪人将手中持有的特殊资产（含金融机构资产包、单项目债权、大宗实物资产）信息，按平台统一标准的尽调报告格式发布，并自行设定查看报告的费用。投资方通过在线阅读尽调报告后，单独联系特资经纪人对接后续工作。直接锁定交易上下游、确保佣金不流失。</span>
+						<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人>></a>
+					</div>
+				</div>
+				
+				<div class="info2">
+					<div class="item">
+						<em>01</em>
+						<span>发布特殊资产</span>
+						<span>项目信息</span>
+					</div>
+					<div class="icon"><img src="__PUBLIC__/images/common/agent1_10.gif" ></div>
+					<div class="item">
+						<em>02</em>
+						<span>上传项目尽职调查报告</span>
+						<span>设定查看报告的费用</span>
+					</div>
+					<div class="icon"><img src="__PUBLIC__/images/common/agent1_10.gif" ></div>
+					<div class="item">
+						<em>03</em>
+						<span>投资方阅读</span>
+						<span>尽调报告</span>
+					</div>
+					<div class="icon"><img src="__PUBLIC__/images/common/agent1_10.gif" ></div>
+					<div class="item">
+						<em>04</em>
+						<span>联系对接</span>
+						<span>锁定交易</span>
+					</div>
+					<div class="icon"><img src="__PUBLIC__/images/common/agent1_10.gif" ></div><div class="item">
+						<em>05</em>
+						<span>协助完成交易</span>
+						<span>收取佣金</span>
+					</div>
+					
+				</div>
+			</div>
+			<div class="box2">
+				<div class="info1">
+					<div class="fl"><img src="__PUBLIC__/images/common/agent1_14.jpg"></div>
+					<div class="fr">
+						<h1>盈利空间丰厚</h1>
+						<span>项目尽调报告阅读费、协助项目成交的佣金、协助融资的佣金、平台优秀经纪人分红等等，盈利模式不在单一，多劳多得。</span>
+						<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人>></a>
+					</div>
+				</div>
+			</div>
+			<div class="box3"><img src="__PUBLIC__/images/common/agent1_03.jpg"></div>
+			<div class="box2">
+				<div class="info1">
+					<div class="fl"><img src="__PUBLIC__/images/common/agent1_18.jpg"></div>
+					<div class="fr">
+						<h1>多维度培训</h1>
+						<span>特金汇创始团队积累了多年的实操经验，沉淀了丰富的理论知识，专门针对特殊资产尽职调查环节推出的培训课程，轻松易懂，实用性强。多维度培训方案，一次培训，终身复训。</span>                      
+						<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人>></a>
+					</div>
+				</div>
+			</div>
+		 <div class="box4">
+		 	<div class="info1">
+					<div class="fl"><img src="__PUBLIC__/images/common/agent1_21.jpg"></div>
+					<div class="fr">
+						<h1>独家对接渠道</h1>
+						<span>所有项目上传的资料，只会在特金汇平台展示，不会外流（平台只负责项目展示及项目定向推介的渠道，不会介入中介及处置环节，如遇到合适项目平台会通过资产管理公司自行收购）独家对接渠道，消除您的顾虑。</span>                                                                              
+						<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}">立即成为特资经纪人>></a>
+					</div>
+				</div>
+			<div class="info2">
+				<div class="agent-tan" id="agent-tan">
+					<div class="title">
+						<h2>复制以下您的专属推广链接发送给好友</h2> <em id="close">X</em></div>
+					<div class="con"><input type="text" class="form-control" id="fe_text" value="{:get_url()}" onfocus="selectText()"></div>
+				</div>
+				<img src="__PUBLIC__/images/common/agent1_07.jpg">
+			</div>
+		 	<div class="info3">
+		 		<span><a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}"><img src="__PUBLIC__/images/common/agent1_11.jpg"></a></span>
+		 		<span><a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE'),'code'=>authcode('cc',ENCODE)))}"><img src="__PUBLIC__/images/common/agent1_13.jpg"></a></span>
+		 	</div>
+		 </div>
+		</div>
+		
+	</div>
+<include file="./Template/public/footer.html" />
+<script type="text/javascript">
+	function selectText() {
+		var user = document.getElementById("fe_text");
+		user.select();
+
+	}
+</script>
+
+<script>
+	$(function() {
+		$('#btn2').click(function() {
+			$('#agent-tan').show();
+		});
+		$('#close').click(function() {
+			$('#agent-tan').hide();
+		});
+	})
+</script>
+
+	</body>
+
+</html>

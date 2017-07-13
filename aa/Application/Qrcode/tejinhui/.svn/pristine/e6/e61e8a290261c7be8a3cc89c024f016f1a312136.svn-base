@@ -1,0 +1,148 @@
+<include file="./Template/public/header.html" />
+
+<div class="main">
+	<div class="insurance">
+		<div class="banner"></div>
+		<div class="info1">
+			<div class="title">一.项目安全保障</div>
+			<div class="item">所有上线项目均经过特金汇风控部门进行严格审核，选择同城特资经纪人进行线下尽职调查，对项目进行客观评估，
+				并通过特金汇二次审核才能正式上线。一个项目的诞生，要经过8道关口，层层筛选，层层剥离风险敞口。</div>
+			<div class="btn">流程</div>
+			<div class="con">
+				<ul>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon1.png"></b>
+						<em>资料审查</em>
+						<span>审核项目基础资料，确定项目资料的真实性。</span>
+
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon2.png"></b>
+						<em>项目调研</em>
+						<span>了解项目成因及来源的调查与分析。</span>
+
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon3.png"></b>
+						<em>尽职调查</em>
+						<span>同城特资经纪人进行线下尽调，确定项目操作可行性。</span>
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon4.png"></b>
+						<em>市场分析</em>
+						<span>资产项目/抵押物的同期、同类市场价格调研与分析。</span>
+
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon5.png"></b>
+						<em>预案设计</em>
+						<span>展现项目亮点与风险，根据项目实际情况设计风险防控预案。</span>
+
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon6.png"></b>
+						<em>盈利分析</em>
+						<span>提供项目操作成本控制方案与项目盈利分析。</span>
+
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon7.png"></b>
+						<em>二次审查</em>
+						<span>审核特资经纪人尽调报告完整性。</span>
+					</li>
+					<li>
+						<b><img src="__PUBLIC__/images/common/aq_icon8.png"></b>
+						<em>售后保障</em>
+						<span>保障尽调报告所述项目未与其他第三方完成交易。</span>
+
+					</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="info2">
+			<div class="title">二.项目审核</div>
+			<div class="con">
+				<div class="fl">
+					<div class="item">三重高标准审核</div>
+					<div class="pic"><img src="__PUBLIC__/images/common/aq_man_03.jpg"></div>
+				</div>
+				<div class="fr">
+					<div class="box">
+						<div class="item">特金汇第一重审核</div>
+						<span><i></i><b>根据上传的项目资料审核项目真实性，初步确定项目具备操作性。</b></span>
+					</div>
+
+					<div class="box">
+						<div class="item">特资经纪人线下第二重审核</div>
+						<span><i class="iconfont">&#xe695;</i><b>真实性核查：</b><em>全面核查项目资料完整性、真实性、合法性，了解项目形成原因。</em></span>
+						<span><i class="iconfont">&#xe695;</i><b>可行性核查：</b><em>核查项目是否具备操作性，分析操作难度。</em></span>
+						<span><i class="iconfont">&#xe695;</i><b>现场走访：</b><em>现场核查资产/抵押物最新状况、评估当前价值、周边情况摸底。</em></span>
+						<span><i class="iconfont">&#xe695;</i><b>网搜调查：</b><em>通过网络搜索资产/债务人相关情况，工商、司法、拍卖等信息。</em></span>
+						<span><i class="iconfont">&#xe695;</i><b>风险分析：</b><em>根据尽调结果，分析项目风险点，设计风险防控预案。</em></span>
+						<span><i class="iconfont">&#xe695;</i><b>项目盈利分析：</b><em>分析项目处置成本、处置周期、变现能力、资金成本，设计盈利模型。</em></span>
+
+					</div>
+
+					<div class="box">
+						<div class="item">特金汇第三重审核</div>
+						<span><i class="iconfont">&#xe695;</i><b>审核特资经纪人所撰写的尽调报告完整性、合理性，杜绝弄虚作假，保证上线的每个项目都能够进行线下对接。</b></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="info3">
+			<div class="title">三.网站建设</div>
+			<div class="con">
+				<ul>
+					<li>
+						<span><i class="iconfont">&#xe608;</i><b>资金安全</b></span>
+						<p>特金汇采用微信支付系统，让用户每一分钱流向都高度透明，保障平台用户资金安全。</p>
+					</li>
+					<li>
+						<span><i class="iconfont">&#xe60a;</i><b>数据安全</b></span>
+						<p>采用国际标准的SSL传输方式+256位加密技术保障数据信息安全；私有云和公有云结合对网站资源的保护；数据库采用自研算法对用户密码等信息进行加密；数字安全证书；经验丰富的技术团队为资金保驾护航。</p>
+					</li>
+
+					<li>
+						<span><i class="iconfont">&#xe620;</i><b>隐私安全</b></span>
+						<p>特金汇上所有的隐私信息都经过 MD5加密处理，防止任何人包括公司员工非法获取用户信息。除法律法规规定情况外，特金汇不在任何情况下出售、出租或以任何非法形式泄漏您的信息。</p>
+
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="info4">
+			<div class="title">四.协同保障</div>
+			<div class="con">
+				<p>记住官方网址：特金汇的官方网址为www.tejinhui.com，不要点击来历不明的链接访问网站，谨防网站钓鱼和欺诈，并建议您将特金汇官方网址加入浏览器收藏夹，以方便您下次访问。</p>
+
+				<i>1</i>
+			</div>
+
+			<div class="con">
+				<p>做好密码保护：在设置登录密码和安全密码时，密码不要有一定的规律，密码长度要在6位以上，最好是数字和字母结合。定期修改密码，防止密码泄露。</p>
+
+				<i>2</i>
+			</div>
+
+			<div class="con">
+				<p>加强安全防护：及时为您的电脑进行系统更新、安装安全补丁，以防系统漏洞被黑客利用。安装杀毒软件或防火墙，并定期为电脑进行查毒、杀毒。</p>
+
+				<i>3</i>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+
+
+<include file="./Template/public/footer.html" />
+	</body>
+</html>

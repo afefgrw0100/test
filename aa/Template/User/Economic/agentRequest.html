@@ -1,0 +1,88 @@
+<include file="./Template/public/header.html" />
+<style>
+	.bdsharebuttonbox{ display: block; border: none; margin: 0 auto; width: 150px; overflow: hidden; position: static;}
+	.bdsharebuttonbox a{ margin-right: 20px;}
+</style>
+		<div class="main">
+			<div class="agent">
+				<div class="banner"><img src="__PUBLIC__/images/common/agent_03.jpg"></div>
+				<div class="con">
+					<div class="info1">
+						<div class="title"><h2>经纪人基本信息</h2><b><img src="{:empty($user['HeadImg'])?'__PUBLIC__/images/user/man_03.jpg':headimg($user['HeadImg'],116,116)}"></b></div>
+						<div class="content">
+							<ul>
+								<li><b>用户名称： </b><em>{$user.MemberName}</em></li>
+								<li><b>用户类型：</b><em>{$user.MemberType.CodeName}</em></li>
+								<li><b>已上传项目数量：</b><em>{$user.pronum}</em></li>
+								<li><b>发布尽调报告数量：</b><em>{$user.make}</em></li>
+								<li><b>分享地址：</b><em>{$user.host}</em></li>
+								<li><b>评价等级：</b><em class="xing"><b class="g-star{$user.StarLevel.name}"></b></em></li>
+							</ul>
+
+						</div>
+						<div class="tj_btn">
+							<a href="javascript:void(0);" class="share"><img src="__PUBLIC__/images/common/agent_11.jpg"></a>
+							<a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE')))}"><img src="__PUBLIC__/images/common/agent_08.jpg"></a>
+						</div>
+					</div>
+					
+					<div class="info1">
+						<div class="title"><h2>用户发布信息</h2></div>
+						<div class="news">
+							<div class="fl">
+								<h2>已上传的项目</h2>
+								<ul>
+									<volist name="list" id="vo">
+										<li><a href="{:U('Home/lists/content',empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':array('PackageID'=>$vo['PackageID'])):array('AssetsID'=>$vo['AssetsID'])):array('DebtID'=>$vo['DebtID']))}" target="_parent">{$vo.title}</a></li>
+									</volist>
+								</ul>
+							</div>
+							<div class="fl">
+								<h2>尽调报告项目</h2>
+								<ul>
+									<volist name="lists" id="lvo">
+									<li><a href="{:U('Home/lists/content',empty($lvo['DebtID'])?(empty($lvo['AssetsID'])?(empty($lvo['PackageID'])?'':array('PackageID'=>$lvo['PackageID'])):array('AssetsID'=>$lvo['AssetsID'])):array('DebtID'=>$lvo['DebtID']))}" target="_parent">{$lvo.title}</a></li>
+									</volist>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<include file="./Template/public/footer.html" />
+
+<div class="mask">
+
+	<div class="popups clearfix">
+		<h2>分享到：</h2>
+
+		<div class="shares">
+			<div class="bdsharebuttonbox">
+				<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+				<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+				<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common": {
+						"bdSnsKey": {},
+						"bdText": "",
+						"bdMini": "2",
+						"bdPic": "",
+						"bdStyle": "0",
+						"bdSize": "32"
+					},
+					"share": {}
+				};
+				with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+			</script>
+		</div>
+
+		<div class="close">关闭</div>
+	</div>
+</div>
+
+
+	</body>
+</html>

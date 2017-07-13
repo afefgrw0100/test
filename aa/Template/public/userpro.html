@@ -1,0 +1,13 @@
+<div class="top_right">
+    <span class="hello">Hi , <i>{:dataG()}{$Think.session.user.RealName}</i></span>
+    <span class="time">上次登录时间：<i>{:empty(session('user.LastLoginTime'))?"当前是第一次登录":session('user.LastLoginTime')}</i></span>
+						<span class="btn">
+                            <if  condition="session('user.MemberTypesss') eq 400">
+                            <a href="{:U('User/Common/rechager')}" class="btn1">充值</a>
+                            </if>
+                             <if  condition="session('user.MemberType') eq 4">
+                                 <a href="{:U('User/Common/cashmis')}"  class="btn2">提现</a>
+                             </if>
+
+						</span>
+</div>

@@ -1,0 +1,437 @@
+<include file="./Template/public/header.html" />
+
+		<!-- header end -->
+		<div class="directstore" >
+		<div class="main">
+			<div class="banner" style="background: url({:imgpublic($img_logo_photo['url'])}) no-repeat center top; height: 560px;"></div>
+			<div class="box">
+			<div class="box1 num1">
+				<ul>
+					<li class="parent"><i class="iconfont">&#xe611;</i><span><b>{$Auc_user_a_count}</b><p>合伙人数量</p></span></li>
+					<li class="agent"><i class="iconfont">&#xe60c;</i><span><b>{$Auc_user_b_count}</b><p>经纪人数量</p></span></li>
+
+				</ul>
+			</div>
+			<volist name="user_in" id="uvo">
+			<div class="box2">
+				<div class="fl">
+					<if condition="empty($uvo['intImg'])">
+						<img src="http://placehold.it/390x240">
+						<else/>
+						<img src="{:imgpublic($uvo['intImg'])}?imageView2/2/w/390/h/240">
+					</if>
+
+				</div>
+				<div class="fl">
+					<span>
+						<h2>合伙人介绍</h2>
+						<p><em>联&nbsp;&nbsp;系&nbsp;&nbsp;人：</em><b>{$uvo.RealName}</b></p>
+						<p><em>电 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</em><b>{$uvo.CellPhone}</b></p>
+
+						<p><em>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</em><b>{$uvo.pname}{$uvo.cname}{$uvo.Street}</b></p>
+						<p><em>业务类型：</em><b>{$uvo.memo}</b></p>
+
+						<div class="btn-block">
+							<a href="{:U('User/Index/region')}" class="btn1">成为特资经纪人</a>
+							<a href="" class="btn2 clickVer"  data-toggle="modal" data-target="#mymodal-data{$uvo.MemberId}">项目委托</a>
+						</div>
+						<!-- 模态弹出窗内容 -->
+						<div class="modal" id="mymodal-data{$uvo.MemberId}" tabindex="-1" role="dialog" >
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal"><span>&times;</span><span class="sr-only">Close</span></button>
+										<h4 class="modal-title">项目委托</h4>
+									</div>
+									<div class="modal-body">
+										<div class="item">该服务中心位于：{$cityname.pname}{$cityname.name}，服务类型为：{$uvo.memo}
+										</div>
+										<div class="con">
+											<div class="fl">
+												<form action="{:U('Home/Index/adddirct',array('mid'=>$uvo['MemberId']))}" method="post" class="registerform">
+													<div class="form-group">
+														<div class="clearfix">
+															<label>项目位置：</label>
+															<button class="btn btn-default" type="button" id="dropdownMenu1" disabled="disabled" >
+																<input type="hidden" value="{$cityname.pname} " name="province"> <em>{$cityname.pname} </em>  <span class="caret"></span>  </button>
+
+															<button class="btn btn-default" type="button" id="dropdownMenu2" disabled="disabled">
+																<input type="hidden" value="{$cityname.name} " name="city"> <em>{$cityname.name} </em>  <span class="caret"></span>  </button>
+															<div class="dropdown">
+																<button class="btn btn-default" type="button" id="dropdownMenu3" data-toggle="dropdown">
+																	<input type="hidden" value="" name="area" datatype="*" nullmsg="请选择地区！" errormsg="请选择地区！"> <em>地区</em> <span class="caret"></span>  </button>
+																<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+																	<volist name="areaInfo" id="areavo">
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1" val="{$areavo.name}" >{$areavo.name}</a>
+																	</li>
+																	</volist>
+
+																</ul>
+
+															</div>
+
+														</div>
+
+													</div>
+													<div class="form-group">
+														<div class="clearfix">
+															<label>项目类型：</label>
+															<div class="dropdown">
+																<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown">
+																	<input type="hidden" value="" name="etype" datatype="*" nullmsg="请选择项目类型！" errormsg="请选择项目类型！"> <em>请选择</em>  <span class="caret"></span>  </button>
+
+																<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1" val="1" >土地</a>
+																	</li>
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1"  val="2" >写字楼</a>
+																	</li>
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1"  val="3" >商业</a>
+																	</li>
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1"   val="4" >住宅</a>
+																	</li>
+
+																</ul>
+															</div>
+
+															<div class="dropdown">
+																<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown">
+																	<input type="hidden" value="" name="ptype" datatype="*" nullmsg="请选择项目类型！" errormsg="请选择项目类型！"> <em>请选择</em> <span class="caret"></span>  </button>
+
+																<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu5">
+
+
+																</ul>
+															</div>
+
+
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="clearfix">
+															<label>处置方式：</label>
+															<div class="dropdown">
+																<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu6" data-toggle="dropdown">
+																	<input type="hidden" value="" name="manage" datatype="*" nullmsg="请选择处置方式！" errormsg="请选择处置方式！"> <em>请选择</em> <span class="caret"></span>  </button>
+
+																<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1"  val="1">转让</a>
+																	</li>
+																	<li role="presentation">
+																		<a role="menuitem" tabindex="-1"  val="2">出租</a>
+																	</li>
+
+																</ul>
+															</div>
+														</div>
+
+
+													</div>
+													<div class="form-group">
+														<div class="clearfix">
+															<label>项目联系人：</label> <input class="form-control" placeholder="请输入你的姓名" type="text" name="name"  datatype="s2-18" nullmsg="请输入你的姓名！" errormsg="请输入你的姓名！" />
+														</div>
+
+													</div>
+													<div class="form-group">
+														<div class="clearfix"><label>联系人电话：</label> <input class="form-control" type="text" id="phone{$uvo.MemberId}" name="phone" datatype="m" nullmsg="手机号码不能为空！" errormsg="手机号码不正确！" /></div>
+														<div class="onError" style="display: none">手机号码不能为空</div>
+													</div>
+													<div class="form-group">
+														<div class="clearfix">
+															<label>图形验证码：</label> <input class="form-control" type="text" name="verify" datatype="s2-18" nullmsg="请输入图形验证码！" errormsg="请输入图形验证码！"  /><em><img class="verify_img" src="/index.php?m=Web&amp;c=Checkcode&amp;a=index&amp;length=4&amp;font_size=16&amp;width=120&amp;height=45&amp;charset=1234567890&amp;use_noise=1&amp;use_curve=0&amp;time=0.5246274670379651" onclick="this.src='/index.php?m=Web&amp;c=Checkcode&amp;a=index&amp;length=4&amp;font_size=16&amp;width=120&amp;height=45&amp;charset=1234567890&amp;use_noise=1&amp;use_curve=0&amp;time='+Math.random();" style="cursor: pointer;" title="点击获取"></em>
+														</div>
+													</div>
+
+													<div class="form-group">
+														<div class="clearfix">
+															<label>手机验证码：</label> <input class="form-control" name="phonecode" datatype="s2-18" nullmsg="请输入手机验证码！" errormsg="请输入手机验证码！"  /> <em><input value="获取验证码" type="button" class="btn btn-primary phone" phone="#phone{$uvo.MemberId}" ></em>
+														</div>
+													</div>
+													<div class="form-btn clearfix">
+														<a  class=" btn btn-primary btnSubmit">立即申请</a>
+														<em class="">*为了您的权益，您的隐私将被严格保密</em>
+													</div>
+
+												</form>
+											</div>
+											<div class="steps">
+												<div class="title">简单3步<br />特殊资产流转省时省心</div>
+												<p>
+													Step1：<br/>特资经纪人电话回访，实地考察<br>并撰写、上传尽调报告，全网发布。
+												</p>
+												<i class="iconfont">&#xe675;</i>
+
+												<p>
+													Step2：<br/>特资经纪人线下客户带看，提供<br>尽调报告，意向客户签订居间协议。
+												</p>
+												<i class="iconfont">&#xe675;</i>
+												<p>
+													Step3：<br/>签订流转合同，<br>完成资产流转交易。
+												</p>
+
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</span>
+					
+					
+				</div>
+			</div>
+			</volist>
+			<div class="box3">
+				<div class="title"><h2>项目列表</h2><em><a href="{:U('Home/Lists/lists')}">更多>></a></em></div>
+					<div class="nTab"> 
+		<div class="TabTitle">
+		<ul id="myTab">
+		<li class="active" onmouseover="nTabs(this,0);">转让</li>
+		<li class="normal" onmouseover="nTabs(this,1);">出租</li>	
+		<!--<li class="normal" onmouseover="nTabs(this,2);">拍卖</li>-->
+		</ul>
+		</div>
+	    <div class="TabContent">
+			<div id="myTab_Content0">
+				
+				<div class="con">
+					<ul>
+						<volist name="info_c" id="vo_c">
+						<li>
+							<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_c['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">
+								<div class="pic">
+									<if condition="empty($vo_c['titimg'])">
+										<img src="	http://placehold.it/250x180">
+										<else/>
+										<img src="{:imgpublic($vo_c['titimg'])}?imageView2/2/w/250/h/180">
+									</if>
+								</div>
+								<div class="price"><em>转让金额：</em> <span><b class="numtenhousand">{$vo_c.ProPrice}</b>元</span></div>
+								<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$vo_c.Price}</b>元</span></div>
+								<div class="info">
+									<span><em>资产类型：</em><b>{:C('asset_type')[$vo_c['AssetsType']]}</b></span>
+									<span class="fr"><i class="iconfont">&#xe639;</i><b>{$cityname.name}</b></span>
+								</div>
+							</a>
+						</li>
+						</volist>
+					</ul>
+				</div>
+			
+				
+			</div>
+			<div id="myTab_Content1" class="none">
+				
+				<div class="con">
+					<ul>
+						<volist name="info_b" id="vo_b">
+							<li>
+								<a href="{:U('Home/lists/content/',array('AssetsIDrent'=>$vo_b['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">
+									<div class="pic">
+										<if condition="empty($vo_b['titimg'])">
+											<img src="	http://placehold.it/250x180">
+											<else/>
+											<img src="{:imgpublic($vo_b['titimg'])}?imageView2/2/w/250/h/180">
+										</if>
+
+
+									</div>
+									<div class="price"><em>出租金额：</em> <span><b class="numtenhousand">{$vo_b.ProPrice}</b>元</span></div>
+									<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$vo_b.Price}</b>元</span></div>
+									<div class="info">
+										<span><em>资产类型：</em><b>{:C('asset_type')[$vo_b['AssetsType']]}</b></span>
+										<span class="fr"><i class="iconfont">&#xe639;</i><b>{$cityname.name}</b></span>
+									</div>
+								</a>
+							</li>
+						</volist>
+
+						
+					</ul>
+				</div>
+			
+				
+			</div>
+			<!--<div id="myTab_Content2" class="none">-->
+				<!---->
+				<!--<div class="con">-->
+					<!--<ul>-->
+						<!--<volist name="info_a" id="vo_a">-->
+							<!--<li>-->
+								<!--<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_a['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}">-->
+									<!--<div class="pic"><img src="{:imgpublic($vo_a['titimg'])}?imageView2/2/w/250/h/180"></div>-->
+									<!--<div class="price"><em>起拍金额：</em> <span><b class="numtenhousand">{$vo_a.ProPrice}</b>元</span></div>-->
+									<!--<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$vo_a.Price}</b>元</span></div>-->
+									<!--<div class="info">-->
+										<!--<span><em>资产类型：</em><b>{:C('Aucassetstype')[$vo_a['AssetsType']]}</b></span>-->
+										<!--<span class="fr"><i class="iconfont">&#xe639;</i><b>{$cityname.name}</b></span>-->
+									<!--</div>-->
+								<!--</a>-->
+							<!--</li>-->
+						<!--</volist>-->
+					<!--</ul>-->
+				<!--</div>-->
+			<!---->
+			<!---->
+			<!--</div>-->
+			</div>	
+		</div>
+				
+			</div>
+			</div>
+		</div>
+		</div>
+		</div>
+
+<include file="./Template/public/footer.html" />
+<script  type="text/javascript" charset="utf-8" src="{:tempurl('__PUBLIC__/js/Validform_v5.3.2_min.js')}"></script>
+<script type="text/template" id="land">
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="1" >工业用地</a>
+	</li>
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="2" >商业用地</a>
+	</li>
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="3" >住宅用地</a>
+	</li>
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="4" >商住两用地</a>
+	</li>
+</script>
+<script type="text/template" id="residence">
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="1">别墅</a>
+	</li>
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="2">洋房</a>
+	</li>
+	<li role="presentation">
+		<a role="menuitem" tabindex="-1"  val="3">普通住宅</a>
+	</li>
+
+</script>
+<script>
+	$(document).ready(function() {
+
+		$(".registerform").Validform({
+			btnSubmit:'.btnSubmit',
+			ajaxPost:true,
+			callback:function(data){
+				if(data.status==1){
+
+					setTimeout(function(){
+						$.Hidemsg(); //公用方法关闭信息提示框;显示方法是$.Showmsg("message goes here.");
+						window.location.reload();
+					},2000);
+				}else {
+					$(".verify_img").attr("src",verify());
+				}
+			}
+		});
+		$(".clickVer").click(function(){
+			var clickVerId =  $(this).attr("data-target");
+			$(clickVerId).find(".verify_img").attr("src",verify());
+		});
+		$(".dropdown-menu").on("click","li a",function(){
+			var slehtml = $(this).html();
+			var sleval = $(this).attr("val");
+
+			$(this).parents(".dropdown").children("button").children("input").val(sleval);
+			$(this).parents(".dropdown").children("button").children("em").html(slehtml);
+			if(slehtml=="土地"){
+				var landhtml = $("#land").html();
+				$(this).parents(".dropdown").next().children("ul").html(landhtml);
+				$(this).parents(".dropdown").next().children("button").children("input").val("");
+				$(this).parents(".dropdown").next().children("button").children("em").html("请选择");
+			}
+			if(slehtml=="住宅"){
+				var landhtml = $("#residence").html();
+				$(this).parents(".dropdown").next().children("ul").html(landhtml);
+				$(this).parents(".dropdown").next().children("button").children("input").val("");
+				$(this).parents(".dropdown").next().children("button").children("em").html("请选择");
+			}
+			if(slehtml=="写字楼"||slehtml=="商业"){
+				var landhtml = "";
+				$(this).parents(".dropdown").next().children("ul").html(landhtml);
+				$(this).parents(".dropdown").next().children("button").children("input").val(0);
+				$(this).parents(".dropdown").next().children("button").children("em").html("无选项");
+			}
+			console.log(slehtml);
+		});
+
+		function verify(){
+			return '/index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=45&charset=1234567890&use_noise=1&use_curve=0&time='+Math.random();
+		};
+
+		var murl ="{:U('Portal/Index/mcode')}";
+		var cc =1;
+		$(".phone").click(function(){
+			//var ccc = $("#sub_mit").trigger("click");
+			//return false;
+			var clickthis = $(this);
+			var phoneNumber = $(clickthis.attr("phone")).val();
+			if(!( /^0{0,1}(13[0-9]|14[0-9]|17[0-9]|15[0-9]|153|156|18[0-9])[0-9]{8}$/.test(phoneNumber))){
+				$(".onError").css("display","block");
+				$(".onError").html("请填写正确手机号");
+				return false;
+			}else{
+				$(".onError").css("display","none");
+			};
+
+
+			if(cc==0){
+				return false;
+			}
+			$.ajax({
+				cache: false,
+				type: "POST",
+				url:murl,
+				data:{mobile:phoneNumber},// 你的formid
+				async: true,
+				beforeSend:function(){
+
+				},
+				error:function(request){
+				},
+				success:function(data){
+					if(data.code_josn=='200'&&data.data.status=="ok"){
+						var send_sms_interval = '120';
+						var send_sms_handler = setInterval(function () {
+							if (send_sms_interval <= 0) {
+								clearInterval(send_sms_handler);
+								//$("#btn_captcha_sms").attr('onclick', 'javascript:send_sms_code()').removeAttr('style');
+								clickthis.val('获取验证码');
+								cc=1;
+							} else {
+								cc=0;
+								clickthis.val(send_sms_interval + '秒');
+
+							}
+							send_sms_interval--;
+						}, 1000);
+
+						clickthis.val("发送成功");
+						console.log(clickthis.val());
+						//csserror("#mobile_code","验证码发送成功",true);
+					}else {
+						console.log(clickthis.val());
+						clickthis.val("发送失败")
+						//$(this).val("发送失败");
+					}
+				}
+			});
+
+		});
+
+	});
+</script>
+	</body>
+</html>

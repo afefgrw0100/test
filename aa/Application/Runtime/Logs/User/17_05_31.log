@@ -1,0 +1,691 @@
+[ 2017-05-31T15:19:06+08:00 ] 127.0.0.1 /User/Logic/buymic/type/assets/buyid/170.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-05-31T15:19:06+08:00 ] 127.0.0.1 /User/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\User\5f2d0b49f58ff7c3686d6f83be871e33.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:19:11+08:00 ] 127.0.0.1 /User/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `tb_member` LEFT JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID  WHERE `MemberName` = 'wwwwwww' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_member` SET `LastLoginTime`='2017-05-31 15:19:11',`LastLoginIP`='127.0.0.1' WHERE `MemberId` = '3' [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeID` = '63' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `tb_member` SET `FailTimes`='0' WHERE `MemberId` = '3' [ RunTime:0.0290s ]
+
+[ 2017-05-31T15:19:12+08:00 ] 127.0.0.1 /User/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\User\feebdcce97289611e131c0837d6fe48e.php 第 31 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined variable: user D:\WWW\tejinhui\Application\Runtime\Cache\User\feebdcce97289611e131c0837d6fe48e.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:19:12+08:00 ] 127.0.0.1 /User/Common/train.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sys_articlescrap` WHERE `type` = 19 ORDER BY `no` asc,`createtime` desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_articlescrap` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_articlescrap` WHERE `type` = 19 ORDER BY `no` asc,`createtime` desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined variable: page D:\WWW\tejinhui\Application\Runtime\Cache\User\f2e2a14500611210fbdc8b63575c30b0.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:19:14+08:00 ] 127.0.0.1 /User/Common/ordermgt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_order` INNER JOIN tb_product ON tb_product.ProductId = tb_order.ProductID INNER JOIN sys_code ON sys_code.CodeID= tb_product.ProductType  WHERE tb_order.CreateUser = '3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,tb_order.Type as type,tb_order.ProductID,`DealPrice`,tb_order.ProductName as ProductName,tb_order.CreateTime as CreateTime,`OrderStatue`,`Type`,sys_code.CodeValue as CodeValue FROM `tb_order` INNER JOIN tb_product ON tb_product.ProductId = tb_order.ProductID INNER JOIN sys_code ON sys_code.CodeID= tb_product.ProductType  WHERE tb_order.CreateUser = '3' ORDER BY CreateTime DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE ( CodeGroup = '10105' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:20:13+08:00 ] 127.0.0.1 /User/Logic/buymic/type/assets/buyid/170.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsproject` [ RunTime:0.0020s ]
+SQL: SELECT `SubID`,tb_assetsproject.AssetsID,`SubName`,`SubDesc`,`ViewPrice`,`BuyPrice`,`Source` FROM `tb_assetsproject` INNER JOIN tb_assets ON tb_assetsproject.AssetsID=tb_assets.AssetsID  WHERE tb_assetsproject.AssetsID = '170' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeGroup` = 10110 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` WHERE `CodeGroup` = 10108 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_order` WHERE `OrderStatue` BETWEEN '1' AND '2' AND `Type` = 2 AND `ProductID` = 5 AND `InfoNo` = '51' AND `CreateUser` = 3 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_order` (`sn`,`ProductID`,`ProductName`,`ProductDesc`,`Type`,`OrgPrice`,`DealPrice`,`OrgInt`,`DealInt`,`InfoNo`,`CreateUser`,`CreateTime`) VALUES ('20170531152013Jssa','5','拍卖','芙蓉区西街花园房产拍卖','2','10','10','100','100','51','3','2017-05-31 15:20:13') [ RunTime:0.0850s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+
+[ 2017-05-31T15:20:13+08:00 ] 127.0.0.1 /User/Payment/index/codekey/03790Z94o7weYpnfntNuFrHe_vL0wxJgxc4F8HBwZCU/type/03790Z94o7weYpnfnoNjF-OO-_SvkkBmxspTo30iLmanlGI/codetype/0854PAkeMOs3k8wbBDcJtPEy-Wbok300wRRPmn9_.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`DealPrice`,tb_assetsproject.SubName as Title FROM `tb_order` INNER JOIN tb_assetsproject ON tb_order.InfoNo=tb_assetsproject.SubID  WHERE `id` = '390' AND `OrderStatue` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: search D:\WWW\tejinhui\Application\Runtime\Cache\User\d1292c540ab9d614a4abd47c65c6f836.php 第 31 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Use of undefined constant codetype - assumed 'codetype' D:\WWW\tejinhui\Application\Runtime\Cache\User\d1292c540ab9d614a4abd47c65c6f836.php 第 110 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:20:13+08:00 ] 127.0.0.1 /User/payment/weixinpay_qrcode/codekey/03790Z94o7weYpnfntNuFrHe_vL0wxJgxc4F8HBwZCU/type/03790Z94o7weYpnfnoNjF-OO-_SvkkBmxspTo30iLmanlGI/codetype/0854PAkeMOs3k8wbBDcJtPEy-Wbok300wRRPmn9_.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sys_web_configure` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_web_configure` WHERE `type` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sys_code` INNER JOIN tb_ads ON sys_code.CodeID=tb_ads.Catagrote  WHERE sys_code.CodeValue = 'footAdImg' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`sn`,`DealPrice`,tb_assetsproject.SubName as Title,tb_order.UpdateTime FROM `tb_order` INNER JOIN tb_assetsproject ON tb_order.InfoNo=tb_assetsproject.SubID  WHERE `id` = '390' AND `OrderStatue` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: CreateTime D:\WWW\tejinhui\Application\User\Controller\PaymentController.class.php 第 147 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_order` SET `sn`='20170531152013Fihr',`UpdateTime`='2017-05-31 15:20:13' WHERE `id` = '390' [ RunTime:0.0160s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\Common\Common\function.php on line 503 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:20:18+08:00 ] 127.0.0.1 /index.php/User/Apipay/getAllMsgTradeCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-31T15:20:37+08:00 ] 127.0.0.1 /index.php/User/Apipay/getAllMsgTradeCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+SQL: SELECT * FROM `tb_order` WHERE `id` = '390' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0110s ]
+
+[ 2017-05-31T15:20:59+08:00 ] 127.0.0.1 /index.php/User/Apipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_test` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_test` (`txt`) VALUES ('{\"out_trade_no\":\"20170531152013Fihr\"}') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_order` SET `OrderStatue`='2',`UpdateTime`='2017-05-31 15:20:59',`CheckoutTime`='2017-05-31 15:20:59' WHERE `sn` = '20170531152013Fihr' AND `OrderStatue` = 1 [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tb_order` WHERE `sn` = '20170531152013Fihr' AND `OrderStatue` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_member` SET `openid`=NULL WHERE `MemberId` = '3' [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `tb_memberbuyhistory` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_memberbuyhistory` (`InfoType`,`ProjectID`,`CreateTime`,`MemberId`) VALUES ('5','51','2017-05-31 15:20:59','3') [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT tb_assets.AssetsID as infoid,tb_assets.DueDiligenceMember FROM `tb_assets` INNER JOIN tb_assetsproject ON tb_assets.AssetsID = tb_assetsproject.AssetsID  WHERE tb_assetsproject.SubID = '51' AND tb_assets.AssetsStatue = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_memberaccount` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_memberaccount` WHERE `MemberId` = '25' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sys_code` [ RunTime:0.0010s ]
+SQL: SELECT `CodeID`,`CodeValue` FROM `sys_code` WHERE `CodeID` = 34 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_memberaccount` SET `Balance`=Balance+7 WHERE `MemberId` = '25' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ProductType D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 461 行.
+SQL: SHOW COLUMNS FROM `tb_memberblancellog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_memberblancellog` (`SN`,`MemberId`,`PreIntegral`,`NxtIntegral`,`OffSetValue`,`Remark`,`CreateTime`,`CreateUser`) VALUES ('20170531152059Ux5U','25','255.47','262.47','7','购买尽调','2017-05-31 15:20:59','sytem') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_memberprofile` [ RunTime:0.0020s ]
+SQL: SELECT `MemberID`,`CellPhone` FROM `tb_memberprofile` WHERE `MemberID` = '25' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: smsinfo D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_assetsdata` SET `BuyCount`=BuyCount+1 WHERE `ID` = '170' [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-31T15:40:53+08:00 ] 127.0.0.1 /index.php/User/Apipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_test` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tb_test` (`txt`) VALUES ('{\"out_trade_no\":\"20170531152013Fihr\"}') [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_order` SET `OrderStatue`='2',`UpdateTime`='2017-05-31 15:40:53',`CheckoutTime`='2017-05-31 15:40:53' WHERE `sn` = '20170531152013Fihr' AND `OrderStatue` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 128 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_member` SET `openid`=NULL WHERE `MemberId` = null [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 134 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:49:44+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T15:49:48+08:00 ] 127.0.0.1 /index.php/User/Apipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_test` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_test` (`txt`) VALUES ('{\"out_trade_no\":\"20170531152013Fihr\"}') [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_order` SET `OrderStatue`='2',`UpdateTime`='2017-05-31 15:49:48',`CheckoutTime`='2017-05-31 15:49:48' WHERE `sn` = '20170531152013Fihr' AND `OrderStatue` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 128 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0010s ]
+SQL: UPDATE `tb_member` SET `openid`=NULL WHERE `MemberId` = null [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 134 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:50:41+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T15:53:50+08:00 ] 127.0.0.1 //index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T15:54:26+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 524 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T15:55:08+08:00 ] 127.0.0.1 /index.php/User/Apipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_test` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_test` (`txt`) VALUES ('{\"out_trade_no\":\"20170531152013Fihr\"}') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `tb_order` SET `OrderStatue`='2',`UpdateTime`='2017-05-31 15:55:08',`CheckoutTime`='2017-05-31 15:55:08' WHERE `sn` = '20170531152013Fihr' AND `OrderStatue` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 128 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_member` SET `openid`=NULL WHERE `MemberId` = null [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: info D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 134 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T15:56:45+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T15:56:45+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T16:51:53+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'tb_orderInfoNo' in 'on clause'
+ [ SQL语句 ] : SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_orderInfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1  
+ERR: 1054:Unknown column 'tb_orderInfoNo' in 'on clause'
+ [ SQL语句 ] : SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_orderInfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1  
+
+[ 2017-05-31T16:52:10+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:53:32+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T16:53:54+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T16:53:55+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:53:56+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T16:53:58+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-31T16:54:18+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: AssetsID D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php 第 526 行.
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:55:05+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T16:58:52+08:00 ] 127.0.0.1 /index.php/User/Apipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 103 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, boolean given D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 125 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, null given D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 127 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-31T16:59:01+08:00 ] 127.0.0.1 /index.php/User/Apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Weixinpay::__construct(), called in D:\WWW\tejinhui\Application\User\Controller\ApipayController.class.php on line 519 and defined D:\WWW\tejinhui\ThinkPHP\Library\Vendor\Weixinpay\Weixinpay.php 第 14 行.
+
+[ 2017-05-31T17:18:38+08:00 ] 127.0.0.1 /User/apipay/pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_order` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`sn`,`AssetsID` FROM `tb_order` INNER JOIN tb_assetsproject ON tb_assetsproject.SubID = tb_order.InfoNo  WHERE `sn` = '20170531152013Fihr' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: discuz_auth_key D:\WWW\tejinhui\Application\Common\Common\function.php 第 550 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

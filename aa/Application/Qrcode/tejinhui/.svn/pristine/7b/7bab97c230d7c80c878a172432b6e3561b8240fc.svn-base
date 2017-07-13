@@ -1,0 +1,21 @@
+<include file="./Template/public/header.html" />
+		<div class="main">
+			<div class="tjh_news">
+
+				<div class="con">
+					<h2><b>{$map_train==11?'公司新闻':'特金学院'}</b><em>/news</em></h2>
+					<ul>
+						<volist name="list" id="vo">
+							<li><em><a href="{:U('index/artcon',array('artid'=>$vo['id']))}">{$vo.title}</a><b>{$vo.createtime}</b></em></li>
+						</volist>
+					</ul>
+					
+						<div class="page">{$page}</div>
+				</div>
+			</div>
+			
+			
+		</div>
+<include file="./Template/public/footer.html" />
+	</body>
+</html>

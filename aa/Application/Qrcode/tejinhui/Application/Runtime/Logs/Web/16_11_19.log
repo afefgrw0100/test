@@ -1,0 +1,2609 @@
+[ 2016-11-19T09:33:29+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:36:38+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T09:36:40+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_assetsdata` (`ID`,`ViewCount`) VALUES ('38','1') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:36:42+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T09:36:43+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T09:36:44+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:36:46+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:36:48+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T09:37:01+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:37:04+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:37:05+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:37:16+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:37:44+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:38:51+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:38:53+08:00 ] 127.0.0.1 /index.php/Web/Index/assets.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T09:46:54+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T09:53:47+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T09:53:51+08:00 ] 127.0.0.1 /index.php/Web/Index/debt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:00:42+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:01:06+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:01:08+08:00 ] 127.0.0.1 /index.php/Web/Index/assets.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:13:49+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:14:21+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:14:23+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:14:27+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:14:39+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-19T10:15:08+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: Statue D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-11-19T10:15:13+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: Statue D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-11-19T10:15:18+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-19T10:15:26+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-19T10:15:34+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:15:40+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:15:43+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:15:48+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:15:57+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:16:06+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:16:12+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:16:21+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [2] preg_match() expects parameter 2 to be string, array given D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1117 行.
+
+[ 2016-11-19T10:18:50+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:18:52+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:22:57+08:00 ] 127.0.0.1 /index.php/Web/Index/assets.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:23:47+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:25:50+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:26:05+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:26:05+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:30:26+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:30:40+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:30:51+08:00 ] 127.0.0.1 /index.php/Web/Assets/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_assets` (`Title`,`Price`,`AssetsType`,`Source`,`Address`,`IsInIssue`,`Statue`,`Contact`,`CellPhone`,`Remark`,`ProcessModle`,`ProPrice`,`AuthPic`,`RealPic`,`CreateMember`,`CreateTime`) VALUES ('七牛云存储 | 上传凭证','111','1','1','[\"1|北京市|10010000\",\"35|东城区|10010100\",\"\"]','1','1','13142240057','13142240057','wwww','3','11','FAB2F201-202F-884C-C213-C2C4B253B549.jpg','D1D387B9-7A13-07A5-7235-48C2D385F2F2.jpg','test','2016-11-19 10:30:51') [ RunTime:0.0010s ]
+
+[ 2016-11-19T10:30:51+08:00 ] 127.0.0.1 /index.php/Web/Index/debt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:39:34+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:39:35+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tb_assetsdata` (`ID`,`ViewCount`) VALUES ('39','1') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:39:59+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:40:18+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:41:38+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:44:18+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:44:20+08:00 ] 127.0.0.1 /index.php/Web/Index/debt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:45:41+08:00 ] 127.0.0.1 /index.php/Web/Debt/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: DebtOptStatue D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2016-11-19T10:46:00+08:00 ] 127.0.0.1 /index.php/Web/Debt/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-19T10:46:19+08:00 ] 127.0.0.1 /index.php/Web/Debt/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-19T10:46:26+08:00 ] 127.0.0.1 /index.php/Web/Debt/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-11-19T10:46:34+08:00 ] 127.0.0.1 /index.php/Web/Debt/add_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\tejinhui\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_debt` (`Title`,`Price`,`Interest`,`Total`,`Type`,`Rate`,`StartTime`,`EndTime`,`AssureType`,`IsOrgPic`,`IsIoans`,`Islitigation`,`Owner`,`OwnerType`,`CellPhone`,`Debtor`,`DebtAdress`,`DebtType`,`OtherDebtor`,`DebtOptStatue`,`PledgeValue`,`PledgeType`,`PledgeAddress`,`IsInIssue`,`PledgeStatue`,`Remark`,`ProcessModle`,`ProPrice`,`OrginPic`,`OwnerPic`,`JudgedPic`,`CreateMember`,`CreateTime`) VALUES ('德尔','1111','32','433221','1','1','2016-11-01 10:44:42','2016-11-10 10:44:44','2','2','2','2','热菜','3','13111111111','委外','[\"2|天津市|10020000\",\"56|南开区|10020400\",\"\"]','1','1','2','1111','1','[\"3|河北省|10030000\",\"71|石家庄市|10030100\",\"\"]','1','2','我','3','1111','6E9F8FE4-DE5E-2915-6C64-35812FB78A7E.jpg','114953AC-05E1-F46F-491E-47469A722F0B.jpg','97436114-55CD-9F6D-25AD-D8DC92A42AE5.jpg','user','2016-11-19 10:46:34') [ RunTime:0.0020s ]
+
+[ 2016-11-19T10:46:34+08:00 ] 127.0.0.1 /index.php/Web/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:47:44+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:47:48+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_debtdata` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tb_debtdata` (`ID`,`ViewCount`) VALUES ('8','1') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index: 能联系 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 156 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 160 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:49:11+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index: 能联系 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 156 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 160 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:51:26+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index: 能联系 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 156 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 160 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:51:28+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index: 能联系 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 156 行.
+NOTIC: [8] Undefined offset: 2 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 160 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:52:13+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index: 能联系 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:52:52+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index: 能联系 D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:53:41+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:53:43+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:57:22+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:58:52+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:59:28+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T10:59:35+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:59:49+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:59:51+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T10:59:57+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:02:03+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '39' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:02:10+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:02:11+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assetsdata` [ RunTime:0.0020s ]
+SQL: UPDATE `tb_assetsdata` SET `ViewCount`=ViewCount+1 WHERE `ID` = '38' [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:02:46+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:02:49+08:00 ] 127.0.0.1 /index.php/Web/Index/publish.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:02:50+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:02:53+08:00 ] 127.0.0.1 /index.php/Web/lists/content/AssetsID/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_assets` LEFT JOIN tb_assetsdata ON tb_assets.AssetsID=tb_assetsdata.ID  WHERE `AssetsID` = '38' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: assset D:\WWW\tejinhui\Application\Runtime\Cache\Web\08166ee9970fccf25be3c20fd6f8549c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:10:54+08:00 ] 127.0.0.1 /index.php/Web/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:10:57+08:00 ] 127.0.0.1 /index.php/Web/Index/debt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:11:00+08:00 ] 127.0.0.1 /index.php/Web/Index/debt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_area` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`pid`,`code` FROM `tb_area` WHERE `pid` = '0'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:18:50+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:20:28+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:20:34+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%98%8E%E5%98%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Search
+
+[ 2016-11-19T11:21:05+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%98%8E%E5%98%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:21:13+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%98%8E%E5%98%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:21:37+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%98%8E%E5%98%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%%' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:21:40+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:22:05+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=+%E5%98%8E%E5%98%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `Title` LIKE '%%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `Title` LIKE '%%' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `Title` LIKE '%%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined offset: 5 D:\WWW\tejinhui\Application\Common\Common\function.php 第 342 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\SearchController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:23:39+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%BE%B7%E5%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+
+[ 2016-11-19T11:24:34+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%BE%B7%E5%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+
+[ 2016-11-19T11:24:36+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=%E5%BE%B7%E5%B0%94
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+
+[ 2016-11-19T11:24:48+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html?search=+%E5%98%8E%E5%98%8E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+
+[ 2016-11-19T11:24:54+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:24:58+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+
+[ 2016-11-19T11:25:22+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:25:43+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:25:48+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:25:53+08:00 ] 127.0.0.1 /index.php/Web/lists/content/DebtID/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_debt` LEFT JOIN tb_debtdata ON tb_debt.DebtID=tb_debtdata.ID  WHERE `DebtID` = '8' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: isjudged D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 154 行.
+NOTIC: [8] Undefined index:  D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 154 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:31:57+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sum D:\WWW\tejinhui\Application\Runtime\Cache\Web\905a3a488627a647a089d0a43d2f671f.php 第 75 行.
+NOTIC: [8] Undefined index: tit D:\WWW\tejinhui\Application\Runtime\Cache\Web\905a3a488627a647a089d0a43d2f671f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:32:04+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:32:09+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sum D:\WWW\tejinhui\Application\Runtime\Cache\Web\905a3a488627a647a089d0a43d2f671f.php 第 75 行.
+NOTIC: [8] Undefined index: tit D:\WWW\tejinhui\Application\Runtime\Cache\Web\905a3a488627a647a089d0a43d2f671f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T11:32:44+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\WWW\tejinhui\Application\Runtime\Cache\Web\905a3a488627a647a089d0a43d2f671f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:33:28+08:00 ] 127.0.0.1 /index.php/Web/Search/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0020s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY DebtID desc  [ RunTime:0.0010s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY PackageID desc  [ RunTime:0.0010s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' AND `Title` LIKE '%德尔%' ORDER BY AssetsID desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T11:33:37+08:00 ] 127.0.0.1 /index.php/Web/Lists/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_debt` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_assets` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_package` [ RunTime:0.0030s ]
+SQL: SELECT `DebtID`,Title as title,Total as total,`StartTime`,`EndTime`,ProcessModle as promodel,ProPrice as proprice,DebtAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_debt` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY DebtID desc  [ RunTime:0.0020s ]
+SQL: SELECT `PackageID`,Title as title,Total as total,ProcessModle as proprice,OwnerAdress as adress,`CreateTime`,`AssetsStatue` FROM `tb_package` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY PackageID desc  [ RunTime:0.0020s ]
+SQL: SELECT `AssetsID`,Title as title,Price as total,ProcessModle as promodel,ProPrice as proprice,Address as adress,`CreateTime`,`AssetsStatue` FROM `tb_assets` WHERE `AssetsStatue` BETWEEN '0' AND '4' ORDER BY AssetsID desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined offset: 1 D:\WWW\tejinhui\Application\Common\Common\function.php 第 330 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: StartTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+NOTIC: [8] Undefined index: EndTime D:\WWW\tejinhui\Application\Web\Controller\ListsController.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-19T14:23:08+08:00 ] 127.0.0.1 /index.php?m=Web&c=Checkcode&a=index&length=4&font_size=16&width=120&height=55&charset=1234567890&use_noise=1&use_curve=0&time=0.5246274670379651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-19T15:48:53+08:00 ] 127.0.0.1 /index.php/Web/Membwe/economic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Membwe
+
+[ 2016-11-19T15:49:11+08:00 ] 127.0.0.1 /index.php/Web/Member/economic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Member
+

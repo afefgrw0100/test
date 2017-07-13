@@ -1,0 +1,42 @@
+[ 2017-02-28T11:06:44+08:00 ] 127.0.0.1 /User/Login/dowx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: code D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 290 行.
+NOTIC: [8] Undefined index: access_token D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 297 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 298 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 303 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_member` LEFT JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID  WHERE tb_member.openid = null LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keyword D:\WWW\tejinhui\Application\Runtime\Cache\User\2e12e2aa5c3007e1ec2ab819fadde66a.php 第 9 行.
+NOTIC: [8] Undefined index: keyword D:\WWW\tejinhui\Application\Runtime\Cache\User\2e12e2aa5c3007e1ec2ab819fadde66a.php 第 10 行.
+NOTIC: [8] Undefined index: keyword D:\WWW\tejinhui\Application\Runtime\Cache\User\2e12e2aa5c3007e1ec2ab819fadde66a.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-28T11:07:34+08:00 ] 127.0.0.1 /User/Login/dowx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 290 行.
+NOTIC: [8] Undefined index: access_token D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 297 行.
+NOTIC: [8] Undefined index: openid D:\WWW\tejinhui\Application\User\Controller\LoginController.class.php 第 298 行.
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_member` LEFT JOIN tb_memberprofile ON tb_member.MemberId = tb_memberprofile.MemberID  WHERE tb_member.openid = 'otDc7xEMzUy6yTHYiyv6KtgddNT1' LIMIT 1   [ RunTime:0.0030s ]
+

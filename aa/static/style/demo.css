@@ -1,0 +1,23 @@
+
+@media only screen and (min-width:768px ) {
+	.navbar.navbar-inverse{ border-radius: 0;}
+}
+.navbar{ margin-bottom: 0;}
+.banner{ background: linear-gradient(45deg,#020031 0,#6d3353 100%); position: relative; padding: 90px 0;}
+.banner::after{ background: url(../images/common/demo-bg.png) repeat; content: ''; position: absolute; top: 0; left: 0; bottom: 0;
+right: 0; opacity: .4;}
+.banner .container{ color: #fff; text-align: center; position: relative; z-index: 2;}
+.banner .container h1{ font-size: 100px; margin: 0;}
+.banner .container h2{ font-size: 32px;}
+.banner .container p a{ margin-top: 30px; cursor: pointer; box-shadow: inset 0px -4px 0px #2a6496; padding: 13px 35px 17px;}
+.banner .container span{ display: block; overflow: hidden; line-height: 30px;}
+.banner .container span a{ color: #999; padding-top: 20px;}
+.banner .container span a:hover{ color: #fff;}
+
+.container.project{ text-align: center;}
+.container.project .thumbnail{ max-width: 310px; margin-top: 30px; overflow: hidden; display: block; border-radius: 0; margin-left: auto;
+ margin-right: auto;}
+.container.project .pic{}
+.container.project .pic img{ width: 100%;}
+.container.project h3{ text-align: center;}
+.container.project .thumbnail .con{ height: 200px; color: #555; overflow: hidden; padding: 9px;}

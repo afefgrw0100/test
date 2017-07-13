@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>提现管理</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/user.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+
+
+	</head>
+
+	<body>
+		<div class="user">
+
+			<div class="main">
+				<div class="ordermgt">
+					<div class="money">
+					<ul>
+						<li><span class="num"><em>{:empty($user['Balance'])?"0":$user['Balance']}</em>元</span><span class="icon"><i class="iconfont"></i><a href="{:U('User/Common/yuehis')}"><b>当前账户余额</b></a></span></li>
+						<li><span class="num"><em>{:yue()}</em>元</span><span class="icon"><i class="iconfont"></i><a href="{:U('User/Common/mobilecash')}"><b>可提现额度</b></a></span></li>
+					</ul>
+				</div>
+				
+			
+				<div class="item-list">
+					<ul>
+						<li><a href=""><span><i class="iconfont">&#xe652;</i><em>提现记录</em></span></a></li>
+					</ul>
+				</div>
+					<volist name="infolist" id="vo">
+						<div class="order-list">
+							<ul>
+								<li>
+									<span class="num">订单号：{$vo.SN}</span>
+									<em>
+									<if condition="($vo['status'] eq 1) "> 提交中
+										<elseif condition="($vo['status'] eq 2)"/>审批完成
+										<elseif condition="($vo['status'] eq 3)"/>支付完成
+										<elseif condition="($vo['status'] eq 4)"/>交易取消
+										<elseif condition="($vo['status'] eq 5)"/>转账失败
+									</if>
+									</em>
+								</li>
+								<li><span>交易时间：{$vo.createtime}</span> <em class="i-info">提现金额：￥{$vo.drawquantity}</em></li>
+								<li class="btn">
+									<if condition="($vo['status'] eq 1) ">
+										<a href="{:U('User/Logic/outwith',array('withid'=>authcode($vo['ID'],'ENCODE')))}">撤回</a>
+										<else />
+
+									</if>
+								</li>
+							</ul>
+						</div>
+					</volist>
+
+				
+				
+				
+				
+				
+				
+			</div>
+			</div>
+				
+		</div>
+
+		<include file="./Template/mobile/public/mfooter.html" />
+	</body>
+
+</html>

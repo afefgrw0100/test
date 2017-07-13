@@ -1,0 +1,94 @@
+<if condition="!empty($eqtc['tit'])">
+    <div class="mbx">为您找到<em>{$eqtc.sum}条“{$eqtc.tit}”</em>搜索结果</div>
+    <else />
+</if>
+<volist name="list" id="vo">
+    <div class="box">
+       <if condition="($vo['AssetsStatue'] eq 8)" >
+            <div class="saled-icon"><img src="//static.resource.tejinhui.com/static/images/common/chengjiao.png"></div>
+        </if>
+
+        <div class="fl pic">
+            <if condition="$vo['source'] eq 6">
+                <a href="{:U('Home/lists/content',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">
+                    <img src="{:empty($vo['titimg'])?'http://placehold.it/180x140':imgpublic($vo['titimg']).'?imageView/2/w/180/h/140'}">
+                </a>
+                <else/>
+                <a href="{:U('Home/lists/content',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">
+                    <img src="{:empty($vo['titimg'])?'http://placehold.it/180x140':imgpublic($vo['titimg']).'?imageView/2/w/180/h/140'}">
+                </a>
+            </if>
+
+        </div>
+        <div class="fl con">
+            <div class="info1"><b>{$vo.title}</b>
+                <em>
+                    <if condition="$vo['source'] eq 6">
+                        <a href="{:U('Home/lists/content',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">查看详情</a>
+                        <else/>
+                        <a href="{:U('Home/lists/content',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">查看详情</a>
+                    </if>
+
+                </em>
+            </div>
+            <div class="info2 searlist">
+                <span><b>资产类型</b><em><a  href="javascript:void(0)" msgtype="{:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':'13'):'11'):'12'}">
+                    <if condition="$vo['source'] eq 1">  {:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?"":C('pack_type')[$vo['typeset']]):C('Aucassetstype')[$vo['typeset']]):C('debt_type')[$vo['typeset']]} <else/>  {:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?"":C('pack_type')[$vo['typeset']]):C('asset_type')[$vo['typeset']]):C('debt_type')[$vo['typeset']]}</if>
+                  </a></em></span>
+                <if condition="$vo['source'] eq 6">
+                    <span><b>出租面积</b><em>{$vo.Acreage}m²</em></span>
+                    <else/>
+                <span><b>逾期时间</b><em>{:empty($vo['daytime'])?"未逾期":$vo['daytime']}{$vo.Acreage}</em></span>
+                </if>
+                <span><b>{:empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?"":"资产包总金额"):"资产金额"):"债权金额"}</b><em class="money">¥<i class="info_num numtenhousand">{$vo.total}</i></em></span>
+                <span><b><if condition="$vo['source'] eq 1">起拍价<elseif condition="$vo['source'] eq 6" />月出租价<else/>转让金额</if></b><em class="money2">¥<i class="info_num numtenhousand">{$vo.proprice}</i></em></span>
+                <span class="address">
+                    <b>所在地</b>
+                    <em>
+                        <a href="javascript:void(0)" province="{$vo.adr.ppd.0}" city="" >{$vo.adr.ppd.1}</a> —
+                        <a href="javascript:void(0)" province="{$vo.adr.ppd.0}" city="{$vo.adr.ckk.0}" ptext = "{$vo.adr.ppd.1}{$vo.adr.ckk.1}">{$vo.adr.ckk.1}</a>
+                        <i class="iconfont">&#xe639;</i>
+                    </em>
+                </span>
+            </div>
+        </div>
+
+        <div class="fl click">
+            <div class="info1"><b>目前进度</b> <em><if condition="$vo['source'] eq 1"><if condition="strtotime($vo['AucStart']) gt time()">拍卖未开始 <elseif condition="(strtotime($vo['AucStart']) lt time()) AND (strtotime($vo['AucEnd']) gt time())" />拍卖中<else/>拍卖结束</if><else/><if condition="$vo['AssetsStatue'] eq 4">已完成尽调<elseif condition="$vo['AssetsStatue'] eq 8" />已成交</if></if></em></div>
+            <div class="info1"><b>折扣率</b> <em>{:round(($vo['proprice']/$vo['total']),4)*100}%</em></div>
+            <if condition="($vo['AssetsStatue'] eq 8) OR (($vo['source'] eq 1) AND comper_time($vo['AucEnd']))" >
+                <div class="btn warning">
+                    <else/>
+                    <div class="btn ">
+                </if>
+
+            <if condition="$vo['source'] eq 6">
+                <a href="{:U('Home/lists/content',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">查看详情</a>
+                <else/>
+                <a href="{:U('Home/lists/content',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">查看详情</a>
+            </if></div>
+        </div>
+    </div>
+</volist>
+<div class="page">
+    <div>
+        {$page}
+    </div>
+</div>
+<script>
+    //首页banner
+
+
+    //回到顶部
+    var numi = $(".numtenhousand").size();
+    for(var i=0;i<numi;i++){
+        var numtenthousand = parseInt($(".numtenhousand:eq("+i+")").html());
+
+        if(numtenthousand>10000){
+            numtenthousand = Math.round((numtenthousand /10000) * 100) / 100;
+            numtenthousand = numtenthousand + "万";
+            $(".numtenhousand:eq("+i+")").html(numtenthousand);
+        }
+    }
+
+</script>

@@ -1,0 +1,358 @@
+<include file="./Template/public/header.html" />
+<style>
+	body{ background: #f5f5f5;}
+	.picScroll-left .bd {
+		padding-top: 20px;
+		margin-left: 45px;
+		overflow: hidden;
+		width: 970px;
+		height: 350px;}
+</style>
+
+		<!-- main -->
+		<div class="main">
+			<div class="banner">
+				<div class="flexslider">
+					<ul class="slides">
+						<volist name="listimg" id="imgvo">
+							<li style="background:url({:C('IMGPATH').'/'.$imgvo['path']}) 50% 0 no-repeat;"><a href="{$imgvo.url}" target="_blank"></a></li>
+						</volist>
+					</ul>
+				</div>
+
+			</div>
+			<div class="info-1">
+
+				<div class="notice">
+					<i class="iconfont">&#xe717;</i>
+					<div class="bd">
+						<ul>
+
+							<volist name="artlist" id="artvo">
+								<li>
+									<a href="{:U('index/artcon',array('artid'=>$artvo['id']))}" target="_blank">{$artvo.title}</a>
+								</li>
+
+							</volist>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="tjh">
+
+				<div class="tjh_con">
+					<ul>
+						<li>
+							<a href="{:U('Home/index/hocr')}"><i class="icon icon1"></i><span><b>项目持有方</b><em>Project owner</em></span></a>
+						</li>
+						<li>
+							<a href="{:U('Home/index/aabs')}"><i class="icon icon2"></i><span><b>特资经纪人</b><em>Special agen</em></span></a>
+						</li>
+						<li class="last">
+							<a href="{:U('Home/index/piside')}"><i class="icon icon3"></i><span><b>项目投资方</b><em>Project investor</em></span></a>
+						</li>
+						<!--<li class="last">-->
+							<!--<a href="{:U('Home/index/Aucview')}"><i class="icon icon4"></i><span><b>资产拍卖</b><em>Asset auction</em></span></a>-->
+						<!--</li>-->
+
+					</ul>
+				</div>
+			</div>
+
+			<!-- 热门项目 -->
+			<div class="xm_list">
+
+				<div class="xm_list_title"><i class="iconfont">&#xe64c;</i>
+					<h2 class="mt18">热点资产推荐</h2></div>
+				<div class="more">
+					<a href="{:U('Home/Lists/lists')}">更多》</a>
+				</div>
+				<div class="line"></div>
+
+				<div class="xm_hot">
+
+					<div class="picScroll-left">
+
+						<div class="bd">
+							<ul>
+								<volist name="infoimg" id="infoimgv">
+									<li>
+										<div class="pic"><img src="{:empty($infoimgv['titimg'])?'http://placehold.it/390x293':imgpublic($infoimgv['titimg']).'?imageView/2/w/390/h/293'}"></div>
+										<div class="con">
+											<div class="title">{$infoimgv.Title}</div>
+											<div class="price">
+												<em>	<if condition="$infoimgv['Source'] eq 1">起拍价<elseif condition="$infoimgv['Source'] eq 6" />月租金<else />转让金额</if>：</em>
+												<span><b class="numtenhousand">{$infoimgv.ccint}</b>元</span></div>
+											<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$infoimgv.aaint}</b>元</span></div>
+											<div class="info">
+												<span>
+													<em>资产类型：</em>
+													<b>
+														<if condition="$infoimgv['Source'] eq 1">
+															{:C('Aucassetstype')[$infoimgv['AssetsType']]}
+															<else/>
+															{:C('asset_type')[$infoimgv['AssetsType']]}
+														</if>
+													</b>
+												</span>
+												<span><em>所在地：</em><b>{:explode("|",json_decode($infoimgv['Address'],true)[0])[1]}{:explode("|",json_decode($infoimgv['Address'],true)[1])[1]}</b></span>
+												<span><em>折扣率：</em><b>{:round(($infoimgv['ccint']/$infoimgv['aaint']),2)*100}%</b></span>
+
+											</div>
+											<div class="speed">
+												<span>
+													<em>目前进度：</em>
+													<b>
+														<if condition="$infoimgv['Source'] eq 1">
+															<if condition="strtotime($infoimgv['AuctionStart']) gt time()">
+																<em class="label label-primary">拍卖未开始 </em>
+																<elseif condition="(strtotime($infoimgv['AuctionStart']) lt time()) AND (strtotime($infoimgv['AuctionEnd']) gt time())" />
+																<em class="label label-primary">拍卖中</em>
+																<else/>
+																<em class="label label-primary">拍卖结束</em>
+															</if>
+															<else/>
+															<if condition="$infoimgv['AssetsStatue'] eq 4">
+																<em class="label label-primary">已完成尽调</em>
+																<elseif condition="$infoimgv['AssetsStatue'] eq 8" />
+																<em class="label label-info">已成交</em>
+															</if>
+														</if>
+													</b>
+												</span>
+											</div>
+											<div class="btn">
+												<if condition="$infoimgv['Source'] eq 6">
+													<a href="{:U('Home/lists/content/',array('AssetsIDrent'=>$infoimgv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">查看尽调项目</a>
+													<a class="share" >
+														微信分享
+														<div class="weixin"><img src="{:U('Qrcode/Index/qrcode',array('code'=>urlencode(U('Home/lists/content/',array('AssetsIDrent'=>$infoimgv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')),true,true))),true,true)}"></div>
+													</a>
+													<else/>
+													<a href="{:U('Home/lists/content/',array('AssetsID'=>$infoimgv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">查看尽调项目</a>
+													<a class="share" >
+														微信分享
+														<div class="weixin"><img src="{:U('Qrcode/Index/qrcode',array('code'=>urlencode(U('Home/lists/content/',array('AssetsID'=>$infoimgv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')),true,true))),true,true)}"></div>
+													</a>
+												</if>
+
+											</div>
+
+										</div>
+
+									</li>
+								</volist>
+
+							</ul>
+						</div>
+
+						<div class="hd">
+							<a class="next" href="javascript:void(0)"><img src="__PUBLIC__/images/common/right.png" /></a>
+							<a class="prev" href="javascript:void(0)"><img src="__PUBLIC__/images/common/left.png" /></a>
+
+							<ul>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<!-- 热门项目 end-->
+
+			<div class="hot-city">
+				<div class="title"><i class="iconfont">&#xe619;</i>
+					<h2>城市分站</h2><em><a href="/auclist">更多城市>></a></em></div>
+				<div class="con">
+					<ul>
+						<volist  name="substation" id="stvo">
+							<li>
+								<div class="mask"></div>
+								<div class="pic"><img src="{:imgpublic($stvo['titleImg']).'?imageView/2/w/260/h/180'}"></div>
+								<div class="text">
+									<h3>{$stvo.title}</h3>
+									<p>城市分站</p>
+									<a href="/auc/{$stvo.area_code}">点击进入</a>
+								</div>
+							</li>
+						</volist>
+
+					</ul>
+				</div>
+			</div>
+
+			<!--  项目列表 -->
+			<div class="xm_list">
+				<div class="xm_list_title"><i class="iconfont">&#xe60d;</i>
+					<h2>热门分类</h2></div>
+				<div class="more">
+					<a href="{:U('Home/Lists/lists')}">更多项目》</a>
+				</div>
+				<div class="xm_list_con">
+					<div class="nTab">
+						<div class="TabTitle">
+							<ul id="myTab">
+								<li class="active" onmouseover="nTabs(this,0);">资产转让</li>
+								<li class="normal" onmouseover="nTabs(this,1);">资产出租</li>
+								<!--<li class="normal" onmouseover="nTabs(this,2);">资产拍卖</li>-->
+							</ul>
+						</div>
+						<div class="TabContent">
+							<div id="myTab_Content0">
+								<ul>
+									<volist name="assets" id="assetsv">
+										<li>
+											<a href="{:U('Home/lists/content/',array('AssetsID'=>$assetsv['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">
+												<div class="pic"><img src="{:empty($assetsv['titimg'])?'http://placehold.it/260x180':imgpublic($assetsv['titimg']).'?imageView/2/w/260/h/180'}"></div>
+												<div class="price"><em>转让金额：</em> <span><b class="numtenhousand">{$assetsv['ProPrice']}</b>元</span></div>
+												<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$assetsv['Price']}</b>元</span></div>
+												<div class="info">
+													<span><em>资产类型：</em><b><if condition="$assetsv['Source'] eq 1">{:C('Aucassetstype')[$assetsv['AssetsType']]} <else/>{:C('asset_type')[$assetsv['AssetsType']]}</if></b></span>
+													<span class="fr"><i class="iconfont">&#xe639;</i><b>{:explode("|",json_decode($assetsv['Address'],true)[1])[1]}</b></span></div>
+											</a>
+										</li>
+									</volist>
+								</ul>
+							</div>
+							<div id="myTab_Content1" class="none">
+								<ul>
+									<volist name="assets_le" id="assetsv_auc">
+										<li>
+											<a href="{:U('Home/lists/content/',array('AssetsIDrent'=>$assetsv_auc['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">
+												<div class="pic"><img src="{:empty($assetsv_auc['titimg'])?'http://placehold.it/260x180':imgpublic($assetsv_auc['titimg']).'?imageView/2/w/260/h/180'}"></div>
+												<div class="price"><em>月租金额：</em> <span><b class="numtenhousand">{$assetsv_auc['ProPrice']}</b>元</span></div>
+												<div class="oldPrice"><em>资产金额：</em> <span><b class="numtenhousand">{$assetsv_auc['price']}</b>元</span></div>
+												<div class="info">
+													<span><em>资产类型：</em><b><if condition="$assetsv_auc['Source'] eq 1">{:C('Aucassetstype')[$assetsv_auc['AssetsType']]} <else/>{:C('asset_type')[$assetsv_auc['AssetsType']]}</if></b></span>
+													<span class="fr"><i class="iconfont">&#xe639;</i><b>{:explode("|",json_decode($assetsv_auc['Address'],true)[1])[1]}</b></span>
+												</div>
+											</a>
+										</li>
+
+									</volist>
+								</ul>
+							</div>
+							<!--<div id="myTab_Content2" class="none">-->
+								<!--<ul>-->
+									<!--<volist name="assets_auc" id="assetsv_auc">-->
+										<!--<li>-->
+											<!--<a href="{:U('Home/lists/content/',array('AssetsID'=>$assetsv_auc['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">-->
+												<!--<div class="pic"><img src="{:empty($assetsv_auc['titimg'])?'http://placehold.it/260x180':imgpublic($assetsv_auc['titimg']).'?imageView/2/w/260/h/180'}"></div>-->
+												<!--<div class="price"><em>起拍金额：</em> <span><b class="numtenhousand">{$assetsv_auc['ProPrice']}</b>元</span></div>-->
+												<!--<div class="oldPrice"><em>市场价值：</em> <span><b class="numtenhousand">{$assetsv_auc['Price']}</b>元</span></div>-->
+												<!--<div class="info">-->
+													<!--<span><em>资产类型：</em><b><if condition="$assetsv_auc['Source'] eq 1">{:C('Aucassetstype')[$assetsv_auc['AssetsType']]} <else/>{:C('asset_type')[$assetsv_auc['AssetsType']]}</if></b></span>-->
+													<!--<span class="fr"><i class="iconfont">&#xe639;</i><b>{:explode("|",json_decode($assetsv_auc['Address'],true)[1])[1]}</b></span>-->
+												<!--</div>-->
+											<!--</a>-->
+										<!--</li>-->
+									<!--</volist>-->
+								<!--</ul>-->
+							<!--</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--  项目列表 end  -->
+
+			<!-- 资讯 -->
+			<div class="xm_list zixun">
+				<div class="fl">
+					<div class="title"><i class="iconfont font-32">&#xe724;</i>
+						<h2>专题</h2></div>
+
+					<div class="news">
+						<a href="/Home/Index/baem"><img src="__PUBLIC__/images/temp/index-ad.jpg">		</a>
+					</div>
+
+				</div>
+
+				<div class="fl last">
+					<div class="title"><i class="iconfont font-32">&#xe682;</i>
+						<h2>特金学院</h2><a href="/Home/Index/artlist.html">更多》
+						</a>
+					</div>
+
+					<div class="news">
+						<volist name="artlisttj" id="artvotj">
+							<span><b><a href="{:U('index/artcon',array('artid'=>$artvotj['id']))}" target="_blank">{$artvotj.title}</a></b><em>{:date('Y-m-d',strtotime($artvotj['createtime']))}</em></span>
+						</volist>
+
+					</div>
+
+				</div>
+			</div>
+			<!-- 资讯 end -->
+
+
+			<!--合作伙伴-->
+			<div class="xm_list friend_link_con">
+				<div class="xm_list_title"><i class="iconfont">&#xe628;</i>
+					<h2>合作伙伴</h2></div>
+				<div class="line"></div>
+
+				<div class="friend_link">
+					<span>
+						<volist name="adsinfo" id="adsval">
+							<a href="{$adsval.JumpUrl}" target="_blank"><img src="//static.resource.tejinhui.com/{$adsval.ImageUrl}?imageView/2/h/64"></a>
+						</volist>
+					</span>
+
+				</div>
+			</div>
+			<!--合作伙伴 end-->
+
+		</div>
+		<!--main end -->
+<include file="./Template/public/footer.html" />
+<script src="{:tempurl('__PUBLIC__/js/jquery.SuperSlide.2.1.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/jquery.flexslider-min.js')}"></script>
+
+		<script>
+			//首页banner
+			$(function() {
+				$('.flexslider').flexslider({
+					directionNav: true,
+					pauseOnAction: false
+				});
+
+
+			});
+		</script>
+
+		<script>
+			//首页轮播
+			$(function() {
+				$(".picScroll-left").slide({
+					titCell: ".hd ul",
+					mainCell: ".bd ul",
+					autoPage: true,
+					effect: "left",
+					autoPlay: false,
+					vis: 1,
+					scroll: 1,
+					trigger: "click"
+				});
+			})
+		</script>
+
+		<!--// 公告滚动-->
+
+		<script>
+			jQuery(".notice").slide({
+				mainCell: ".bd ul",
+				autoPlay: true,
+				effect: "leftMarquee",
+				vis: 4,
+				interTime: 100,
+				trigger: "click"
+			});
+		</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>{$Think.session.keyword.title}</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/style.css')}" />
+
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+		<style>
+			body {
+				background: #f8f8f8;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="publish">
+		<div class="logo"><img src="__PUBLIC__/mobile/images/common/logo_03.jpg"></div>
+		</div>
+		<div class="main">
+			<div class="cityList">
+			<div class="p-banner">
+				<img src="{:imgpublic($img_logo_photo['url'])}">
+			</div>
+
+			<div class="list-title">
+						<h2>城市合伙人</h2>
+					</div>
+				<volist name="user_in" id="uvo">
+				<div class="box2">
+					<div class="fl">
+						<a href="#" target="_blank">
+							<if condition="empty($uvo['intImg'])">
+								<img src="http://placehold.it/108x80">
+								<else/>
+								<img src="{:imgpublic($uvo['intImg'])}?imageView2/2/w/108/h/80">
+							</if>
+						</a>
+					</div>
+					<div class="fl info">
+						<span>
+						<p><em>联&nbsp;&nbsp;系&nbsp;&nbsp;人：</em><b>{$uvo.RealName}</b></p>
+						<p><em>电 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</em><b>{$uvo.CellPhone}</b></p>
+						<p><em>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：</em><b>{$uvo.pname}{$uvo.cname}{$uvo.Street}</b></p>
+						<p><em>业务类型：</em><b>{$uvo.memo}</b></p>
+						</span>
+					</div>
+				</div>
+				</volist>
+
+
+
+
+		<!-- 選項卡 -->
+		<div class="nTab">
+		<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted">
+				<a class="mui-control-item mui-active" href="#item1">
+					转让
+				</a>
+				<a class="mui-control-item" href="#item2">
+					 出租
+				</a>
+
+			</div>
+
+			<div id="item1" class="mui-control-content mui-active">
+				<volist name="info_c" id="vo_c">
+					<div class="box2">
+								<div class="fl">
+									<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_c['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">
+									<img src="{:imgpublic($vo_c['titimg'])}?imageView2/2/w/108/h/80">
+									</a>
+								</div>
+								<div class="fl info">
+									<span>
+										<h2><a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_c['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}"> {$vo_c.Title}</a></h2>
+										<p  class="price"><em>出租金额：</em><b class="numtenhousand">{$vo_c.ProPrice}</b>元</p>
+										<p class="oldPrice"><em>资产金额：</em><b class="numtenhousand">{$vo_c.Price}</b>元</p>
+										<p><em>资产类型：</em><b>{:C('asset_type')[$vo_c['AssetsType']]}</b></p>
+									</span>
+								</div>
+					</div>
+				</volist>
+
+			</div>
+			<div id="item2" class="mui-control-content">
+				<volist name="info_b" id="vo_b">
+					<div class="box2">
+						<div class="fl">
+							<a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_b['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_blank">
+							<img src="//img-project.resource.tejinhui.com/FD32B35F-AAB1-9869-B0BC-2D1F2D350759.png?imageView2/2/w/250/h/180">
+							</a>
+						</div>
+						<div class="fl info"><span>
+							<h2><a href="{:U('Home/lists/content/',array('AssetsID'=>$vo_b['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}"> {$vo_b.Title}</a></h2>
+							<p  class="price"><em>出租金额：</em><b class="numtenhousand">{$vo_b.ProPrice}</b>元</p>
+							<p class="oldPrice"><em>资产金额：</em><b class="numtenhousand">{$vo_b.Price}</b>元</p>
+							<p><em>资产类型：</em><b>{:C('asset_type')[$vo_b['AssetsType']]}</b></p>
+							</span>
+						</div>
+					</div>
+				</volist>
+
+			</div>
+			</div>
+			<!-- 選項卡 end-->
+			</div>
+
+		</div>
+		<include file="./Template/mobile/public/mfooter.html" />
+
+
+
+	</body>
+
+</html>

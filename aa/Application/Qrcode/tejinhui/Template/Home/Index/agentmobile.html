@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<title>{$Think.session.keyword.title}</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/style.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+
+
+	</head>
+
+	<body>
+		<div class="publish">
+			<div class="main">
+			<div class="logo"><img src="__PUBLIC__/mobile/images/common/logo_03.jpg"></div>
+			<div class="agent">
+				<div class="banner"><img src="__PUBLIC__/mobile/images/common/agent_02.png"></div>
+				<div class="con">
+
+					<div class="info1">
+						<div class="man"><img src="{:empty($user['HeadImg'])?'__PUBLIC__/mobile/images/common/agent_05.png':headimg($user['HeadImg'],45,45)}"></div>
+						<div class="item">{$user.MemberType.CodeName}</div>
+						<div class="title">
+							<h2>经纪人基本信息</h2>
+							<div class="line"></div>
+						</div>
+						
+						<div class="base_agent">
+							<span><b>用户名称 </b><em>{$user.MemberName}</em></span>
+							<span><b>评价等级</b><em class="g-star{$user.StarLevel.name}"></em></span>
+							<span><b>已上传项目数量</b><em>{$user.pronum}条</em></span>
+							<span><b>发布尽调报告数量</b><em>{$user.make}条</em></span>
+						</div>
+						
+						<div class="share">
+							<em><a href="{:U('Home/Index/visf_user',array('uic'=>authcode($user['MemberId'],'ENCODE')))}">成为经纪人</a></em>
+					<em id="share"><a>分享</a></em>
+				</div>
+					</div>
+
+					<div class="info1">
+
+						<div class="title">
+							<h2>用户发布信息</h2>
+							<div class="line"></div>
+						</div>
+						<div class="news">
+							<div class="fl">
+								<h2>已上传的项目</h2>
+								<ul>
+									<volist name="list" id="vo">
+										<li><a href="{:U('Home/lists/content',empty($vo['DebtID'])?(empty($vo['AssetsID'])?(empty($vo['PackageID'])?'':array('PackageID'=>$vo['PackageID'])):array('AssetsID'=>$vo['AssetsID'])):array('DebtID'=>$vo['DebtID']))}" target="_parent">{$vo.title}</a></li>
+									</volist>
+								</ul>
+							</div>
+							<div class="fl">
+								<h2>尽调报告项目</h2>
+								<ul>
+									<volist name="lists" id="lvo">
+										<li><a href="{:U('Home/lists/content',empty($lvo['DebtID'])?(empty($lvo['AssetsID'])?(empty($lvo['PackageID'])?'':array('PackageID'=>$lvo['PackageID'])):array('AssetsID'=>$lvo['AssetsID'])):array('DebtID'=>$lvo['DebtID']))}" target="_parent">{$lvo.title}</a></li>
+									</volist>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+		<include file="./Template/mobile/public/mfooter.html" />
+		<div class="mask" id="mask">
+			<div class="close" id="close"><img src="__PUBLIC__/mobile/images/common/jiantou_02.png"></div>
+		</div>
+		<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script>
+			// 注意：所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+			// 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+			// 完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+			wx.config({
+
+				debug: false,
+				appId: '{$signPackage.appId}',
+				timestamp: '{$signPackage.timestamp}',
+				nonceStr: '{$signPackage.nonceStr}',
+				signature: '{$signPackage.signature}',
+				jsApiList: [
+					'onMenuShareTimeline',
+					'onMenuShareAppMessage',
+					// 所有要调用的 API 都要加到这个列表中
+				]
+			});
+			wx.ready(function () {
+				wx.onMenuShareTimeline({
+					title: '特金汇-{$user.MemberName}-个人主页',
+					link: '{$signPackage.url}',
+					imgUrl:  "{:empty($user['HeadImg'])?'__PUBLIC__/mobile/images/common/agent_05.png':headimg($user['HeadImg'],45,45)}",
+					trigger: function (res) {
+						//{:empty($asset['titimgs'])?'http://placehold.it/180x140':imgpublic($asset['titimgs']).'?imageView/1/w/180/h/140'}
+						// 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+						//alert('用户点击分享到朋友圈');
+					},
+					success: function (res) {
+						//alert('已分享');
+					},
+					cancel: function (res) {
+						//alert('已取消');
+					},
+					fail: function (res) {
+						//alert(JSON.stringify(res));
+					}
+				});
+
+
+				wx.onMenuShareAppMessage({
+					title: '特金汇-特资经纪人-个人主页',
+					desc: "特殊资产投资机会平台-{$user.MemberName}",
+					link: '{$signPackage.url}',
+					imgUrl: "{:empty($user['HeadImg'])?'__PUBLIC__/mobile/images/common/agent_05.png':headimg($user['HeadImg'],45,45)}",
+					trigger: function (res) {
+						// 不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+						//alert('用户点击发送给朋友');
+					},
+					success: function (res) {
+						//alert('已分享');
+					},
+					cancel: function (res) {
+						//alert('已取消');
+					},
+					fail: function (res) {
+						//alert(JSON.stringify(res));
+					}
+
+				});
+
+				function writeObj(obj){
+					var description = "";
+					for(var i in obj){
+						var property=obj[i];
+						description+=i+" = "+property+"\n";
+					}
+					alert(description);
+				}
+//				wx.onMenuShareAppMessage({
+//					title: '{$asset.title}', // 分享标题
+//					desc: "{:explode("|",$asset['address'][0])[1]}{:explode("|",$asset['address'][1])[1]}{$asset.address.2}{$asset.processmodle}", // 分享描述
+//					link: '{$signPackage.url}', // 分享链接
+//					imgUrl: "{:empty($asset['titimgs'])?'http://placehold.it/60x60':headimg($asset['titimgs'])}", // 分享图标
+//					//type: '', // 分享类型,music、video或link，不填默认为link
+//					dataUrl: '{$signPackage.url}', // 如果type是music或video，则要提供数据链接，默认为空
+//					success: function () {
+//						// 用户确认分享后执行的回调函数
+//					},
+//					cancel: function () {
+//						// 用户取消分享后执行的回调函数
+//					}
+//				});
+				// 在这里调用 API
+				// 2.2 监听“分享到朋友圈”按钮点击、自定义分享内容及分享结果接口
+
+			});
+
+
+		</script>
+		<script>
+			$(function() {
+				$('#share').click(function() {
+					$('#mask').show();
+				})
+
+				$('#close').click(function() {
+					$('#mask').hide();
+				})
+			})
+		</script>
+
+	</body>
+
+</html>

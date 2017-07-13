@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="{$Think.session.keyword.keyword}" />
+		<meta name="description" content="{$Think.session.keyword.desc}" />
+		<link rel="icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="__PUBLIC__/images/bitbug_favicon.ico" mce_href="__PUBLIC__/images/bitbug_favicon.ico" type="image/x-icon" />
+		<title>会员中心</title>
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/mui.min.css')}">
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/user.css')}" />
+		<link rel="stylesheet" href="{:tempurl('__PUBLIC__/mobile/style/iconfont.css')}" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<script src="{:tempurl('__PUBLIC__/mobile/js/jquery-1.7.2.min.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/mobile/js/mui.min.js')}"></script>
+
+	</head>
+
+	<body>
+		<div class="user">
+
+			<div class="main">
+				<div class="man_bg">
+					<div class="pic"><img src="__PUBLIC__/mobile/images/common/man_bg_02.jpg"></div>
+					<div class="man"><span><img src="{:empty(session('user.HeadImg'))?'__PUBLIC__/mobile/images/common/man.png':headimg(session('user.HeadImg'))}"></span></div>
+					<div class="name"><em>{$user.MemberName}</em><em class="line"></em> <em>{$user.MemberType.CodeName}</em></div>
+				</div>
+				
+				<div class="money">
+					<ul>
+						<li><span class="num"><em>{:empty($user['Balance'])?"0":$user['Balance']}</em>元</span><span class="icon"><i class="iconfont">&#xe7f7;</i><a href="{:U('User/Common/yuehis')}"><b>账户余额</b></a></span></li>
+						<li><span class="num"><em>{:yue()}</em>元</span><span class="icon"><i class="iconfont">&#xe6c1;</i><a href="{:U('User/Common/mobilecash')}"><b>可提现金额</b></a></span></li>
+						<li><span class="num"><em>{$user.FreezeAmount}</em>元</span><span class="icon"><i class="iconfont">&#xe616;</i><b>冻结金额</b></span></li>
+					</ul>
+				</div>
+				
+				<div class="item-list">
+					<ul>
+						<li><a href="{:U('User/Common/ordermgt')}"><span><i class="iconfont">&#xe603;</i><em>我的订单</em></span></a></li>
+						<li><a href="{:U('User/Common/todo')}"><span><i class="iconfont">&#xe631;</i><em>待办事项</em></span></a></li>
+						<li><a href="{:U('User/Common/mypublish')}"><span><i class="iconfont">&#xe673;</i><em>我的发布</em></span></a></li>
+					</ul>
+				</div>
+				
+				<div class="item-list">
+					<ul>
+						<if  condition="(session('user.MemberType') eq 4) and (session('user.MemberStatu') eq 1)">
+						<li><a href="{:U('User/Common/drawmgt')}"><span><i class="iconfont">&#xe601;</i><em>提现管理</em></span></a></li>
+						</if>
+
+						<li><a href="{:U('Home/Index/visitf',array('card'=>authcode($user['MemberId'],'ENCODE')))}"><span><i class="iconfont">&#xe62b;</i><em>个人名片</em></span></a></li>
+					</ul>
+				</div>
+				
+
+				
+				<div class="item-list">
+					<ul>
+						<li><a  href="{:U('User/Member/logout')}" onclick="if(!confirm('确认退出')){return false;}"><span><i class="iconfont">&#xe660;</i><em>退出登录</em></span></a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+
+		<include file="./Template/mobile/public/mfooter.html" />
+	</body>
+
+</html>

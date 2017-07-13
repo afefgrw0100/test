@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="application/javascript">
+    $("#sub_mit").click(function(){});
+    $.ajax({
+        cache: false,
+        type: "POST",
+        url:formurl,
+        data:$('#loginForm').serialize(),// 你的formid
+        async: true,
+        error:function(request){
+        },
+        beforeSend:function(){},
+        success:function(data){
+
+        },
+
+    });
+    filterWarn()
+</script>
+<body>
+
+</body>
+</html>

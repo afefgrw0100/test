@@ -1,0 +1,280 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* Link 全局链接样式2016.11.1 */
+body, button, select, textarea, input, label, option, fieldset, legend{font-family:"Microsoft YaHei";font-size: 12px; background:none;line-height: 18px;color: #444;outline: none;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0; outline: none;}
+textarea{resize: none;outline: none;}
+.clear{height:1px;overflow:hidden;clear:both;}
+a,img{border:0;}
+input{ outline: none;}
+em{font-style: normal;}
+a{color: #666;text-decoration: none;}
+a:hover{ color: #ff533e; text-decoration: none;}
+
+	*{
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+body,html{ background: #f0f2f5;}
+li{list-style-type:none;}
+.fl{float:left;}
+.fr{float:right;}
+.nf{clear:both;}
+.ds{display:block;}
+.hid{overflow:hidden;}
+.clearfix{*zoom:1}
+.clearfix:after{display:block;visibility:hidden;clear:both;height:0;content:'.';font-size:0}
+
+/*member*/
+.mainhtml{ position: relative; }
+.mainhtml_c{margin: 0 auto; width: 1124px; position: relative;}
+.iframe{}
+.fr{ float: right; width: 900px; padding-top: 10px;}
+.fr .floor.baseInfo{ margin-top: 25px;}
+ .fr .floor{background: #fff;border:1px solid #e7ebed; margin-top: 22px; padding: 20px; }
+ .fr .floor .title{ border-bottom: 1px solid #e5e7ea; line-height: 50px; font-size: 16px; padding-left: 40px;  overflow: hidden;}
+ .fr .floor .title em{ background: #ff6600;  border-radius: 15px; text-align: center;
+line-height: 25px; font-size: 14px; margin-left: 10px;width: 60px; height: 25px; float: left; margin-top: 12px;}
+ .fr .floor .title b{ font-weight: normal; float: left;}
+ .fr .floor .title b.publish_btn{ float: right;}
+  .fr .floor .title b.publish_btn a{ background: #06a8f6; font-size: 14px; color: #fff; padding: 5px 12px; border-radius: 4px;}
+ .fr .floor .title em a{ color: #fff;width: 60px; height: 25px; display: block;}
+ .fr .floor .title span a{ color: #fff; height: 25px; display: block; padding: 0 20px;}
+ .fr .floor .title span{ background: #275285;  border-radius: 15px; text-align: center;
+line-height: 25px; font-size: 14px; margin-left: 10px; height: 25px; float: left; margin-top: 12px;}
+
+.fr .floor .title span.status1{}
+.fr .floor .title span.status1 .text{ background: url(../images/user/tan.png) no-repeat; width: 157px; height: 101px; 
+position: absolute; top: 0px; left: 475px; } 
+.fr .floor .title span.status1 .text b{padding: 0px 15px;font-size: 12px;text-align:left;}
+.fr .floor .title span.status1 .text i{  margin-top: 5px; float: right; margin-right: 5px; color: #bfbbb4; font-style: normal; border: 1px solid #bfbbb4;
+ border-radius: 50%; width: 10px; text-align: center; line-height: 10px; height: 10px; display: block; font-size: 10px; cursor:pointer;}
+ 
+ .fr .floor .title span.status2 .text{ background: url(../images/user/tan2.png) no-repeat; width: 157px; height: 101px; 
+position: absolute; top: 0px; left: 475px; } 
+.fr .floor .title span.status2 .text b{padding: 0px 15px;font-size: 12px;text-align:left; }
+.fr .floor .title span.status2 .text i{  margin-top: 5px; float: right; margin-right: 5px; color: #bfbbb4; font-style: normal; border: 1px solid #bfbbb4;
+ border-radius: 50%; width: 10px; text-align: center; line-height: 10px; height: 10px; display: block; font-size: 10px; cursor:pointer;}
+
+
+.fr .floor .title span.status3 .text{ background: url(../images/user/tan3.png) no-repeat; width: 157px; height: 101px; 
+position: absolute; top: 0px; left: 475px; } 
+.fr .floor .title span.status3 .text b{padding: 0px 15px;font-size: 12px;text-align:left;}
+.fr .floor .title span.status3 .text i{  margin-top: 5px; float: right; margin-right: 5px; color: #bfbbb4; font-style: normal; border: 1px solid #bfbbb4;
+ border-radius: 50%; width: 10px; text-align: center; line-height: 10px; height: 10px; display: block; font-size: 10px; cursor:pointer;}
+
+ .fr .floor.accoutsafe{ margin-bottom: 50px; overflow: hidden;}
+ .fr .floor.accoutsafe ul li { float: left;width: 100px; height: 100px; margin: 0 90px;}
+ .fr .floor.accoutsafe ul li a{ border: 1px solid #ff6600; width: 100px; height: 100px; display: block; 
+border-radius: 50%; line-height: 100px; text-align: center; color: #190a11; font-size: 16px;}
+
+ .fr .floor.baseInfo ul li{ font-size: 14px; line-height: 20px; width: 380px;  font-weight: normal; color: #190a11; float: left;}
+ .fr .floor.baseInfo ul li b{ float: left; width: 80px; font-weight: normal;}
+ .fr .floor.baseInfo ul li.left{ width: 250px;}
+ .fr .floor.baseInfo ul li  em{ float: left; width: 200px; line-height:20px; margin-bottom:25px;overflow: hidden;  display: block;}
+ .fr .floor.baseInfo ul li  em .form-control{ padding:2px 10px; width: 90px;  line-height: 25px; height: 25px; }
+ .fr .floor.baseInfo ul li  em select{ height: 25px; line-height: 25px; border: 1px solid #ccc;  width: 100px; padding:2px 10px;
+ border-radius: 4px; padding-right: 0;}
+ .fr .floor.baseInfo ul li  em.up_pic{ position: relative; width: 100px; text-align: center; line-height: 100px; height: 102px;  display: block;}
+.up_pic .up_file{ width: 100px; height: 100px; overflow: hidden; display:block; opacity: 0;
+position: absolute; top: 0; left: 0; filter:alpha(opacity=0);}
+ .fr .floor.baseInfo ul li  em.up_pic img{ width: 100px; height: 100px; overflow: hidden;}
+.next_btn{ border-top: 1px solid #e5e7eb; padding-top: 50px; margin-top: 20px; text-align: center; }
+.next_btn a{ margin: 0 auto; background: #ff6600; cursor: pointer; color: #fff; display: block; border-radius:15px; font-size:14px;width: 85px; text-align: center; height: 25px; line-height: 25px;}
+.revise .form-control{ width: 100px;  padding: 2px 12px; height: 25px; line-height: 25px;}
+ .fr .floor.baseInfo ul li.tel{width: 500px; display: block; float: none; overflow: hidden;}
+.revise .tel{ margin-bottom: 20px; color: #190a11; font-size: 14px;}
+.revise .tel b{ font-weight: normal; width: 75px; display: inline-block;}
+.revise .tel .form-control{ float: none; display: inline-block; margin-right:5px;}
+.revise .tel .form-control.detaile_adress{ width: 307px;}
+.revise .tel .form-control.verifi{ width: 50px;}
+.revise .tel .btn1{ border: 1px solid #06a8f6; background: #fff; color: #06a8f6; font-size: 14px; text-align: center; padding: 0; line-height: 25px; 
+padding: 2px 12px; margin-top: -5px; border-radius: 4px;}
+.revise .tel em.up_pic { position: relative;}
+.revise .tel em.up_pic a{ }
+.revise .tel em select{ border: 1px solid #ccc; height: 25px; line-height: 25px; padding: 2px; border-radius: 4px;}
+.submit_btn{  font-size: 14px; text-align: center; padding: 0; line-height: 25px; 
+ }
+.submit_btn a{ color: #06a8f6; margin: 0 auto; cursor: pointer; border-radius: 4px; width: 60px;border: 1px solid #06a8f6; height: 25px; display: block;text-align: center;}
+
+ .fr .floor.baseInfo ul li.left em{ width: 150px;}
+ .fr .floor.accoutInfo .con{ padding:30px 0; }
+ .fr .floor.baseInfo .con{  position: relative;}
+ .fr .floor.baseInfo .con .xing{ position: absolute; top: 40px; right: 30px; overflow: hidden;}
+ .fr .floor.baseInfo .con .xing span{ display: block; text-align: center;}
+ .fr .floor.baseInfo .con .xing b{ display: block; margin: 0 auto;}
+ .fr .floor.baseInfo .con .xing b.g-star1{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 16px; }
+ .fr .floor.baseInfo .con .xing b.g-star2{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 37px; }
+ .fr .floor.baseInfo .con .xing b.g-star3{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 58px; }
+ .fr .floor.baseInfo .con .xing b.g-star4{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 74px; }
+ 
+ 
+ .fr .floor.accoutInfo ul li{ float: left; line-height: 50px;color: #190a11; font-size: 14px; padding: 0px 50px;
+ border-right: 1px solid #f0f2f5; height: 170px;}
+ 
+ .fr .floor.accoutInfo .con.partner ul li{ padding: 0 90px;}
+ 
+ .fr .floor.accoutInfo ul li:last-child{ border: none;}
+ .fr .floor.accoutInfo ul li a{ color: #190a11;}
+ .fr .floor.accoutInfo ul li a:hover{ text-decoration: underline;}
+ .fr .floor.accoutInfo ul li .info2{ font-size: 18px; color: #736f71; display: block; overflow: hidden; clear: both;}
+ .fr .floor.accoutInfo ul li .info2 b{ float: left; color: #ff6600; font-weight: normal;font-size: 26px;}
+ .fr .floor.accoutInfo ul li .info2 i{ font-style: normal; float: left; margin-left: 10px; }
+ .fr .floor.accoutInfo ul li span{ display: block; font-weight: normal;}
+ .fr .floor.accoutsafe a:hover{text-decoration: underline;}
+ .fr .floor.accoutsafe .con{ padding:50px 0; width: 600px; margin: 0 auto; overflow: hidden;}
+ .fr .floor.accoutsafe .con table{ width: 99.99%;}
+ .fr .floor .con{ padding:30px 40px; overflow: hidden;}
+ .fr .floor .getpassword .con{ padding: 30px 0;}
+ .fr .floor.accoutsafe .con table tr td{ text-align: center; border: 1px solid #ddd; line-height: 30px;}
+
+ .fr .floor .con ul{ width:1000px; overflow: hidden;}
+ .fr .top_right{ overflow: hidden; line-height: 35px;}
+ .fr .top_right i{ font-style: normal;}
+ .fr .top_right .hello{ color: #190a11; font-size: 20px; padding-right: 75px;}
+ .fr .top_right .time{ font-size: 16px;padding-right: 75px; color: #939192;}
+ .fr .top_right .btn{ float: right; padding: 0; margin: 0;}
+  .fr .top_right .btn:active{ box-shadow: none;}
+ .fr .top_right .btn a{ display: inline-block;font-size: 16px; width: 100px; height:35px; line-height:35px; color: #fff; text-align: center; border-radius: 5px;}
+ .fr .top_right .btn .btn1{ background: #ff6600; margin-right: 10px;}
+ .fr .top_right .btn .btn2{ background: #275386;}
+
+
+
+/*代办事项*/
+.fr .todo.floor .replay{ padding: 20px; padding-left: 0; overflow: hidden;}
+.fr .todo.floor .replay span{ display: block; line-height: 20px; overflow: hidden; margin-bottom: 20px;}
+.fr .todo.floor .replay span b{ float: left; display: block; font-weight: normal; color: #333; width: 70px; text-align: right;}
+.fr .todo.floor .replay span em{ margin-left: 10px; float: left; display: block; color: #666; max-width: 700px; overflow: hidden;}
+.fr .todo.floor .replay span em.red{ color: #fb391f;}
+
+ .fr .todo.floor{ min-height: 300px; }
+ .fr .todo.floor .title{  color: #190a11; font-size: 18px; padding-left: 0;}
+ .project-title{ font-size: 14px; margin-top: 20px; overflow: hidden;}
+ .project-title .form-control{ width: 300px; display: inline-block; padding: 4px 12px; height: 25px; line-height: 25px;}
+  .project-title span{ margin-right: 40px;}
+ .project-title span .form-control{ width: 250px;}
+ .fr .todo.floor .table{ text-align: center; }
+ .fr .todo.floor .table tr th{ text-align: center;  border:1px solid #ddd; font-size: 14px; color: #190a11; 
+font-weight: normal; background: #f5f5f5; line-height: 25px; }
+ .fr .todo.floor .table tr td{ text-align: center;line-height: 25px; font-size: ; border:1px solid #ddd; color: #666;}
+ .fr .todo.floor .table tr td a { padding-right: 5px; text-decoration: underline;}
+.sang_Calender{ padding: 4px 12px; border: 1px solid #ccc; width: 175px; height: 25px; line-height: 25px; border-radius: 4px;
+ box-shadow: inset 0 1px 1px rgba(0,0,0,.075);}
+ .fr .todo.floor .time{ margin-bottom: 25px; margin-top: 25px; color: #190a11; font-size: 13px;}
+ .fr .todo.floor .time .btn{ color: #06a8f6; padding: 5px 20px; background: none; border: 1px solid #06a8f6;
+margin-left: 15px; }
+.fr .todo.floor .table h2{ font-size: 20px; margin-top: 30px;}
+.fr .todo.floor .table .training-con{ text-align: left; font-size: 13px;}
+.fr .todo.floor .table .training-con p{ padding-bottom: 10px;}
+ .fr .mgt.floor{ overflow: hidden; padding: 35px 10px;}
+ .fr .mgt.floor ul li{ float: left; padding: 20px 80px;}
+ .fr .mgt.floor ul li b{ display: block; font-size: 16px; color: #666; line-height: 50px; font-weight: normal;}
+ .fr .mgt.floor ul li em{ display: block; font-size: 32px; color: #ff5800;}
+ .fr .mgt.floor ul li.tixian{ border-left: 1px solid #e0e0e0;}
+ .fr .mgt.floor ul li.tixian em{ color: #06a8f6;}
+ .fr .mgt.floor ul li .btn{ color: #06a8f6; padding: 5px 20px; background: none; border: 1px solid #06a8f6;
+margin-left: 15px; margin-top: 40px; }
+ .fr .mgt.floor.mt70{ margin-top: 25px;}
+ .fr .todo.floor.mt70{margin-top: 25px;}
+ .fr .suggesstion{ padding: 30px; font-size: 14px; overflow: hidden; padding-bottom: 0px;}
+ .fr .suggesstion>div{ display: block;  clear: both; margin-bottom: 20px; clr}
+ .fr .suggesstion b{font-weight: normal;width: 450px; float: left; }
+ .fr .suggesstion input{ width: 250px; float: left; margin-bottom: 20px; }
+ .fr .suggesstion textarea.form-control{ float: left; height: 80px; line-height: 20px; width: 100%;}
+ .fr .suggesstion em{ float: left; line-height: 40px; margin-right: 10px;}
+ .fr .suggesstion .btn{ background: #06a8f6; margin-left: 50px; line-height: 20px; width: 60px; color: #fff; margin-top: 20px;}
+.mypublish{}
+.mypublish .category{font-size: 14px; margin-top: 25px;height: 25px; line-height: 25px; margin-right: 100px;}
+.mypublish .category span select{ border: 1px solid #ccc; height: 25px; line-height: 25px; overflow: hidden; 
+margin-right: 10px; padding: 2px 10px; border-radius: 4px; font-size: 14px; width: 80px; }
+
+/*找回密码*/
+.getpassword{ margin: 0 auto; width: 450px;}
+.getpassword ul li{ color: #190a11; display: block; margin-top: 20px;overflow: hidden;}
+.getpassword ul li b{ float: left; font-size: 14px; line-height: 40px; width: 95px; text-align: right; font-weight: normal;}
+.getpassword ul li em{ float: left;}
+.getpassword ul li em .form-control{ float: left; width: 200px; margin-left: 15px; height: 25px; line-height: 25px; }
+.getpassword .submit_btn { margin: 0 auto; width: 225px; padding-bottom: 50px;}
+.getpassword .submit_btn .btn{ background: #ff9933; border: none; width: 200px; height: 28px; line-height: 28px;
+ text-align: center; color: #ff9933; font-size: 17px; display: block; color: #fff;}
+/*page分页*/
+.page{ margin-top: 30px; overflow: hidden; clear: both; margin-bottom: 30px;}
+.page>div{ float:right; font-size: 14px;}
+.page a,.page span{ border: 1px solid #cfd0d2; float:left; padding: 0px 10px; text-align: center; cursor: pointer; 
+line-height: 25px; display: block; margin-right: 5px;}
+.page .current{ background: #06a8f6;border: 1px solid #06a8f6; color: #fff;}
+.tips{ position: fixed; top: 140px;  width: 400px; height: 100px; line-height: 100px; display:none;background: rgba(0,152,225,.6); 
+color: #fff; text-align: center; left: 50%; margin-left: -200px; border-radius: 5px; font-size: 14px;}
+
+/*个人名片*/
+ .fr .card{ background: #fff; margin-top: 25px; border: 1px solid #e7ebed; padding:56px 70px; }
+ .fr .card .title{ color: #888888; border-bottom: 1px solid #c9d2d9; position: relative; height: 50px;}
+ .fr .card .title h2{ position: absolute; left: 100px; width: 100px; text-align: center; height: 30px; line-height: 30px;
+top: 30px; font-size: 16px; background: #fff;}
+ .fr .card .title b{ position: absolute; left: 50%; margin-left: -58px; width: 116px; text-align: center; height: 30px; line-height: 30px;
+top: -15px; font-size: 16px;}
+.fr .card .title b img{ border-radius: 50%;}
+ .fr .card .con{ margin-top: 100px; overflow: hidden; border: 1px solid #e2e7ea;  margin-bottom: 50px;}
+ .fr .card .con ul{ width: 800px;}
+ .fr .card .con ul li{ float: left; width: 151px; height: 100px; overflow: hidden; padding: 20px 0; text-align: center; line-height: 50px; border-right: 1px solid #e2e7ea;}
+ .fr .card .con ul li:last-child{ border: none;}
+ .fr .card .con ul li b{ display: block; font-size: 20px; font-weight: normal; margin: 0 auto; }
+ 
+ .fr .card .con ul li em{ display: block;  font-size: 14px;}
+ .fr .card .con ul li b.g-star1{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 16px; 
+ margin-top: 20px; margin-bottom: 15px; }
+ .fr .card .con ul li b.g-star2{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 37px; 
+ margin-top: 20px; margin-bottom: 15px;}
+ .fr .card .con ul li b.g-star3{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 58px; 
+ margin-top: 20px; margin-bottom: 15px;}
+ .fr .card .con ul li b.g-star4{ background:url(https://static.resource.tejinhui.com/static/images/user/start3.png) no-repeat; height: 16px; width: 74px; 
+ margin-top: 20px; margin-bottom: 15px;}
+  
+ .fr .card .con ul li.blue{ background: #59c7f9; color: #fff;}
+ .fr .card .con ul li.blue b{ color: #59c7fa; overflow: hidden; background:url(https://static.resource.tejinhui.com/static/images/user/card_03.jpg) no-repeat; width: 55px; 
+height: 55px; margin-left: 50px;}
+ .fr .card .share{  overflow: hidden;}
+ .fr .card .share .form-control{ width: 80%; float: left; padding: 0 12px;}
+ .fr .card .share span.form-control{ float: left; max-width:640px; overflow: hidden; line-height: 20px;  height: 20px;}
+ .fr .card .share .btn{ float: left; color: #fff; background: #59c7f9; height: 20px; line-height: 20px; font-size: 14px; margin-left: 10px;}
+.fr .card .share .item{  display: block; clear: both; overflow: hidden; line-height: 30px;}
+
+
+.fr .todo.floor .success{ text-align: center; padding: 80px; overflow: hidden;}
+.fr .todo.floor .success .title{ font-size: 32px; color: #190a11; border-bottom: none;margin-top: 5px;}
+.fr .todo.floor .success .info{ font-size: 16px; color: #190a11; margin-top: 10px;}
+
+
+/*充值提现*/
+.recharge{ background: #fff; border: 1px solid #e7ebed; margin-top: 25px; padding: 20px; }
+.recharge .title{ line-height: 50px; border-bottom: 1px solid #e5e7ea; overflow: hidden;}
+.recharge .title b{ float: left; font-size: 16px; padding-left: 40px; font-weight: normal;}
+.recharge .title span{ float: left; margin-left: 50px; font-size: 14px;}
+.recharge .title span em{ color: #de3017; margin-right: 5px;}
+.recharge .con{ margin-left: 40px;}
+.recharge .con .payway{ overflow: hidden; display: block;  }
+.recharge .con .payway .weixin{float: left;margin: 20px 0; border: 1px solid #c9c9c9;  height: 27px; padding: 10px;}
+.recharge .con .payway .btn{float: left; margin-left: 10px; margin-top: 30px;}
+.recharge .con .payway .btn a{color: #0098e1; border: 1px solid #0098e1; padding: 0px 12px; line-height: 18px; border-radius: 4px;}
+.recharge .con .payway input{ margin: 5px; margin-top: 8px; float: left;}
+.recharge .con .payway img{ float: left;}
+.recharge .con .saoma{ margin: 0 auto; width: 150px; text-align: center; margin-top: 50px;}
+.recharge .con .saoma img{width: 150px; height: 150px;}
+.recharge .con .saoma  em{color: #7b7b7b; font-size: 14px; line-height: 40px;}
+
+.recharge .con .money{}
+.recharge .con .money b{ font-size: 14px; font-weight: normal;}
+.recharge .con .money span{ margin: 10px 0; overflow: hidden; display: block; clear: both; font-size: 14px;} 
+.recharge .con .money span .form-control{ width: 140px; height: 30px; padding: 2px 6px; margin-right: 10px; display: inline-block;}
+
+.recharge .con .btn{ margin-top: 10px; overflow: hidden; padding: 4px 20px; margin-bottom: 20px;}
+.recharge .con .btn .btn-warning{}
+.recharge .con .btn a{ color: #fff;}
+
+.recharge.status{ text-align: center; padding: 60px 0;}
+.recharge.status b{ display: block; text-align: center;  margin-bottom: 10px;}
+.recharge.status span{ display: block; color: #d1d1d1; line-height: 50px; font-size: 18px;}
+.recharge.status span i{font-weight: normal;  font-style: normal; }
+

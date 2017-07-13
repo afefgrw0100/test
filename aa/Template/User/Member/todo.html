@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+<script src="{:tempurl('__PUBLIC__/js/main.js')}"></script>
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+<body>
+<div class="mainhtml">
+	<div class="mainhtml_c">
+		<div class="fr">
+			<include file="./Template/public/userpro.html" />
+			<div class="todo floor mt70">
+				<div class="title" style="border: none;">我的待办</div>
+				<div class="table">
+					<table class="table" border="" cellspacing="" cellpadding="">
+
+						<tr>
+							<th>项目名称</th>
+							<th>类别</th>
+							<th>处置方式</th>
+							<th>联系人</th>
+							<th>联系电话</th>
+							<th>当前状态</th>
+							<th>操作</th>
+						</tr>
+						<volist name="list" id="vo">
+							<tr>
+								<td>{$vo.title}</td>
+								<td>
+									<if condition="($vo['source'] eq 1)"> 司法拍卖
+
+									<elseif condition="$vo['source'] eq 6"/> 出租
+									<else/>转让
+									</if>
+								</td>
+								<td>
+									<if condition="($vo['source'] eq 1)">
+
+										<elseif condition="$vo['source'] eq 6"/>
+										<if condition="($vo['promodel'] eq 1)">
+											整租
+											<elseif condition="$vo['promodel'] eq 2"/>
+											分租
+										</if>
+										<else/>
+										<if condition="($vo['promodel'] eq 1)">
+											转让
+											<elseif condition="$vo['promodel'] eq 2"/>
+											质押
+											<else/>
+											转让/质押
+										</if>
+									</if>
+								</td>
+								<td>{$vo.Contact}</td>
+								<td>{$vo.mobile}</td>
+								<td>{$vo.AssetsStatue}</td>
+								<td>
+
+									<if condition="session('user.MemberType') eq 4">
+										<if condition="($vo['source'] eq 1)">
+
+											<elseif condition="$vo['source'] eq 6"/>
+											<a href="{:U('Home/lists/content',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">查看</a>
+											<else/>
+											<a href="{:U('Home/lists/content',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">查看</a>
+										</if>
+										<if condition=" ($vo['Statue'] lt 3)">
+											<if condition="($vo['OptType'] eq 1) OR ($vo['Statue'] eq 2)">
+												<if condition="($vo['source'] eq 1)">
+
+													<elseif condition="$vo['source'] eq 6"/>
+													<a href="{:U('Web/Index/mic',array('AssetsIDrent'=>$vo['AssetsID']))}" target="_parent">上传尽调</a>
+													<else/>
+													<a href="{:U('Web/Index/mic',array('AssetsID'=>$vo['AssetsID']))}" target="_parent">上传尽调</a>
+												</if>
+
+												<a href="{:empty($vo['AssetsID'])?(empty($vo['PackageID'])?Qiniu_Sign($jdmodel[2]['CodeValue']):Qiniu_Sign($jdmodel[0]['CodeValue'])):Qiniu_Sign($jdmodel[1]['CodeValue'])}" target="_parent">下载模板</a>
+												<elseif  condition="$vo['Statue'] eq 1"/>
+												<if condition="($vo['source'] eq 1)">
+
+													<elseif condition="$vo['source'] eq 6"/>
+													<a href="{:U('User/logic/todocomit',array('AssetsIDrent'=>$vo['AssetsID']))}" >接单</a>
+													<a href="{:U('User/logic/todocomit',array('AssetsIDrent'=>$vo['AssetsID'],'type'=>'cancel'))}">拒绝</a>
+													<else/>
+													<a href="{:U('User/logic/todocomit',array('AssetsID'=>$vo['AssetsID']))}" >接单</a>
+													<a href="{:U('User/logic/todocomit',array('AssetsID'=>$vo['AssetsID'],'type'=>'cancel'))}">拒绝</a>
+												</if>
+
+											</if>
+										</if>
+										<elseif condition="session('user.MemberType') eq 3" />
+										<if condition="($vo['source'] eq 1)">
+
+											<elseif condition="$vo['source'] eq 6"/>
+											<a href="{:U('User/Common/zzr',array('AssetsIDrent'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">选择经济人</a>
+											<else/>
+											<a href="{:U('User/Common/zzr',array('AssetsID'=>$vo['AssetsID'],'card'=>authcode(session('user.MemberId'),'ENCODE')))}" target="_parent">选择经济人</a>
+										</if>
+
+									</if>
+								</td>
+							</tr>
+						</volist>
+					</table>
+				</div>
+				<div class="page">
+					{$page}
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+
+</html>
+

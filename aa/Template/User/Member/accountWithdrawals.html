@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/bootstrap.min.css')}" />
+	<link rel="stylesheet" href="{:tempurl('__PUBLIC__/style/iframe.css')}" />
+
+	<body>
+
+		<div class="mainhtml">
+			<div class="mainhtml_c">
+				<div class="fr">
+					<include file="./Template/public/userpro.html" />
+					<div class="recharge">
+						<div class="title"><b>提现</b></div>
+						<form action="{:U('User/logic/dowith')}" method="post" id="doform">
+							<div class="con">
+								<div class="payway">
+									<div class="weixin"><input type="radio" checked="checked"><img src="__PUBLIC__/images/user/user_11.png"></div>
+									<div class="btn"><a href="{:U('User/Common/weiuser')}">修改</a></div>
+								</div>
+								<div class="money">
+									<input type="hidden" value="{$info.MemberId}" name="memberid">
+									<input type="hidden" value="{$info.openid}" name="drawaccount">
+									<b>提现金额： </b>
+									<span><input type="text" class="form-control" name="drawquantity">元</span>
+								</div>
+
+								<div class="btn btn-warning"><a href="javascript:void(0)" id="sub_mit">下一步</a></div>
+							</div>
+						</form>
+						
+						
+					
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="{:tempurl('__PUBLIC__/js/jquery-1.11.1.js')}"></script>
+		<script src="{:tempurl('__PUBLIC__/js/ZeroClipboard.js')}"></script>
+		<script type="text/javascript">
+			$("#sub_mit").click(function(){
+				$("#doform").submit();
+			});
+		</script>
+	</body>
+
+</html>

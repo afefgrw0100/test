@@ -1,0 +1,172 @@
+<include file="./Template/public/header.html" />
+<div class="main">
+	<div class="introduce">
+		<div class="banner"></div>
+
+		<div class="main_c">
+			<div class="info1">
+				<div class="title">一、平台产品与服务</div>
+				<div class="severs">
+					<div class="fl"><img src="__PUBLIC__/images/common/introduce_05.jpg"></div>
+					<div class="fr">特金汇是一个特殊资产流转平台。平台以用户需求为发展导向，发现需求，满足需求，通过平台模式设定使用户之间产生互动，让项目处置变得简单、高效、放心。平台率先创立特资经纪人模式，特资经纪人为项目提供线下尽职调查服务，并出具详细尽调报告，保证平台上线项目真实、合法、具备操作性。通过平台特聘的特资经纪人使项目持有方与项目投资方实现无缝对接。</div>
+
+				</div>
+
+				<div class="part1">
+					<div class="title">真正让客户放心 互联网+特殊资产 O2O</div>
+					<div class="con">
+						<ul>
+							<li>
+								<span>事业部前期拓展</span>
+								<b>1</b>
+								<em>项目达成平台上线、对接以及勘察</em>
+							</li>
+							<li>
+								<span>线上项目快速传播</span>
+								<b>2</b>
+								<em>项目第一时间通过特金汇平台发放出去，让项目第一时间在各大平台上展现，“缩短周期”迅速扩散</em>
+							</li>
+							<li>
+								<span>线下直营店一对一项目服务</span>
+								<b>3</b>
+								<em>尽职报告撰写、市场调研分析等等，最后促使成交</em>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="part2" style=" width: 1070px;">
+
+					<div class="video-img" id="video-img" onclick="playPause()">
+						<img src="__PUBLIC__/images/common/vedio_03.jpg"></div>
+
+				</div>
+
+
+			</div>
+
+			<div class="info2">
+				<div class="title">二、满足三方需求，实现三方共赢</div>
+				<div class="con">
+					<div class="pic"><img src="__PUBLIC__/images/common/introduce_09.jpg"></div>
+					<div class="part1">
+						<b>项目投资方</b>
+						<p>花最少的钱购买最合适自己的债权；</p>
+						<p>减少信息不对称带来的误判及其他损失。</p>
+
+					</div>
+
+					<div class="part2">
+						<b>特资经纪人</b>
+						<p>稳定的业务来源；</p>
+						<p>发布债权的渠道；</p>
+						<p>从不良资产处置过程中获得收益；</p>
+						<p>简单方便快捷的业务模式。</p>
+					</div>
+
+
+					<div class="part3">
+						<b>项目持有方</b>
+						<p>快速出售债权，实现变现</p>
+
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="info3">
+				<div class="title">三、便捷流程，促使项目快速流转及质押融资</div>
+				<div class="con">
+					<div class="part">
+						<b>项目持有方：</b>
+						<p><img  src="__PUBLIC__/images/common/intro1_07.jpg"></p>
+					</div>
+					<div class="part">
+						<b>特资经纪人：</b>
+						<p><img  src="__PUBLIC__/images/common/intro1_11.jpg"></p>
+					</div>
+
+					<div class="part">
+						<b>项目投资方：</b>
+						<p><img  src="__PUBLIC__/images/common/intro1_15.jpg"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="info4">
+				<div class="title">四、专业定制级项目信息发布</div>
+				<div class="con">
+					<div class="fl"><img src="__PUBLIC__/images/common/introduce_13.jpg"></div>
+					<div class="fr">
+								<span>
+									<i>1</i>
+									<b>自主选择</b>
+									<em>项目持有方线上自主选择适合的特资经纪人为其服务。</em>
+								</span>
+
+								<span>
+									<i>2</i>
+									<b>快速响应</b>
+									<em>24小时内特资经纪人与项目持有方进行线下对接。</em>
+								</span>
+
+								<span>
+									<i>3</i>
+									<b>定制方案</b>
+									<em>单项目专业尽职调查，提供项目操作方案与项目盈利分析。</em>
+								</span>
+
+								<span>
+									<i>4</i>
+									<b>三级审核</b>
+									<em>线上初审、线下复审、平台终审，确保项目真实性、操作性。</em>
+								</span>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+</div>
+
+<div class="mask" id="mask" onclick="playPause()">
+	<div class="video">
+		<div class="video_c">
+			<video id="video" width="1070" src="http://static.resource.tejinhui.com/tejinhui.mp4" controls="controls"></video>
+		</div>
+	</div>
+
+</div>
+
+<include file="./Template/public/footer.html" />
+<script type="text/javascript">
+	function playPause() {
+		var myVideo = document.getElementsByTagName('video')[0];
+		if(myVideo.paused) {
+			myVideo.play();
+		} else {
+			myVideo.pause();
+		}
+	}
+</script>
+
+<script>
+	$("#video-img").click(function() {
+		$(".mask").show();
+		return false;
+	})
+
+	$("#mask").click(function() {
+		$(".mask").hide();
+
+	})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<div class="man" id="tit_updata">
+    <div class="mask" style="display: none;" id="mask">修改图片</div>
+    <img src="{:empty(session('user.HeadImg'))?'__PUBLIC__/images/user/man_03.jpg':headimg(session('user.HeadImg'))}">
+    <input class="up_man" type="file" id="uploadFile" name="uploadFile" zzp = "imgfile">
+    <input class="up_man" type="hidden"  name="imgname" value="">
+</div>
+<div class="member_left">
+    <h2>会员中心</h2>
+    <ul>
+        <li><a href="{:U('User/Common/memberindex')}" target="frammain"><i class="icon iconfont">&#xe606;</i>我的账户</a></li>
+        <li><a href="{:U('User/Common/ordermgt')}" target="frammain"><i class="icon iconfont">&#xe603;</i>订单管理</a></li>
+        <li><a href="{:U('User/Common/todo')}" target="frammain"><i class="icon iconfont">&#xe631;</i>待办事项</a></li>
+        <li><a href="{:U('User/Common/mypublish')}" target="frammain"><i class="icon iconfont">&#xe673;</i>我的发布</a></li>
+        <if condition="(session('user.MemberType') eq 5) OR  (session('user.MemberType1') eq 5) ">
+        <li>
+            <a href="{:U('User/Common/partner')}" target="frammain"><i class="icon iconfont bold">&#xe60c;</i>我的经纪人</a>
+        </li>
+        <li>
+            <a href="{:U('User/Common/partnerproject')}" target="frammain"><i class="icon iconfont bold">&#xe607;</i>合伙项目</a>
+        </li>
+        <li>
+            <a href="{:U('User/Common/partnerorder')}" target="frammain"><i class="icon iconfont">&#xe69b;</i>合伙订单</a>
+        </li>
+            <li>
+                <a href="{:U('User/Common/deputelist')}" target="frammain"><i class="icon iconfont">&#xe604;</i>项目委托</a>
+            </li>
+
+        </if>
+        <if  condition="(session('user.MemberType') eq 4) and (session('user.MemberStatu') eq 1)">
+            <li><a href="{:U('User/Common/drawmgt')}" target="frammain"><i class="icon iconfont">&#xe601;</i>提现管理</a></li>
+        </if>
+        <if  condition="(session('user.MemberType') eq 4) OR (session('user.MemberStatu') gt 1)">
+
+        </if>
+        <li><a href="{:U('User/Common/train')}" target="frammain"><i class="icon iconfont">&#xe641;</i>资讯中心</a></li>
+        <li><a href="{:U('User/Common/card')}" target="frammain"><i class="icon iconfont">&#xe602;</i>个人名片</a></li>
+        <li><a href="{:U('User/Common/suggesstion')}" target="frammain"><i class="icon iconfont">&#xe615;</i>投诉建议</a></li>
+        <li><a href="{:U('User/Member/logout')}" onclick="if(!confirm('确认退出')){return false;}"><i class="icon iconfont">&#xe660;</i>退出登录</a></li>
+    </ul>
+</div>

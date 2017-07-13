@@ -1,0 +1,234 @@
+<include file="./Template/public/header.html" />
+
+		<div class="pub_object">
+			<div class="title">
+				<div class="title_c">
+					<h2>重新选择经纪人</h2></div>
+			</div>
+			<div class="main">
+				<div class="object_con">
+					<form id="pub_Object" action="{:U('User/Logic/dozzr')}" method="post">
+						<ul>
+								<li class="agent">
+									<div class="agent-address">
+										<label class="label"><span class="need"></span>选择经纪人：</label>
+										<select id="aget1" onchange="secondcode('#aget1','#aget2')"  name="address[]"  class="form-control" style=" width: 100px;" onload="secondcode('#aget1','#aget2')">
+											<option value="" selected="selected">请选择省</option>
+											<volist name="codeA" id="codeV">
+												<option value="{$codeV.id}|{$codeV.name}|{$codeV.code}">{$codeV.name}</option>
+											</volist>
+										</select>
+										<select id="aget2" name="address[]"  class="form-control" style=" width: 100px;">
+											<option value="" selected="selected">请选择市</option>
+										</select>
+										<div class="agent_search">
+											<input class="form-control" placeholder="搜索经纪人" id="sbname">
+											<input type="button" class="btn" value="搜索" id="sbbtn" />
+											<input type="hidden" name="agedili" value="" id="age">
+											<input type="hidden" name="type" value="{$zzr.type}" >
+											<input type="hidden" name="id" value="{$zzr.id}" >
+										</div>
+
+									</div>
+									<div class="man div_scroll" id="agent">
+										<volist name="age" id="avo">
+										<span ageid="{$avo.MemberId}">
+											<b><img src="{:empty($avo['HeadImg'])?'/static/images/common/man_01.jpg':headimg($avo['HeadImg'])}"></b>
+											<em>{$avo.RealName}</em>
+											<strong>
+												<i class="g-star{$avo.StarLevel}"></i>
+											</strong>
+										</span>
+										</volist>
+									</div>
+								</li>
+
+							<div class="submit">
+								<a href="javascript:void(0)" id="sub_mit" data_status="1">提交</a>
+							</div>
+						</ul>
+					</form>
+				</div>
+			</div>
+
+		</div>
+		<!--footer -->
+<include file="./Template/public/footer.html" />
+<script type="text/javascript">
+	$(function() {
+		$('.processmodle').click(function() {
+			var val = $(this).val();
+			$('.processmodle_span').show();
+			if(val == 1) {
+				$('.processmodle_text').text('价格：');
+			} else if(val == 2) {
+				$('.processmodle_text').text('价格：');
+			} else {
+				$('.processmodle_span').hide();
+			}
+		});
+
+
+		secondcode("#aget1","#aget2");
+	})
+	//
+	function secondcode(getid,setid){
+		var setidvar=$(getid).val(),secondrmurl="{:U('Portal/Area/codeB')}",optiontext="<option value='' selected='selected'>请选择市</option>";
+		if(setidvar==""||setidvar==undefined){
+			$(setid).html("<option value='' selected='selected'>请选择市</option>")
+			return false;
+		}
+		if($(setid).val()==" "||$(setid).val()==null||$(setid).val()==undefined){
+		}else {
+
+			var setval = $(setid).val().split('|')[0];
+
+		}
+		var arr=setidvar.split('|')[0];
+		//alert(arr[0]);
+		$.ajax({
+			cache: false,
+			type: "POST",
+			url:secondrmurl,
+			data:{codeid:arr},// 你的formid
+			async: true,
+			error:function(request){
+			},
+			beforeSend:function(){},
+			success:function(data){
+				$.each(data,function(n,vname){
+					if(setval==vname.id){
+						optiontext+= "<option value='"+vname.id+"|"+vname.name+"|"+vname.code+"'selected='selected'>"+vname.name+"</option>"
+					}else {
+						optiontext+= "<option value='"+vname.id+"|"+vname.name+"|"+vname.code+"'>"+vname.name+"</option>"
+					}
+
+					$(setid).html(optiontext);
+					//alert(vname.name);
+				})
+				//alert(data);
+
+			},
+
+		});
+
+	}
+</script>
+		<script>
+			$(function() {
+				$('.processmodle').click(function() {
+					$('.processmodle_span').show();
+				});
+				//选经纪人头像
+				$('#agent span').click(function(){
+					$(this).addClass('select').siblings().removeClass('select')
+				})
+			})
+		</script>
+<script type="text/javascript" charset="utf-8" src="{:tempurl('__PUBLIC__/js/Validform_v5.3.2_min.js')}"></script>
+<script type="text/javascript">
+	$(function(){
+		//$(".registerform").Validform();  //就这一行代码！;
+
+		var demo=$("#pub_Object").Validform({
+			tiptype:3,
+			label:".label",
+			btnSubmit:'#sub_mit',
+			showAllError:true,
+			datatype:{
+				"zh1-6":/^[\u4E00-\u9FA5\uf900-\ufa2d]{1,6}$/
+			},
+			//默认为false，使用ajax方式提交表单数据，将会把数据POST到config方法或表单action属性里设定的地址；
+			ajaxPost:false,
+			postonce:true,
+		});
+
+		//通过$.Tipmsg扩展默认提示信息;
+		//$.Tipmsg.w["zh1-6"]="请输入1到6个中文字符！";
+		demo.tipmsg.w["zh1-6"]="请输入1到6个中文字符！";
+		demo.tipmsg.r=" ";
+		demo.addRule([
+			{
+				ele:"#age",
+				datatype:"n"
+			},
+
+		]);
+
+	})
+</script>
+
+<script type="text/javascript">
+	$(function() {
+		//选经纪人头像
+
+		$('#agent').on("click","span",(function(){
+			var ageid= $(this).attr("ageid");
+			$("#age").val(ageid);
+			$(this).addClass('select').siblings().removeClass('select');
+		}));
+
+		$("#sbbtn").on("click",function(){
+			$("#aget2").trigger("change");
+		});
+
+		$("#aget2").on("change",function(){
+			var dataval = $(this).val(),agethtml="";
+			var sbname = $("#sbname").val();
+			$.ajax({
+				cache: false,
+				type: "POST",
+				url:"/index.php/Web/Index/ajaxage",
+				data:{city:dataval,name:sbname},// 你的formid
+				async: true,
+				error:function(request){
+				},
+				beforeSend:function(){},
+				success:function(data){
+					$.each(data,function(n,vname){
+						agethtml+= "<span ageid="+vname.MemberId+"> <b><img src=\""+vname.HeadImg+"\"></b> <em>"+vname.RealName+"</em> <strong> <i class=\"g-star"+vname.StarLevel+"\"></i> </strong> </span>";
+					});
+					$("#agent").html(agethtml);
+				},
+			});
+		});
+//		$("#sub_mit").click(function(){
+//			var formurl= $("#pub_Object").attr("action"), status = $(this).attr("data_status"),submit =$(this);
+//			if(status==2){
+//				return false;
+//
+//			}
+//			$.ajax({
+//				cache: false,
+//				type: "POST",
+//				url:formurl,
+//				data:$('#pub_Object').serialize(),// 你的formid
+//				async: true,
+//				error:function(request){
+//					filterWarn(request);
+//				},
+//				beforeSend:function(){
+//					//alert(submit.attr("id"));
+//					submit.attr("data_status","2");
+//				},
+//				success:function(data){
+//					filterWarn(data.info);
+//					if(data.status=='1'){
+//						window.location= data.url;
+//					}else {
+//						submit.attr("data_status","1");
+//						//filterWarn(data.info);
+//					}
+//
+//					//window.location= data.url;
+//				},
+//
+//			});
+//		});
+
+
+	});
+</script>
+	</body>
+
+</html>
