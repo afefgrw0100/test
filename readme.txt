@@ -15,7 +15,7 @@
 ::1	ip6-localhost
 ::1	ip6-loopback
 # Localhost (DO NOT REMOVE) End
-
+127.0.0.1 www.123.com
 # Amazon AWS Start
 54.239.31.69	aws.amazon.com
 54.239.30.25	console.aws.amazon.com
